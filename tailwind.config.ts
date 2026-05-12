@@ -13,15 +13,18 @@ const config: Config = {
           300: "#b0b0b0",
           200: "#d9d9d9",
           100: "#ececec",
-          50: "#f5f5f5",
+          50: "#f7f7f7",
         },
         brand: {
-          DEFAULT: "#1a73e8",
-          dark: "#1557b0",
-          50: "#e8f0fe",
+          DEFAULT: "#111111",
+          dark: "#000000",
         },
         sale: "#e53935",
-        footer: "#2c2c2c",
+        mint: {
+          DEFAULT: "#cfe2d3",
+          dark: "#a9c9b0",
+        },
+        tint: "#f4f1ec",
       },
       fontFamily: {
         sans: ['"Inter"', '"Roboto"', "system-ui", "sans-serif"],

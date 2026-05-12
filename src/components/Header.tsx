@@ -35,16 +35,18 @@ export function Header() {
           <Menu className="h-6 w-6" />
         </button>
 
-        <Link href="/" className="flex items-center">
-          <span className="text-xl font-bold tracking-tight"><span className="text-brand">Mebelite</span>.bg</span>
+        <Link href="/" className="flex items-center" aria-label="Mebeli.bg">
+          <span className="text-lg font-semibold uppercase tracking-[0.18em] text-ink-900">
+            Mebeli<span className="mx-1.5 inline-block h-4 w-px translate-y-0.5 bg-ink-300 align-middle" />Bg
+          </span>
         </Link>
 
         <form action="/search" className="ml-2 hidden flex-1 md:flex" role="search">
-          <div className="flex w-full items-center rounded border border-ink-200 bg-white pl-3 focus-within:border-brand">
+          <div className="flex w-full items-center rounded border border-ink-200 bg-white pl-3 focus-within:border-ink-900">
             <Search className="h-4 w-4 text-ink-400" />
             <input
               name="q"
-              placeholder="Търси диван, гардероб, маса..."
+              placeholder="Какво търсите?"
               className="w-full bg-transparent px-3 py-2 text-sm outline-none placeholder:text-ink-400"
             />
             <button className="btn-primary m-0.5 rounded px-4 py-1.5 text-xs">Търсене</button>
@@ -78,8 +80,8 @@ export function Header() {
               <Link
                 href={item.href}
                 className={cn(
-                  "flex items-center gap-1 px-3 py-1.5 hover:text-brand",
-                  open === item.label && "text-brand",
+                  "flex items-center gap-1 px-3 py-1.5 hover:underline",
+                  open === item.label && "underline",
                 )}
               >
                 {item.label}
@@ -97,7 +99,7 @@ export function Header() {
                       <ul className="space-y-1.5">
                         {col.links.map((l) => (
                           <li key={l.href}>
-                            <Link href={l.href} className="block text-sm text-ink-700 hover:text-brand">
+                            <Link href={l.href} className="block text-sm text-ink-700 hover:text-ink-900 hover:underline">
                               {l.label}
                             </Link>
                           </li>

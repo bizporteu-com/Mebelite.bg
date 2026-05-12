@@ -1,99 +1,101 @@
 import Link from "next/link";
-import { ArrowRight, Box, Camera, ChevronRight } from "lucide-react";
-import { HERO_CATEGORIES, PRODUCTS, STYLES, getProductsByCategory } from "@/data/catalog";
-import { ProductCard } from "@/components/ProductCard";
+import { Box, Camera, Play, Truck, RotateCcw, Wallet, BadgeCheck } from "lucide-react";
+import {
+  MEBELI_CATEGORIES,
+  PRODUCTS,
+  ROOMS_HOME,
+  STYLES,
+  getProductsByCategory,
+  getProductsByRoom,
+} from "@/data/catalog";
+import { ProductScroller } from "@/components/ProductScroller";
 import { SmartImg } from "@/components/SmartImg";
 
 export default function HomePage() {
   return (
     <>
-      <HeroBanner />
-      <CategoryGrid />
-      <ProductRow title="Меки мебели" href="/category/aglovi-divani" slugs={["aglovi-divani", "triemestni-divani"]} />
-      <PromoStrip />
-      <ProductRow title="За хола" href="/room/hol" room="hol" />
+      <Hero />
+      <Rooms />
+      <Mebeli />
+      <Styles />
+      <ProductScroller
+        title="Мека мебел"
+        href="/category/aglovi-divani"
+        products={[
+          ...getProductsByCategory("aglovi-divani"),
+          ...getProductsByCategory("triemestni-divani"),
+          ...getProductsByCategory("kresla"),
+        ].slice(0, 8)}
+      />
+      <ProductScroller
+        title="Хол"
+        href="/room/hol"
+        products={getProductsByRoom("hol").slice(0, 8)}
+      />
+      <ProductScroller
+        title="Спалня"
+        href="/room/spalnya"
+        products={getProductsByRoom("spalnya").slice(0, 8)}
+      />
       <ArPromo />
-      <ProductRow title="Спалня" href="/room/spalnya" room="spalnya" />
-      <StylesGrid />
+      <Inspirations />
+      <Ugc />
+      <Reviews />
       <Trust />
+      <Newsletter />
     </>
   );
 }
 
-function HeroBanner() {
+function Hero() {
   return (
-    <section className="container-x mt-4">
-      <div className="grid gap-3 md:grid-cols-3">
-        <div className="relative overflow-hidden rounded md:col-span-2 md:row-span-2">
-          <SmartImg
-            src="/assets/hero/hero-main.jpg"
-            alt="Mebelite"
-            fallbackKind="hero"
-            fallbackKey="Мечтаният дом е на една стъпка"
-            className="h-[300px] w-full object-cover md:h-[420px]"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-black/45 to-transparent" />
-          <div className="absolute inset-0 flex flex-col justify-center p-6 md:p-10">
-            <div className="text-xs font-semibold uppercase tracking-wider text-white/80">Пролетна колекция</div>
-            <h1 className="mt-2 max-w-md text-2xl font-semibold text-white md:text-4xl">
-              Мечтаният дом е на една стъпка
-            </h1>
-            <p className="mt-2 max-w-md text-sm text-white/90">Безплатна доставка над 500 лв · 365 дни връщане</p>
-            <Link href="/category/mebeli" className="btn-primary mt-5 w-fit">
-              Пазарувай сега
-            </Link>
-          </div>
+    <section className="relative">
+      <div className="relative h-[320px] w-full overflow-hidden md:h-[460px]">
+        <SmartImg
+          src="/assets/hero/hero-main.jpg"
+          alt="1 поръчка = 1 дърво"
+          fallbackKind="hero"
+          fallbackKey="1 поръчка = 1 дърво"
+          className="h-full w-full object-cover"
+        />
+        <div className="absolute inset-0 bg-black/35" />
+        <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white">
+          <h1 className="text-3xl font-medium md:text-5xl">1 поръчка = 1 дърво</h1>
+          <p className="mt-3 max-w-xl px-6 text-sm md:text-base">
+            Благодарение на вашата поръчка ще бъде засадено дърво в България.
+          </p>
         </div>
-
-        <PromoTile src="/assets/hero/hero-outlet.jpg" tag="Outlet" title="До -60% отстъпки" href="/outlet" />
-        <PromoTile src="/assets/hero/hero-new.jpg" tag="Ново" title="Японско-скандинавски стил" href="/style/japandi" />
+        <div className="absolute inset-x-0 bottom-4 flex justify-center gap-1.5">
+          {[0, 1, 2].map((i) => (
+            <span
+              key={i}
+              className={`h-1.5 w-1.5 rounded-full ${i === 0 ? "bg-white" : "bg-white/40"}`}
+            />
+          ))}
+        </div>
       </div>
     </section>
   );
 }
 
-function PromoTile({ src, tag, title, href }: { src: string; tag: string; title: string; href: string }) {
+function Rooms() {
   return (
-    <Link href={href} className="group relative block overflow-hidden rounded">
-      <SmartImg
-        src={src}
-        alt={title}
-        fallbackKind="tile"
-        fallbackKey={title}
-        className="h-[200px] w-full object-cover transition-transform group-hover:scale-105"
-      />
-      <div className="absolute inset-0 bg-gradient-to-t from-black/55 to-transparent" />
-      <div className="absolute inset-x-0 bottom-0 p-4">
-        <div className="text-[11px] font-semibold uppercase tracking-wider text-white/80">{tag}</div>
-        <div className="mt-0.5 text-base font-semibold text-white">{title}</div>
-      </div>
-    </Link>
-  );
-}
-
-function CategoryGrid() {
-  return (
-    <section className="container-x mt-10">
-      <h2 className="mb-4 text-lg font-semibold">Купи по категория</h2>
-      <div className="grid grid-cols-3 gap-3 md:grid-cols-6">
-        {HERO_CATEGORIES.map((c) => (
-          <Link
-            key={c.slug}
-            href={`/category/${c.slug}`}
-            className="group block overflow-hidden rounded border border-ink-100 bg-white transition-shadow hover:shadow-hover"
-          >
-            <div className="aspect-square overflow-hidden bg-ink-50">
+    <section className="container-x mt-12">
+      <h2 className="section-h mb-4">Стаи</h2>
+      <div className="grid grid-cols-2 gap-3 md:grid-cols-4 md:gap-4">
+        {ROOMS_HOME.map((r) => (
+          <Link key={r.slug} href={`/room/${r.slug}`} className="group block">
+            <div className="aspect-[4/5] overflow-hidden rounded bg-ink-50">
               <SmartImg
-                src={c.image}
-                alt={c.name}
-                fallbackKind="category"
-                fallbackKey={c.name}
+                src={r.image}
+                alt={r.name}
+                fallbackKind="style"
+                fallbackKey={r.name}
                 className="h-full w-full object-cover transition-transform group-hover:scale-105"
               />
             </div>
-            <div className="p-2 text-center text-xs font-medium text-ink-900 group-hover:text-brand">
-              {c.name}
-            </div>
+            <div className="mt-3 text-sm font-medium text-ink-900">{r.name}</div>
+            <div className="mt-0.5 text-xs text-ink-500">{r.description}</div>
           </Link>
         ))}
       </div>
@@ -101,66 +103,68 @@ function CategoryGrid() {
   );
 }
 
-function ProductRow({
-  title,
-  href,
-  slugs,
-  room,
-}: {
-  title: string;
-  href: string;
-  slugs?: string[];
-  room?: string;
-}) {
-  let products = PRODUCTS;
-  if (slugs) products = slugs.flatMap((s) => getProductsByCategory(s));
-  if (room) products = PRODUCTS.filter((p) => p.room === room);
-  products = products.slice(0, 4);
-  if (products.length === 0) return null;
-
+function Mebeli() {
   return (
-    <section className="container-x mt-10">
-      <div className="mb-4 flex items-end justify-between">
-        <h2 className="text-lg font-semibold">{title}</h2>
-        <Link href={href} className="flex items-center gap-1 text-sm text-brand hover:underline">
-          Виж всички <ChevronRight className="h-4 w-4" />
-        </Link>
+    <section className="mt-12">
+      <div className="container-x">
+        <h2 className="section-h mb-4">Мебели</h2>
       </div>
-      <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
-        {products.map((p) => <ProductCard key={p.slug} product={p} />)}
+      <div className="bg-tint py-6">
+        <div className="container-x">
+          <div className="grid grid-cols-2 gap-3 md:grid-cols-4 md:gap-4">
+            {MEBELI_CATEGORIES.map((c) => (
+              <Link key={c.slug} href={`/category/${c.slug}`} className="group block text-center">
+                <div className="aspect-[5/4] overflow-hidden rounded bg-white">
+                  <SmartImg
+                    src={c.image}
+                    alt={c.name}
+                    fallbackKind="tile"
+                    fallbackKey={c.name}
+                    className="h-full w-full object-contain p-4 transition-transform group-hover:scale-[1.03]"
+                  />
+                </div>
+                <div className="mt-2 text-sm font-medium text-ink-900">{c.name}</div>
+              </Link>
+            ))}
+          </div>
+        </div>
       </div>
     </section>
   );
 }
 
-function PromoStrip() {
+function Styles() {
+  const four = STYLES.slice(0, 4);
   return (
-    <section className="container-x mt-10">
-      <div className="grid gap-3 md:grid-cols-3">
-        <StripItem title="Безплатна доставка" sub="При поръчка над 500 лв" />
-        <StripItem title="Плащане при доставка" sub="С наложен платеж" />
-        <StripItem title="365 дни връщане" sub="Без обяснения" />
+    <section className="container-x mt-12">
+      <h2 className="section-h mb-4">Стилове на мебели</h2>
+      <div className="grid grid-cols-2 gap-3 md:grid-cols-4 md:gap-4">
+        {four.map((s) => (
+          <Link key={s.slug} href={`/style/${s.slug}`} className="group block">
+            <div className="aspect-[5/6] overflow-hidden rounded bg-ink-50">
+              <SmartImg
+                src={s.image}
+                alt={s.name}
+                fallbackKind="style"
+                fallbackKey={s.name}
+                className="h-full w-full object-cover transition-transform group-hover:scale-105"
+              />
+            </div>
+            <div className="mt-3 text-sm font-medium text-ink-900">{s.name}</div>
+          </Link>
+        ))}
       </div>
     </section>
-  );
-}
-
-function StripItem({ title, sub }: { title: string; sub: string }) {
-  return (
-    <div className="rounded border border-ink-100 bg-white px-4 py-3">
-      <div className="text-sm font-semibold text-ink-900">{title}</div>
-      <div className="text-xs text-ink-500">{sub}</div>
-    </div>
   );
 }
 
 function ArPromo() {
   return (
-    <section className="container-x mt-10">
-      <div className="grid items-center gap-6 overflow-hidden rounded bg-brand-50 p-6 md:grid-cols-2 md:p-10">
+    <section className="container-x mt-12">
+      <div className="grid items-center gap-6 overflow-hidden rounded bg-ink-50 p-6 md:grid-cols-2 md:p-10">
         <div>
-          <div className="text-xs font-semibold uppercase tracking-wider text-brand">Ново</div>
-          <h2 className="mt-2 text-2xl font-semibold md:text-3xl">Виж го у вас, преди да го купиш</h2>
+          <div className="text-xs font-semibold uppercase tracking-wider text-ink-500">Ново</div>
+          <h2 className="mt-2 text-2xl font-medium md:text-3xl">Виж го у вас, преди да го купиш</h2>
           <p className="mt-2 max-w-md text-sm text-ink-700">
             Всеки продукт може да бъде разгледан в 3D и поставен в стаята ви чрез камерата на телефона.
           </p>
@@ -176,7 +180,7 @@ function ArPromo() {
         <div className="relative aspect-[4/3] overflow-hidden rounded bg-white">
           <SmartImg
             src="/assets/hero/ar-preview.jpg"
-            alt="AR preview"
+            alt="AR в стаята ви"
             fallbackKind="hero"
             fallbackKey="AR в стаята ви"
             className="h-full w-full object-cover"
@@ -187,27 +191,35 @@ function ArPromo() {
   );
 }
 
-function StylesGrid() {
+const INSPIRATIONS = [
+  { title: "Мебели с релефни дървесни плотове", img: "/assets/inspirations/1.jpg" },
+  { title: "Мебели с текстурирани повърхности", img: "/assets/inspirations/2.jpg" },
+  { title: "Мебели в един комплект", img: "/assets/inspirations/3.jpg" },
+  { title: "Стилизирана малка мебел", img: "/assets/inspirations/4.jpg" },
+];
+
+function Inspirations() {
   return (
-    <section className="container-x mt-10">
-      <div className="mb-4 flex items-end justify-between">
-        <h2 className="text-lg font-semibold">Вдъхновения по стил</h2>
-        <Link href="/inspiration" className="flex items-center gap-1 text-sm text-brand hover:underline">
-          Виж всички <ChevronRight className="h-4 w-4" />
+    <section className="container-x mt-12">
+      <div className="mb-3 flex items-end justify-between">
+        <h2 className="section-h">Вдъхновения</h2>
+        <Link href="/inspiration" className="text-xs text-ink-500 hover:text-ink-900">
+          Покажи повече →
         </Link>
       </div>
-      <div className="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-6">
-        {STYLES.map((s) => (
-          <Link key={s.slug} href={`/style/${s.slug}`} className="group relative block overflow-hidden rounded">
-            <SmartImg
-              src={s.image}
-              alt={s.name}
-              fallbackKind="style"
-              fallbackKey={s.name}
-              className="aspect-[3/4] w-full object-cover transition-transform group-hover:scale-105"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/55 to-transparent" />
-            <div className="absolute inset-x-0 bottom-0 p-3 text-sm font-medium text-white">{s.name}</div>
+      <div className="grid grid-cols-2 gap-3 md:grid-cols-4 md:gap-4">
+        {INSPIRATIONS.map((i) => (
+          <Link key={i.title} href="/inspiration" className="group block">
+            <div className="aspect-square overflow-hidden rounded bg-ink-50">
+              <SmartImg
+                src={i.img}
+                alt={i.title}
+                fallbackKind="style"
+                fallbackKey={i.title}
+                className="h-full w-full object-cover transition-transform group-hover:scale-105"
+              />
+            </div>
+            <div className="mt-2 text-xs text-ink-700">{i.title}</div>
           </Link>
         ))}
       </div>
@@ -215,18 +227,133 @@ function StylesGrid() {
   );
 }
 
-function Trust() {
+const UGC = [
+  { title: "Вижте новия ни корнер диван у клиент", img: "/assets/ugc/1.jpg" },
+  { title: "Холна композиция за нов апартамент", img: "/assets/ugc/2.jpg" },
+  { title: "Поглед към новата ни колекция", img: "/assets/ugc/3.jpg" },
+  { title: "Видео на нашата спалня Mira", img: "/assets/ugc/4.jpg" },
+];
+
+function Ugc() {
   return (
-    <section className="container-x mt-10">
-      <div className="flex flex-wrap items-center justify-between gap-4 rounded border border-ink-100 bg-white p-4">
+    <section className="container-x mt-12">
+      <h2 className="section-h mb-3">Mebeli.bg във Вашия дом</h2>
+      <div className="grid grid-cols-2 gap-3 md:grid-cols-4 md:gap-4">
+        {UGC.map((u) => (
+          <button key={u.title} type="button" className="group block text-left">
+            <div className="relative aspect-[4/5] overflow-hidden rounded bg-ink-50">
+              <SmartImg
+                src={u.img}
+                alt={u.title}
+                fallbackKind="style"
+                fallbackKey={u.title}
+                className="h-full w-full object-cover transition-transform group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-black/10" />
+              <div className="absolute left-3 top-3 flex h-9 w-9 items-center justify-center rounded-full bg-white/95 shadow-sm">
+                <Play className="ml-0.5 h-4 w-4 fill-ink-900 text-ink-900" />
+              </div>
+              <div className="absolute right-3 top-3 rounded bg-white/95 px-1.5 py-0.5 text-[10px] font-semibold text-ink-900">
+                Mebeli.bg
+              </div>
+            </div>
+            <div className="mt-2 text-xs text-ink-700">{u.title}</div>
+          </button>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+function Reviews() {
+  const reviews = [
+    {
+      stars: 5,
+      text: "Изключително професионално отношение на куриера. Доставка преди обявения час, бърз, отзивчив, помогна и с разпакетирането на новия ми гардероб.",
+      author: "Олена Иличова",
+      ago: "8 дни",
+    },
+    {
+      stars: 5,
+      text: "Изключително бързо и качествено обслужване. Получих си покупката бързо и в перфектно състояние!",
+      author: "Илия Цуковски",
+      ago: "9 дни",
+    },
+    {
+      stars: 5,
+      text: "Мебели за дневната - перфектни и красиви качество. Поръчвам поредна моя покупка от Mebeli.bg и към следващата ще се повторя нашата сделка.",
+      author: "Любо Малински",
+      ago: "10 дни",
+    },
+  ];
+  return (
+    <section className="container-x mt-12">
+      <div className="grid items-start gap-6 md:grid-cols-[200px_1fr] md:gap-10">
         <div>
-          <div className="text-xl font-bold">4.6 / 5</div>
-          <div className="text-xs text-ink-500">45 000+ оценки на продукти</div>
+          <div className="flex items-center gap-2 text-amber-500">★★★★★</div>
+          <div className="mt-1 text-3xl font-medium">4.7</div>
+          <div className="text-xs text-ink-500">На основа на 1097 ревюта</div>
+          <div className="mt-3 inline-flex items-center gap-1.5 rounded border border-ink-100 px-2 py-1 text-[11px] text-ink-500">
+            <span className="font-semibold text-ink-900">Google</span>
+            <span>Ревюта</span>
+          </div>
         </div>
-        <div className="text-amber-500">★★★★★</div>
-        <Link href="/reviews" className="flex items-center gap-1 text-sm text-brand hover:underline">
-          Виж отзивите <ArrowRight className="h-4 w-4" />
-        </Link>
+        <div className="grid gap-4 md:grid-cols-3">
+          {reviews.map((r) => (
+            <article key={r.author} className="rounded border border-ink-100 p-4">
+              <div className="text-amber-500">{"★".repeat(r.stars)}</div>
+              <p className="mt-2 text-sm leading-relaxed text-ink-700">{r.text}</p>
+              <div className="mt-3 text-xs text-ink-500">
+                <span className="font-medium text-ink-900">{r.author}</span> · преди {r.ago}
+              </div>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function Trust() {
+  const items = [
+    { icon: <Truck className="h-6 w-6" />, title: "Безплатна доставка", sub: "Доставяме безплатно поръчки над определена сума. Доставка във всички населени места." },
+    { icon: <Wallet className="h-6 w-6" />, title: "Плащане при доставка", sub: "Плащате на куриера, само ако сте удовлетворени от пратката." },
+    { icon: <RotateCcw className="h-6 w-6" />, title: "Безплатно връщане в рамките на 365 дни", sub: "Връщате безплатно, ако в рамките на 365 дни промените решението си." },
+    { icon: <BadgeCheck className="h-6 w-6" />, title: "Гаранция за добра цена", sub: "Намерили сте по-евтино другаде? Свържете се с нас и ще се опитаме да изравним цената." },
+  ];
+  return (
+    <section className="container-x mt-14 grid grid-cols-1 gap-6 md:grid-cols-4 md:gap-8">
+      {items.map((i) => (
+        <div key={i.title}>
+          <div className="text-ink-900">{i.icon}</div>
+          <div className="mt-2 text-sm font-medium">{i.title}</div>
+          <div className="mt-1 text-xs leading-relaxed text-ink-500">{i.sub}</div>
+        </div>
+      ))}
+    </section>
+  );
+}
+
+function Newsletter() {
+  return (
+    <section className="mt-14 bg-mint">
+      <div className="container-x flex flex-col items-start justify-between gap-4 py-8 md:flex-row md:items-center">
+        <div>
+          <div className="text-base font-medium">Идеи за обзавеждане на дома във Вашата електронна поща</div>
+          <div className="mt-1 text-xs text-ink-700">Абонирайте се за нашия бюлетин и спестявайте първи от нашите оферти.</div>
+        </div>
+        <form className="flex w-full max-w-md gap-2">
+          <input
+            type="email"
+            required
+            placeholder="Въведете имейл адрес"
+            className="flex-1 rounded border border-ink-200 bg-white px-3 py-2 text-sm outline-none focus:border-ink-900"
+          />
+          <button type="submit" className="btn-primary">Абонирай ме</button>
+        </form>
+      </div>
+      <div className="container-x pb-4 text-[11px] text-ink-700">
+        Съгласявам се с условията за <Link href="/legal/privacy" className="underline">обработка на лични данни</Link>.
       </div>
     </section>
   );
