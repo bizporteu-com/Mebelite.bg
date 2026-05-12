@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { Minus, Plus, Trash2, ShoppingBag } from "lucide-react";
 import { useCart } from "@/store/cart";
 import { formatPrice } from "@/lib/utils";
+import { SmartImg } from "@/components/SmartImg";
 
 export default function CartPage() {
   const [mounted, setMounted] = useState(false);
@@ -44,7 +45,13 @@ export default function CartPage() {
             return (
               <div key={`${l.slug}-${l.color}`} className="flex gap-4 py-6">
                 <Link href={`/product/${l.slug}`} className="block h-24 w-24 shrink-0 overflow-hidden rounded-lg bg-canvas-mute md:h-28 md:w-28">
-                  <img src={l.image} alt={l.name} className="h-full w-full object-cover" />
+                  <SmartImg
+                    src={l.image}
+                    alt={l.name}
+                    fallbackKind="product"
+                    fallbackKey={l.name}
+                    className="h-full w-full object-cover"
+                  />
                 </Link>
                 <div className="flex flex-1 flex-col">
                   <div className="flex justify-between gap-3">

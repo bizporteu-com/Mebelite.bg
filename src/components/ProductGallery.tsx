@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { ModelViewer } from "./ModelViewer";
+import { SmartImg } from "./SmartImg";
 
 type Tab = "images" | "3d";
 
@@ -39,7 +40,13 @@ export function ProductGallery({
 
       <div className="relative aspect-square overflow-hidden rounded-xl2 bg-canvas-mute md:aspect-[5/4]">
         {tab === "images" ? (
-          <img src={images[active]} alt={name} className="h-full w-full object-cover" />
+          <SmartImg
+            src={images[active]}
+            alt={name}
+            fallbackKind="product"
+            fallbackKey={name}
+            className="h-full w-full object-cover"
+          />
         ) : (
           <ModelViewer glb={model!.glb!} usdz={model!.usdz} poster={images[0]} name={name} />
         )}
@@ -55,7 +62,13 @@ export function ProductGallery({
                 i === active ? "border-ink-900" : "border-transparent"
               }`}
             >
-              <img src={src} alt="" className="h-full w-full object-cover" />
+              <SmartImg
+                src={src}
+                alt={`${name} ${i + 1}`}
+                fallbackKind="product"
+                fallbackKey={`${name} ${i + 1}`}
+                className="h-full w-full object-cover"
+              />
             </button>
           ))}
         </div>
