@@ -44,7 +44,7 @@ export default function CartPage() {
             const lp = formatPrice(l.price * l.qty);
             return (
               <div key={`${l.slug}-${l.color}`} className="flex gap-4 py-6">
-                <Link href={`/product/${l.slug}`} className="block h-24 w-24 shrink-0 overflow-hidden rounded-lg bg-canvas-mute md:h-28 md:w-28">
+                <Link href={`/product/${l.slug}`} className="block h-24 w-24 shrink-0 overflow-hidden rounded-lg bg-ink-50 md:h-28 md:w-28">
                   <SmartImg
                     src={l.image}
                     alt={l.name}
@@ -82,7 +82,7 @@ export default function CartPage() {
           })}
         </div>
 
-        <aside className="h-fit rounded-xl2 border border-ink-100 p-6">
+        <aside className="h-fit rounded-lg border border-ink-100 p-6">
           <h2 className="text-lg font-semibold">Поръчка</h2>
           <dl className="mt-4 space-y-2 text-sm">
             <div className="flex justify-between"><dt className="text-ink-500">Междинна сума</dt><dd>{s.eur}</dd></div>

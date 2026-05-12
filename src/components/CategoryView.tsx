@@ -97,7 +97,7 @@ export function CategoryView({ products, title }: { products: Product[]; title: 
                   key={name}
                   onClick={() => toggle(activeColors, name, setActiveColors)}
                   className={`flex items-center gap-2 rounded-full border px-2.5 py-1 text-xs ${
-                    activeColors.includes(name) ? "border-ink-900 bg-canvas-soft" : "border-ink-100"
+                    activeColors.includes(name) ? "border-ink-900 bg-ink-50" : "border-ink-100"
                   }`}
                 >
                   <span className="h-3.5 w-3.5 rounded-full border border-ink-100" style={{ backgroundColor: hex }} />
@@ -135,7 +135,7 @@ export function CategoryView({ products, title }: { products: Product[]; title: 
 
         <div>
           {filtered.length === 0 ? (
-            <div className="rounded-xl2 border border-dashed border-ink-100 p-12 text-center text-ink-500">
+            <div className="rounded-lg border border-dashed border-ink-100 p-12 text-center text-ink-500">
               Няма продукти, отговарящи на филтрите.
             </div>
           ) : (

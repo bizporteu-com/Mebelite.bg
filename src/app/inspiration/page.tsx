@@ -11,7 +11,7 @@ export default function InspirationPage() {
       <p className="mt-2 max-w-2xl text-ink-500">Открий своя стил — от уютния Japandi до бруталния индустриален. Всеки стил е селекция от мебели, които работят добре заедно.</p>
       <div className="mt-8 grid grid-cols-2 gap-4 md:grid-cols-3">
         {STYLES.map((s) => (
-          <Link key={s.slug} href={`/style/${s.slug}`} className="group relative block aspect-[4/5] overflow-hidden rounded-xl2 bg-canvas-mute">
+          <Link key={s.slug} href={`/style/${s.slug}`} className="group relative block aspect-[4/5] overflow-hidden rounded-lg bg-ink-50">
             <SmartImg
               src={s.image}
               alt={s.name}

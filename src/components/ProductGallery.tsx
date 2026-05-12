@@ -38,7 +38,7 @@ export function ProductGallery({
         )}
       </div>
 
-      <div className="relative aspect-square overflow-hidden rounded-xl2 bg-canvas-mute md:aspect-[5/4]">
+      <div className="relative aspect-square overflow-hidden rounded-lg bg-ink-50 md:aspect-[5/4]">
         {tab === "images" ? (
           <SmartImg
             src={images[active]}
