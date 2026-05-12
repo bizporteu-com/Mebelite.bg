@@ -87,14 +87,14 @@ export function ProductActions({ product }: { product: Product }) {
           aria-label="Запази"
           className={cn(
             "flex h-11 w-11 items-center justify-center rounded-full border",
-            wished ? "border-brand-accent text-brand-accent" : "border-ink-100 text-ink-700 hover:border-ink-900",
+            wished ? "border-brand text-brand" : "border-ink-100 text-ink-700 hover:border-ink-900",
           )}
         >
-          <Heart className={cn("h-4 w-4", wished && "fill-brand-accent")} />
+          <Heart className={cn("h-4 w-4", wished && "fill-brand")} />
         </button>
       </div>
 
-      <div className="grid gap-3 rounded-xl2 bg-canvas-soft p-4 text-sm">
+      <div className="grid gap-3 rounded-lg bg-ink-50 p-4 text-sm">
         <Row icon={<Truck className="h-4 w-4" />} title={`Доставка ~${product.deliveryDays} работни дни`} sub="Безплатно над 500 лв" />
         <Row icon={<RotateCcw className="h-4 w-4" />} title="365 дни връщане" sub="Без въпроси" />
         <Row icon={<ShieldCheck className="h-4 w-4" />} title="10 години гаранция" sub="На рамата" />
@@ -106,7 +106,7 @@ export function ProductActions({ product }: { product: Product }) {
 function Row({ icon, title, sub }: { icon: React.ReactNode; title: string; sub: string }) {
   return (
     <div className="flex items-center gap-3">
-      <span className="text-brand-accent">{icon}</span>
+      <span className="text-brand">{icon}</span>
       <div>
         <div className="font-medium">{title}</div>
         <div className="text-xs text-ink-500">{sub}</div>

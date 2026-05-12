@@ -91,7 +91,7 @@ export function ModelViewer({
   }
 
   return (
-    <div ref={wrapRef} className="relative h-full w-full overflow-hidden rounded-xl2 bg-canvas-soft">
+    <div ref={wrapRef} className="relative h-full w-full overflow-hidden rounded-lg bg-ink-50">
       {ready && (
         // @ts-expect-error custom element
         <model-viewer

@@ -50,14 +50,14 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
           <ul className="mt-3 space-y-2 text-sm">
             {product.features.map((f) => (
               <li key={f} className="flex items-start gap-2">
-                <span className="mt-1 inline-block h-1.5 w-1.5 rounded-full bg-brand-accent" />
+                <span className="mt-1 inline-block h-1.5 w-1.5 rounded-full bg-brand" />
                 {f}
               </li>
             ))}
           </ul>
         </div>
         <aside>
-          <div className="rounded-xl2 border border-ink-100 p-5">
+          <div className="rounded-lg border border-ink-100 p-5">
             <h3 className="text-lg">Размери</h3>
             <dl className="mt-3 grid grid-cols-2 gap-y-2 text-sm">
               <dt className="text-ink-500">Ширина</dt><dd>{product.dimensions.w} cm</dd>
