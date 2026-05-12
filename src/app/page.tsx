@@ -3,6 +3,7 @@ import { ArrowRight, Box, Camera } from "lucide-react";
 import { HERO_CATEGORIES, PRODUCTS, STYLES } from "@/data/catalog";
 import { ProductCard } from "@/components/ProductCard";
 import { SectionHeader } from "@/components/SectionHeader";
+import { SmartImg } from "@/components/SmartImg";
 
 export default function HomePage() {
   return (
@@ -22,9 +23,11 @@ function Hero() {
     <section className="container-x mt-6">
       <div className="grid gap-4 lg:grid-cols-3">
         <div className="relative col-span-2 overflow-hidden rounded-xl2 bg-canvas-mute">
-          <img
+          <SmartImg
             src="/assets/hero/hero-main.jpg"
-            alt=""
+            alt="Mebelite hero"
+            fallbackKind="hero"
+            fallbackKey="Spring collection"
             className="h-[440px] w-full object-cover md:h-[520px]"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/40 via-black/10 to-transparent" />
@@ -69,7 +72,13 @@ function Hero() {
 function HeroTile({ src, tag, title, href }: { src: string; tag: string; title: string; href: string }) {
   return (
     <Link href={href} className="group relative block overflow-hidden rounded-xl2 bg-canvas-mute">
-      <img src={src} alt="" className="h-[250px] w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+      <SmartImg
+        src={src}
+        alt={title}
+        fallbackKind="tile"
+        fallbackKey={title}
+        className="h-[250px] w-full object-cover transition-transform duration-500 group-hover:scale-105"
+      />
       <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
       <div className="absolute inset-0 flex flex-col justify-end p-5">
         <span className="chip w-fit bg-white/90">{tag}</span>
@@ -87,7 +96,13 @@ function CategoryStrip() {
         {HERO_CATEGORIES.map((c) => (
           <Link key={c.slug} href={`/category/${c.slug}`} className="group block text-center">
             <div className="aspect-square overflow-hidden rounded-full bg-canvas-mute">
-              <img src={c.image} alt={c.name} className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110" />
+              <SmartImg
+                src={c.image}
+                alt={c.name}
+                fallbackKind="category"
+                fallbackKey={c.name}
+                className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+              />
             </div>
             <div className="mt-2 text-sm">{c.name}</div>
           </Link>
@@ -130,7 +145,13 @@ function ArPromo() {
           </div>
         </div>
         <div className="relative aspect-[4/3] overflow-hidden rounded-xl2 bg-white/5">
-          <img src="/assets/hero/ar-preview.jpg" alt="" className="h-full w-full object-cover" />
+          <SmartImg
+            src="/assets/hero/ar-preview.jpg"
+            alt="AR preview"
+            fallbackKind="hero"
+            fallbackKey="AR in your living room"
+            className="h-full w-full object-cover"
+          />
         </div>
       </div>
     </section>
@@ -144,7 +165,13 @@ function Inspiration() {
       <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-6">
         {STYLES.map((s) => (
           <Link key={s.slug} href={`/style/${s.slug}`} className="group relative block aspect-[3/4] overflow-hidden rounded-xl2 bg-canvas-mute">
-            <img src={s.image} alt={s.name} className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+            <SmartImg
+              src={s.image}
+              alt={s.name}
+              fallbackKind="style"
+              fallbackKey={s.name}
+              className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+            />
             <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-black/10 to-transparent" />
             <div className="absolute inset-x-0 bottom-0 p-4 text-white">{s.name}</div>
           </Link>

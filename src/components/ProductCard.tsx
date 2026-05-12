@@ -5,6 +5,7 @@ import { Heart, Box } from "lucide-react";
 import type { Product } from "@/lib/types";
 import { formatPrice, cn } from "@/lib/utils";
 import { useCart } from "@/store/cart";
+import { SmartImg } from "./SmartImg";
 
 export function ProductCard({ product }: { product: Product }) {
   const { eur, bgn } = formatPrice(product.price);
@@ -15,14 +16,13 @@ export function ProductCard({ product }: { product: Product }) {
     <article className="group">
       <Link href={`/product/${product.slug}`} className="block">
         <div className="relative aspect-[4/3] overflow-hidden rounded-xl2 bg-canvas-mute">
-          <img
+          <SmartImg
             src={product.images[0]}
             alt={product.name}
+            fallbackKind="product"
+            fallbackKey={product.name}
             loading="lazy"
             className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
-            onError={(e) => {
-              (e.currentTarget as HTMLImageElement).style.opacity = "0";
-            }}
           />
           <div className="absolute left-3 top-3 flex flex-col gap-1.5">
             {product.badge === "sale" && product.oldPrice && (
