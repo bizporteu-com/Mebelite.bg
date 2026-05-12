@@ -35,7 +35,7 @@ export function ProductCard({ product }: { product: Product }) {
               <span className="rounded bg-ink-900 px-1.5 py-0.5 text-[11px] font-semibold text-white">Нов</span>
             )}
             {product.badge === "bestseller" && (
-              <span className="rounded bg-brand px-1.5 py-0.5 text-[11px] font-semibold text-white">ТОП</span>
+              <span className="rounded bg-ink-900 px-1.5 py-0.5 text-[11px] font-semibold text-white">ТОП</span>
             )}
           </div>
           {product.model?.glb && (
@@ -57,7 +57,7 @@ export function ProductCard({ product }: { product: Product }) {
       </Link>
 
       <div className="flex flex-1 flex-col p-3">
-        <Link href={`/product/${product.slug}`} className="line-clamp-2 text-sm font-medium text-ink-900 hover:text-brand">
+        <Link href={`/product/${product.slug}`} className="line-clamp-2 text-sm text-ink-900 hover:underline">
           {product.name}
         </Link>
         <div className="mt-1 flex items-center gap-1 text-xs text-ink-500">
@@ -66,7 +66,7 @@ export function ProductCard({ product }: { product: Product }) {
           <span>({product.reviews})</span>
         </div>
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-lg font-bold text-ink-900">{eur}</span>
+          <span className="text-base font-semibold text-ink-900">{eur}</span>
           {old && <span className="text-xs text-ink-400 line-through">{old.eur}</span>}
         </div>
         <div className="text-xs text-ink-500">{bgn}</div>

@@ -81,6 +81,40 @@ export const NAV = [
   { label: "Нови продукти", href: "/new" },
 ] as const;
 
+export const ROOMS_HOME = [
+  {
+    slug: "hol",
+    name: "Хол",
+    description: "Комплекти за хол · Холни маси · Дивани",
+    image: "/assets/rooms/hol.jpg",
+  },
+  {
+    slug: "spalnya",
+    name: "Спалня",
+    description: "Спални · Гардероби · Нощни шкафчета",
+    image: "/assets/rooms/spalnya.jpg",
+  },
+  {
+    slug: "kuhnya",
+    name: "Кухня и трапезария",
+    description: "Маси · Столове · Кухненски шкафове",
+    image: "/assets/rooms/kuhnya.jpg",
+  },
+  {
+    slug: "antre",
+    name: "Антре",
+    description: "Гардероби · Огледала и закачалки",
+    image: "/assets/rooms/antre.jpg",
+  },
+];
+
+export const MEBELI_CATEGORIES = [
+  { slug: "aglovi-divani", name: "Тапицирани дивани", image: "/assets/categories/divani.jpg" },
+  { slug: "spalni", name: "Легла", image: "/assets/categories/legla.jpg" },
+  { slug: "mebeli", name: "Комплекти мебели за хол", image: "/assets/categories/komplekti.jpg" },
+  { slug: "garderobi", name: "Гардероби", image: "/assets/categories/garderobi.jpg" },
+];
+
 export const HERO_CATEGORIES: Category[] = [
   { slug: "aglovi-divani", name: "Ъглови дивани", image: "/assets/categories/aglovi-divani.jpg" },
   { slug: "kresla", name: "Кресла", image: "/assets/categories/kresla.jpg" },

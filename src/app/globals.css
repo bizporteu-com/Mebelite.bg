@@ -3,9 +3,7 @@
 @tailwind utilities;
 
 @layer base {
-  :root {
-    color-scheme: light;
-  }
+  :root { color-scheme: light; }
   html, body {
     background: #ffffff;
     color: theme(colors.ink.900);
@@ -17,31 +15,35 @@
     font-size: 14px;
   }
   h1, h2, h3, h4 {
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: -0.005em;
   }
 }
 
 @layer components {
   .container-x {
-    @apply mx-auto w-full max-w-[1320px] px-4 sm:px-6 lg:px-8;
+    @apply mx-auto w-full max-w-[1280px] px-4 sm:px-6 lg:px-8;
   }
   .btn {
     @apply inline-flex items-center justify-center gap-2 rounded px-5 py-2.5 text-sm font-medium transition-colors;
   }
   .btn-primary {
-    @apply btn bg-brand text-white hover:bg-brand-dark;
+    @apply btn bg-ink-900 text-white hover:bg-black;
   }
   .btn-outline {
     @apply btn border border-ink-200 bg-white text-ink-900 hover:border-ink-900;
   }
-  .chip {
-    @apply inline-flex items-center gap-1.5 rounded bg-ink-50 px-2 py-0.5 text-xs text-ink-700;
-  }
-  .card {
-    @apply rounded border border-ink-100 bg-white;
+  .section-h {
+    @apply text-base font-medium text-ink-900;
   }
 }
+
+.scroll-row {
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+.scroll-row::-webkit-scrollbar { display: none; }
+.scroll-row > * { scroll-snap-align: start; }
 
 model-viewer {
   width: 100%;
