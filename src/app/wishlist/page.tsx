@@ -33,13 +33,13 @@ export default function WishlistPage() {
             return (
               <article key={p.slug} className="group flex flex-col overflow-hidden rounded border border-ink-100 bg-white">
                 <Link href={`/product/${p.slug}`} className="block">
-                  <div className="aspect-[4/3] overflow-hidden bg-ink-50">
+                  <div className="aspect-[4/3] overflow-hidden bg-white">
                     <SmartImg
                       src={p.image}
                       alt={p.name}
                       fallbackKind="product"
                       fallbackKey={p.name}
-                      className="h-full w-full object-cover transition-transform group-hover:scale-105"
+                      className="h-full w-full object-contain p-3 transition-transform group-hover:scale-105"
                     />
                   </div>
                 </Link>

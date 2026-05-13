@@ -11,6 +11,7 @@ export type Product = {
   category: string;
   room?: string;
   style?: string;
+  brand?: string;
   price: number;
   oldPrice?: number;
   rating: number;

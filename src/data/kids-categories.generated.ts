@@ -3,123 +3,38 @@ export type KidsCategory = { slug: string; name: string; count: number };
 
 export const KIDS_CATEGORIES: KidsCategory[] = [
   {
-    "name": "Детски играчки",
-    "slug": "detski-igrachki",
-    "count": 1038
+    "name": "Мебели за детски стаи, градини и центрове",
+    "slug": "mebeli-za-detski-stai-gradini-i-tsentrove",
+    "count": 71
   },
   {
-    "name": "Тротинетки",
-    "slug": "trotinetki",
-    "count": 265
+    "name": "Игри на открито",
+    "slug": "igri-na-otkrito",
+    "count": 23
   },
   {
-    "name": "Спорт и игра на открито",
-    "slug": "sport-i-igra-na-otkrito",
-    "count": 223
+    "name": "Детски къщи и центрове за игра",
+    "slug": "detski-kashti-i-tsentrove-za-igra",
+    "count": 18
+  },
+  {
+    "name": "Комплекти за игра с пясък",
+    "slug": "komplekti-za-igra-s-pyasak",
+    "count": 5
+  },
+  {
+    "name": "Детски маси и столове",
+    "slug": "detski-masi-i-stolove",
+    "count": 4
+  },
+  {
+    "name": "Творческо и музикално обучение за деца",
+    "slug": "tvorchesko-i-muzikalno-obuchenie-za-detsa",
+    "count": 3
   },
   {
     "name": "Мебели",
     "slug": "mebeli",
-    "count": 126
-  },
-  {
-    "name": "За мама и бебе",
-    "slug": "za-mama-i-bebe",
-    "count": 113
-  },
-  {
-    "name": "За ученика",
-    "slug": "za-uchenika",
-    "count": 77
-  },
-  {
-    "name": "Пъзели и настолни игри",
-    "slug": "pazeli-i-nastolni-igri",
-    "count": 64
-  },
-  {
-    "name": "Аудио и Музика",
-    "slug": "audio-i-muzika",
-    "count": 42
-  },
-  {
-    "name": "Детски дрехи и аксесоари",
-    "slug": "detski-drehi-i-aksesoari",
-    "count": 41
-  },
-  {
-    "name": "Бебешки колички и столчета",
-    "slug": "bebeshki-kolichki-i-stolcheta",
-    "count": 36
-  },
-  {
-    "name": "Пъзели и мозайки",
-    "slug": "pazeli-i-mozayki",
-    "count": 28
-  },
-  {
-    "name": "Дронове и аксесоари",
-    "slug": "dronove-i-aksesoari",
-    "count": 17
-  },
-  {
-    "name": "Слънчеви очила",
-    "slug": "slanchevi-ochila",
-    "count": 15
-  },
-  {
-    "name": "Къщи за игра, маси и столове",
-    "slug": "kashti-za-igra-masi-i-stolove",
-    "count": 13
-  },
-  {
-    "name": "Дървени играчки",
-    "slug": "darveni-igrachki",
-    "count": 10
-  },
-  {
-    "name": "Детски дрехи и обувки",
-    "slug": "detski-drehi-i-obuvki",
-    "count": 6
-  },
-  {
-    "name": "Кухни за игра - комплекти и консумативи",
-    "slug": "kuhni-za-igra-komplekti-i-konsumativi",
-    "count": 3
-  },
-  {
-    "name": "Проходилки",
-    "slug": "prohodilki",
-    "count": 3
-  },
-  {
-    "name": "Детски столчета за кола - Възраст 1/2/3г. (9-36 кг.)",
-    "slug": "detski-stolcheta-za-kola-vazrast-1-2-3g-9-36-kg",
-    "count": 3
-  },
-  {
-    "name": "За дърпане и бутане",
-    "slug": "za-darpane-i-butane",
     "count": 2
-  },
-  {
-    "name": "Комплекти за рисуване и моделиране",
-    "slug": "komplekti-za-risuvane-i-modelirane",
-    "count": 1
-  },
-  {
-    "name": "Chica vampiro",
-    "slug": "chica-vampiro",
-    "count": 1
-  },
-  {
-    "name": "Конструктори",
-    "slug": "konstruktori",
-    "count": 1
-  },
-  {
-    "name": "Детски гаражи и писти",
-    "slug": "detski-garazhi-i-pisti",
-    "count": 1
   }
 ];

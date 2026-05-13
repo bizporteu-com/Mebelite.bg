@@ -38,14 +38,14 @@ export function ProductGallery({
         )}
       </div>
 
-      <div className="relative aspect-square overflow-hidden rounded-lg bg-ink-50 md:aspect-[5/4]">
+      <div className="relative aspect-square overflow-hidden rounded-lg bg-white md:aspect-[5/4]">
         {tab === "images" ? (
           <SmartImg
             src={images[active]}
             alt={name}
             fallbackKind="product"
             fallbackKey={name}
-            className="h-full w-full object-cover"
+            className="h-full w-full object-contain p-6"
           />
         ) : (
           <ModelViewer glb={model!.glb!} usdz={model!.usdz} poster={images[0]} name={name} />
@@ -58,8 +58,8 @@ export function ProductGallery({
             <button
               key={src}
               onClick={() => setActive(i)}
-              className={`relative aspect-square overflow-hidden rounded-lg border-2 ${
-                i === active ? "border-ink-900" : "border-transparent"
+              className={`relative aspect-square overflow-hidden rounded-lg border-2 bg-white ${
+                i === active ? "border-ink-900" : "border-ink-100"
               }`}
             >
               <SmartImg
@@ -67,7 +67,7 @@ export function ProductGallery({
                 alt={`${name} ${i + 1}`}
                 fallbackKind="product"
                 fallbackKey={`${name} ${i + 1}`}
-                className="h-full w-full object-cover"
+                className="h-full w-full object-contain p-1"
               />
             </button>
           ))}

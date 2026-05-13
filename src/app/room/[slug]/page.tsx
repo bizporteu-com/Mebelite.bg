@@ -26,7 +26,7 @@ export default async function RoomPage({ params }: { params: Promise<{ slug: str
       <div className="container-x mt-4">
         <Breadcrumbs items={[{ label: "Начало", href: "/" }, { label: "Стаи" }, { label: name }]} />
       </div>
-      <CategoryView products={products} title={`Мебели за ${name.toLowerCase()}`} />
+      <CategoryView products={products} title={`Мебели за ${name.toLowerCase()}`} showSubcategoryFilter />
     </>
   );
 }
