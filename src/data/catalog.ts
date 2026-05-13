@@ -1,4 +1,23 @@
 import type { Category, Product } from "@/lib/types";
+import { GENERATED_PRODUCTS } from "./products.generated";
+import { KIDS_CATEGORIES } from "./kids-categories.generated";
+
+export { KIDS_CATEGORIES };
+
+const kidsTopCols = (() => {
+  const top = KIDS_CATEGORIES.slice(0, 16);
+  const perCol = Math.ceil(top.length / 4);
+  const cols: { title: string; links: { label: string; href: string }[] }[] = [];
+  for (let i = 0; i < 4; i++) {
+    const slice = top.slice(i * perCol, (i + 1) * perCol);
+    if (!slice.length) break;
+    cols.push({
+      title: i === 0 ? "Категории" : " ",
+      links: slice.map((c) => ({ label: c.name, href: `/category/${c.slug}` })),
+    });
+  }
+  return cols;
+})();
 
 export const NAV = [
   {
@@ -59,6 +78,11 @@ export const NAV = [
         ],
       },
     ],
+  },
+  {
+    label: "Мебели за детска стая",
+    href: "/room/detska",
+    columns: kidsTopCols,
   },
   {
     label: "Вдъхновения",
@@ -307,15 +331,17 @@ export const PRODUCTS: Product[] = [
   },
 ];
 
+export const ALL_PRODUCTS: Product[] = [...PRODUCTS, ...GENERATED_PRODUCTS];
+
 export function getProduct(slug: string) {
-  return PRODUCTS.find((p) => p.slug === slug);
+  return ALL_PRODUCTS.find((p) => p.slug === slug);
 }
 export function getProductsByCategory(slug: string) {
-  return PRODUCTS.filter((p) => p.category === slug);
+  return ALL_PRODUCTS.filter((p) => p.category === slug);
 }
 export function getProductsByRoom(slug: string) {
-  return PRODUCTS.filter((p) => p.room === slug);
+  return ALL_PRODUCTS.filter((p) => p.room === slug);
 }
 export function getProductsByStyle(slug: string) {
-  return PRODUCTS.filter((p) => p.style === slug);
+  return ALL_PRODUCTS.filter((p) => p.style === slug);
 }

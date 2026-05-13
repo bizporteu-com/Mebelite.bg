@@ -1,9 +1,9 @@
-import { PRODUCTS } from "@/data/catalog";
+import { ALL_PRODUCTS } from "@/data/catalog";
 import { ProductCard } from "@/components/ProductCard";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 export default function NewPage() {
-  const items = PRODUCTS.filter((p) => p.badge === "new").concat(PRODUCTS.filter((p) => p.badge !== "new"));
+  const items = ALL_PRODUCTS.filter((p) => p.badge === "new").concat(ALL_PRODUCTS.filter((p) => p.badge !== "new"));
   return (
     <div className="container-x mt-4">
       <Breadcrumbs items={[{ label: "Начало", href: "/" }, { label: "Нови продукти" }]} />
