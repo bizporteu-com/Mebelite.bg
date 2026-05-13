@@ -1,4 +1,4 @@
-import { PRODUCTS } from "@/data/catalog";
+import { ALL_PRODUCTS } from "@/data/catalog";
 import { ProductCard } from "@/components/ProductCard";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 
@@ -6,7 +6,7 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
   const { q = "" } = await searchParams;
   const term = q.trim().toLowerCase();
   const results = term
-    ? PRODUCTS.filter((p) =>
+    ? ALL_PRODUCTS.filter((p) =>
         [p.name, p.category, p.style, p.room, ...p.materials, ...p.colors.map((c) => c.name)]
           .filter(Boolean)
           .some((v) => String(v).toLowerCase().includes(term)),

@@ -1,9 +1,9 @@
-import { PRODUCTS } from "@/data/catalog";
+import { ALL_PRODUCTS } from "@/data/catalog";
 import { ProductCard } from "@/components/ProductCard";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 export default function OutletPage() {
-  const items = PRODUCTS.filter((p) => p.oldPrice);
+  const items = ALL_PRODUCTS.filter((p) => p.oldPrice);
   return (
     <div className="container-x mt-4">
       <Breadcrumbs items={[{ label: "Начало", href: "/" }, { label: "Outlet" }]} />

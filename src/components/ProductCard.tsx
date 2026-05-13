@@ -10,7 +10,7 @@ import { SmartImg } from "./SmartImg";
 export function ProductCard({ product }: { product: Product }) {
   const { eur, bgn } = formatPrice(product.price);
   const old = product.oldPrice ? formatPrice(product.oldPrice) : null;
-  const wished = useCart((s) => s.wishlist.includes(product.slug));
+  const wished = useCart((s) => s.isWished(product.slug));
   const toggleWish = useCart((s) => s.toggleWish);
 
   return (
@@ -46,7 +46,12 @@ export function ProductCard({ product }: { product: Product }) {
           <button
             onClick={(e) => {
               e.preventDefault();
-              toggleWish(product.slug);
+              toggleWish({
+                slug: product.slug,
+                name: product.name,
+                price: product.price,
+                image: product.images[0],
+              });
             }}
             aria-label="Запази"
             className="absolute bottom-2 right-2 flex h-8 w-8 items-center justify-center rounded-full bg-white shadow-sm hover:bg-ink-50"

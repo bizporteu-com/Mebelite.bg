@@ -11,7 +11,7 @@ export function ProductActions({ product }: { product: Product }) {
   const [qty, setQty] = useState(1);
   const [added, setAdded] = useState(false);
   const add = useCart((s) => s.add);
-  const wished = useCart((s) => s.wishlist.includes(product.slug));
+  const wished = useCart((s) => s.isWished(product.slug));
   const toggleWish = useCart((s) => s.toggleWish);
 
   const { eur, bgn } = formatPrice(product.price);
@@ -83,14 +83,14 @@ export function ProductActions({ product }: { product: Product }) {
           {added ? <><Check className="h-4 w-4" /> Добавено</> : <><ShoppingBag className="h-4 w-4" /> Добави в количката</>}
         </button>
         <button
-          onClick={() => toggleWish(product.slug)}
+          onClick={() => toggleWish({ slug: product.slug, name: product.name, price: product.price, image: product.images[0] })}
           aria-label="Запази"
           className={cn(
             "flex h-11 w-11 items-center justify-center rounded-full border",
-            wished ? "border-brand text-brand" : "border-ink-100 text-ink-700 hover:border-ink-900",
+            wished ? "border-sale text-sale" : "border-ink-100 text-ink-700 hover:border-ink-900",
           )}
         >
-          <Heart className={cn("h-4 w-4", wished && "fill-brand")} />
+          <Heart className={cn("h-4 w-4", wished && "fill-sale")} />
         </button>
       </div>
 

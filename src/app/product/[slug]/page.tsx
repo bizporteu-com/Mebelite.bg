@@ -4,10 +4,13 @@ import { ProductGallery } from "@/components/ProductGallery";
 import { ProductActions } from "@/components/ProductActions";
 import { ProductCard } from "@/components/ProductCard";
 import { SectionHeader } from "@/components/SectionHeader";
-import { PRODUCTS, getProduct } from "@/data/catalog";
+import { ALL_PRODUCTS, getProduct } from "@/data/catalog";
+
+export const dynamicParams = true;
 
 export function generateStaticParams() {
-  return PRODUCTS.map((p) => ({ slug: p.slug }));
+  // Prerender the curated catalog only; imported products render on demand.
+  return ALL_PRODUCTS.slice(0, 8).map((p) => ({ slug: p.slug }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
@@ -22,7 +25,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
   const product = getProduct(slug);
   if (!product) notFound();
 
-  const related = PRODUCTS.filter((p) => p.category === product.category && p.slug !== product.slug).slice(0, 4);
+  const related = ALL_PRODUCTS.filter((p) => p.category === product.category && p.slug !== product.slug).slice(0, 4);
 
   return (
     <>

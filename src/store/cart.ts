@@ -12,14 +12,22 @@ export type CartLine = {
   qty: number;
 };
 
+export type WishItem = {
+  slug: string;
+  name: string;
+  price: number;
+  image: string;
+};
+
 type CartState = {
   lines: CartLine[];
-  wishlist: string[];
+  wishlist: WishItem[];
   add: (line: CartLine) => void;
   remove: (slug: string, color?: string) => void;
   setQty: (slug: string, color: string | undefined, qty: number) => void;
   clear: () => void;
-  toggleWish: (slug: string) => void;
+  toggleWish: (item: WishItem) => void;
+  isWished: (slug: string) => boolean;
   count: () => number;
   subtotal: () => number;
 };
@@ -48,15 +56,16 @@ export const useCart = create<CartState>()(
           ),
         })),
       clear: () => set({ lines: [] }),
-      toggleWish: (slug) =>
+      toggleWish: (item) =>
         set((s) => ({
-          wishlist: s.wishlist.includes(slug)
-            ? s.wishlist.filter((x) => x !== slug)
-            : [...s.wishlist, slug],
+          wishlist: s.wishlist.find((w) => w.slug === item.slug)
+            ? s.wishlist.filter((w) => w.slug !== item.slug)
+            : [...s.wishlist, item],
         })),
+      isWished: (slug) => get().wishlist.some((w) => w.slug === slug),
       count: () => get().lines.reduce((a, l) => a + l.qty, 0),
       subtotal: () => get().lines.reduce((a, l) => a + l.qty * l.price, 0),
     }),
-    { name: "mebelite-cart" },
+    { name: "mebelite-cart", version: 2 },
   ),
 );

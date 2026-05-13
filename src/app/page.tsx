@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Box, Camera, Play, Truck, RotateCcw, Wallet, BadgeCheck } from "lucide-react";
 import {
   MEBELI_CATEGORIES,
-  PRODUCTS,
+  ALL_PRODUCTS,
   ROOMS_HOME,
   STYLES,
   getProductsByCategory,
