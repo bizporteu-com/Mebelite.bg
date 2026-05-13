@@ -59,11 +59,13 @@ function Hero() {
           className="h-full w-full object-cover"
         />
         <div className="absolute inset-0 bg-black/35" />
-        <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white">
-          <h1 className="text-3xl font-bold text-white md:text-5xl">1 поръчка = 1 дърво</h1>
-          <p className="mt-3 max-w-xl px-6 text-sm md:text-base">
-            За всяка направена поръчка засаждаме по едно дърво в България.
-          </p>
+        <div className="absolute inset-0 flex items-center justify-center px-6 md:justify-end md:px-12 lg:px-24">
+          <div className="text-center text-white md:text-right">
+            <h1 className="text-4xl font-bold text-white md:text-6xl">1 поръчка = 1 дърво</h1>
+            <p className="mt-4 text-base md:whitespace-nowrap md:text-xl">
+              За всяка направена поръчка засаждаме по едно дърво в България
+            </p>
+          </div>
         </div>
         <div className="absolute inset-x-0 bottom-4 flex justify-center gap-1.5">
           {[0, 1, 2].map((i) => (
