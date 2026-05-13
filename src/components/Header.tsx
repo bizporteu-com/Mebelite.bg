@@ -2,13 +2,11 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { Heart, Phone, Search, ShoppingBag, User, ChevronDown, Menu, X } from "lucide-react";
+import { Heart, Phone, Search, ShoppingBag, User, Menu, X } from "lucide-react";
 import { NAV } from "@/data/catalog";
 import { useCart } from "@/store/cart";
-import { cn } from "@/lib/utils";
 
 export function Header() {
-  const [open, setOpen] = useState<string | null>(null);
   const [mobile, setMobile] = useState(false);
   const [mounted, setMounted] = useState(false);
   const count = useCart((s) => s.count());
@@ -19,13 +17,12 @@ export function Header() {
     <header className="sticky top-0 z-40 border-b border-ink-100 bg-white">
       <div className="border-b border-ink-100 bg-ink-50">
         <div className="container-x flex h-8 items-center justify-between text-xs text-ink-500">
-          <span>Безплатна доставка над 500 лв · 365 дни връщане</span>
+          <span>Безплатна доставка над 500 лв</span>
           <div className="hidden items-center gap-4 md:flex">
-            <a href="tel:+359896709455" className="flex items-center gap-1.5 hover:text-ink-900">
-              <Phone className="h-3.5 w-3.5" /> +359 89 670 9455
+            <a href="tel:+359879358040" className="flex items-center gap-1.5 hover:text-ink-900">
+              <Phone className="h-3.5 w-3.5" /> 0879 358040
             </a>
             <Link href="/help" className="hover:text-ink-900">Помощ</Link>
-            <Link href="/stores" className="hover:text-ink-900">Магазини</Link>
           </div>
         </div>
       </div>
@@ -71,43 +68,15 @@ export function Header() {
       <div className="hidden border-t border-ink-100 md:block">
         <div className="container-x flex h-11 items-center gap-1 text-sm">
           {NAV.map((item) => (
-            <div
-              key={item.label}
-              className="relative"
-              onMouseEnter={() => "columns" in item && setOpen(item.label)}
-              onMouseLeave={() => setOpen(null)}
-            >
+            <div key={item.label} className="flex items-center">
               <Link
                 href={item.href}
-                className={cn(
-                  "flex items-center gap-1 px-3 py-1.5 hover:underline",
-                  open === item.label && "underline",
-                )}
+                className="px-3 py-1.5 text-ink-700 hover:text-ink-900 hover:underline"
               >
                 {item.label}
-                {"columns" in item && <ChevronDown className="h-3.5 w-3.5" />}
               </Link>
-              {"columns" in item && open === item.label && (
-                <div className="absolute left-0 top-full z-50 grid w-[640px] grid-cols-[repeat(var(--cols),minmax(0,1fr))] gap-6 rounded border border-ink-100 bg-white p-6 shadow-hover"
-                  style={{ ['--cols' as never]: item.columns.length }}
-                >
-                  {item.columns.map((col) => (
-                    <div key={col.title}>
-                      <div className="mb-2 text-xs font-semibold uppercase tracking-wider text-ink-400">
-                        {col.title}
-                      </div>
-                      <ul className="space-y-1.5">
-                        {col.links.map((l) => (
-                          <li key={l.href}>
-                            <Link href={l.href} className="block text-sm text-ink-700 hover:text-ink-900 hover:underline">
-                              {l.label}
-                            </Link>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  ))}
-                </div>
+              {"separator" in item && item.separator && (
+                <span aria-hidden className="mx-1 inline-block h-4 w-px bg-ink-200" />
               )}
             </div>
           ))}

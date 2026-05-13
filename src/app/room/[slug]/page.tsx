@@ -10,10 +10,12 @@ const CATEGORY_NAMES = Object.fromEntries(
 const ROOMS: Record<string, string> = {
   hol: "Хол",
   spalnya: "Спалня",
-  kuhnya: "Кухня",
+  kuhnya: "Кухня и трапезария",
   antre: "Антре",
   ofis: "Домашен офис",
+  banya: "Баня",
   detska: "Детска стая",
+  gradina: "Градина",
 };
 
 export function generateStaticParams() {
