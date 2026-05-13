@@ -5,11 +5,17 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
-const BGN_PER_EUR = 1.95583;
-export function formatPrice(eur: number) {
-  const bgn = eur * BGN_PER_EUR;
+export const BGN_PER_EUR = 1.95583;
+
+const money = (n: number) =>
+  n.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+
+// `price` is stored as BGN (matches guga.bg feed exactly).
+// EUR is derived for display.
+export function formatPrice(bgn: number) {
+  const eur = bgn / BGN_PER_EUR;
   return {
-    eur: `€${eur.toLocaleString("bg-BG", { maximumFractionDigits: 0 })}`,
-    bgn: `${bgn.toLocaleString("bg-BG", { maximumFractionDigits: 0 })} лв`,
+    eur: `€${money(eur)}`,
+    bgn: `${money(bgn)} лв`,
   };
 }

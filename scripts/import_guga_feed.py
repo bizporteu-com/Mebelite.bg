@@ -147,10 +147,10 @@ def parse_product(p: ET.Element):
     except ValueError:
         base_bgn = 0
 
-    price_eur = round(price_bgn / BGN_PER_EUR)
-    old_eur = None
-    if base_bgn > price_bgn and base_bgn - price_bgn > 1:
-        old_eur = round(base_bgn / BGN_PER_EUR)
+    # Feed prices are in BGN with VAT included. base_price is VAT-excluded
+    # (price / 1.20), not a "was X, now Y" markdown — we leave oldPrice unset.
+    price = round(price_bgn, 2)
+    old_price = None
 
     width = height = length = 0.0
     try:
@@ -186,14 +186,7 @@ def parse_product(p: ET.Element):
     rating, reviews = deterministic_rating(slug)
     delivery_days = 3 + (sum(ord(c) for c in slug) % 8)
 
-    badges = []
-    avail = text_or(p, "availability").lower()
-    if old_eur:
-        badge = "sale"
-    elif "instock" in avail or "наличен" in avail:
-        badge = None
-    else:
-        badge = None
+    badge = None  # feed has no markdown info
 
     # Use the *subcategory* (category1) as the product's category — that's where the
     # real furniture taxonomy lives (Детски легла, Бюра, Гардероби, etc.).
@@ -207,8 +200,8 @@ def parse_product(p: ET.Element):
         "categoryName": cat_name,
         "categoryPath": cats,
         "room": "detska",
-        "price": price_eur,
-        "oldPrice": old_eur,
+        "price": price,
+        "oldPrice": old_price,
         "rating": rating,
         "reviews": reviews,
         "deliveryDays": delivery_days,
