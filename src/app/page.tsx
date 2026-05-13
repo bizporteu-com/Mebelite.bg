@@ -60,7 +60,7 @@ function Hero() {
         />
         <div className="absolute inset-0 bg-black/35" />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white">
-          <h1 className="text-3xl font-medium md:text-5xl">1 поръчка = 1 дърво</h1>
+          <h1 className="text-3xl font-bold text-white md:text-5xl">1 поръчка = 1 дърво</h1>
           <p className="mt-3 max-w-xl px-6 text-sm md:text-base">
             За всяка направена поръчка засаждаме по едно дърво в България.
           </p>
