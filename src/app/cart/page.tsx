@@ -44,13 +44,13 @@ export default function CartPage() {
             const lp = formatPrice(l.price * l.qty);
             return (
               <div key={`${l.slug}-${l.color}`} className="flex gap-4 py-6">
-                <Link href={`/product/${l.slug}`} className="block h-24 w-24 shrink-0 overflow-hidden rounded-lg bg-ink-50 md:h-28 md:w-28">
+                <Link href={`/product/${l.slug}`} className="block h-24 w-24 shrink-0 overflow-hidden rounded-lg border border-ink-100 bg-white md:h-28 md:w-28">
                   <SmartImg
                     src={l.image}
                     alt={l.name}
                     fallbackKind="product"
                     fallbackKey={l.name}
-                    className="h-full w-full object-cover"
+                    className="h-full w-full object-contain p-1.5"
                   />
                 </Link>
                 <div className="flex flex-1 flex-col">

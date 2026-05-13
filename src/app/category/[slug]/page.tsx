@@ -49,7 +49,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
       <div className="container-x mt-4">
         <Breadcrumbs items={[{ label: "Начало", href: "/" }, { label: "Мебели", href: "/category/mebeli" }, { label: title }]} />
       </div>
-      <CategoryView products={products} title={title} />
+      <CategoryView products={products} title={title} showSubcategoryFilter={slug === "mebeli"} />
     </>
   );
 }

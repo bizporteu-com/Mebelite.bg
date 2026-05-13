@@ -109,6 +109,9 @@ def deterministic_rating(seed: str):
     return round(4.3 + h / 33, 1), 40 + (h * 13) % 200
 
 
+FURNITURE_TOP_CATEGORIES = {"Мебели"}
+
+
 def parse_product(p: ET.Element):
     sku = text_or(p, "sku")
     title = text_or(p, "title")
@@ -117,6 +120,8 @@ def parse_product(p: ET.Element):
     manufacturer = text_or(p, "manufacturer")
     cats = [text_or(p, f"category{i}") for i in range(6)]
     cats = [c for c in cats if c]
+    if not cats or cats[0] not in FURNITURE_TOP_CATEGORIES:
+        return None
     description_html = text_or(p, "description")
     description = strip_html(description_html)
     description = description[:600]
@@ -190,13 +195,16 @@ def parse_product(p: ET.Element):
     else:
         badge = None
 
+    # Use the *subcategory* (category1) as the product's category — that's where the
+    # real furniture taxonomy lives (Детски легла, Бюра, Гардероби, etc.).
+    cat_name = cats[1] if len(cats) > 1 else cats[0]
     return {
         "slug": slug,
         "name": title,
         "sku": sku,
         "brand": manufacturer,
-        "category": slugify(cats[0]) if cats else "miscellaneous",
-        "categoryName": cats[0] if cats else "Други",
+        "category": slugify(cat_name),
+        "categoryName": cat_name,
         "categoryPath": cats,
         "room": "detska",
         "price": price_eur,
@@ -273,6 +281,7 @@ def main():
             "name": p["name"],
             "category": p["category"],
             "room": "detska",
+            "brand": p["brand"],
             "price": p["price"],
             "rating": p["rating"],
             "reviews": p["reviews"],

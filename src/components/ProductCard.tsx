@@ -16,14 +16,14 @@ export function ProductCard({ product }: { product: Product }) {
   return (
     <article className="group flex flex-col overflow-hidden rounded border border-ink-100 bg-white transition-shadow hover:shadow-hover">
       <Link href={`/product/${product.slug}`} className="block">
-        <div className="relative aspect-[4/3] overflow-hidden bg-ink-50">
+        <div className="relative aspect-[4/3] overflow-hidden bg-white">
           <SmartImg
             src={product.images[0]}
             alt={product.name}
             fallbackKind="product"
             fallbackKey={product.name}
             loading="lazy"
-            className="h-full w-full object-cover"
+            className="h-full w-full object-contain p-3"
           />
           <div className="absolute left-2 top-2 flex flex-col gap-1">
             {product.badge === "sale" && product.oldPrice && (
