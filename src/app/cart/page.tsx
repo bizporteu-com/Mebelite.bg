@@ -30,10 +30,11 @@ export default function CartPage() {
     );
   }
 
-  const shipping = subtotal > 256 ? 0 : 19; // ~500 BGN
+  const shipping = subtotal > 500 ? 0 : 19; // BGN
   const total = subtotal + shipping;
   const s = formatPrice(subtotal);
   const t = formatPrice(total);
+  const sh = formatPrice(shipping);
 
   return (
     <div className="container-x mt-10">
@@ -86,7 +87,7 @@ export default function CartPage() {
           <h2 className="text-lg font-semibold">Поръчка</h2>
           <dl className="mt-4 space-y-2 text-sm">
             <div className="flex justify-between"><dt className="text-ink-500">Междинна сума</dt><dd>{s.eur}</dd></div>
-            <div className="flex justify-between"><dt className="text-ink-500">Доставка</dt><dd>{shipping === 0 ? "Безплатна" : `€${shipping}`}</dd></div>
+            <div className="flex justify-between"><dt className="text-ink-500">Доставка</dt><dd>{shipping === 0 ? "Безплатна" : sh.bgn}</dd></div>
             <div className="mt-3 flex justify-between border-t border-ink-100 pt-3 text-base font-semibold"><dt>Общо</dt><dd>{t.eur}</dd></div>
             <div className="text-right text-xs text-ink-500">{t.bgn}</div>
           </dl>
