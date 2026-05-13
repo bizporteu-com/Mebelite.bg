@@ -33,8 +33,10 @@ export function Header() {
         </button>
 
         <Link href="/" className="flex items-center" aria-label="Mebeli.bg">
-          <span className="text-lg font-semibold uppercase tracking-[0.18em] text-ink-900">
-            Mebeli<span className="mx-1.5 inline-block h-4 w-px translate-y-0.5 bg-ink-300 align-middle" />Bg
+          <span className="text-lg font-bold uppercase tracking-[0.18em] text-ink-900">
+            <span className="text-brand">Mebeli</span>
+            <span className="mx-1.5 inline-block h-4 w-px translate-y-0.5 bg-ink-300 align-middle" />
+            Bg
           </span>
         </Link>
 
