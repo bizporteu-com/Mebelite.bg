@@ -3,6 +3,10 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CategoryView } from "@/components/CategoryView";
 import { NAV, ALL_PRODUCTS, KIDS_CATEGORIES, getProductsByCategory } from "@/data/catalog";
 
+const CATEGORY_NAMES = Object.fromEntries(
+  KIDS_CATEGORIES.map((c) => [c.slug, c.name]),
+);
+
 function findCategoryLabel(slug: string): string | null {
   for (const item of NAV) {
     if ("columns" in item && item.columns) {
@@ -49,7 +53,12 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
       <div className="container-x mt-4">
         <Breadcrumbs items={[{ label: "Начало", href: "/" }, { label: "Мебели", href: "/category/mebeli" }, { label: title }]} />
       </div>
-      <CategoryView products={products} title={title} showSubcategoryFilter={slug === "mebeli"} />
+      <CategoryView
+        products={products}
+        title={title}
+        showSubcategoryFilter={slug === "mebeli"}
+        categoryNames={CATEGORY_NAMES}
+      />
     </>
   );
 }

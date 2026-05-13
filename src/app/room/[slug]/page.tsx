@@ -1,7 +1,11 @@
 import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CategoryView } from "@/components/CategoryView";
-import { getProductsByRoom } from "@/data/catalog";
+import { getProductsByRoom, KIDS_CATEGORIES } from "@/data/catalog";
+
+const CATEGORY_NAMES = Object.fromEntries(
+  KIDS_CATEGORIES.map((c) => [c.slug, c.name]),
+);
 
 const ROOMS: Record<string, string> = {
   hol: "Хол",
@@ -26,7 +30,12 @@ export default async function RoomPage({ params }: { params: Promise<{ slug: str
       <div className="container-x mt-4">
         <Breadcrumbs items={[{ label: "Начало", href: "/" }, { label: "Стаи" }, { label: name }]} />
       </div>
-      <CategoryView products={products} title={`Мебели за ${name.toLowerCase()}`} showSubcategoryFilter />
+      <CategoryView
+        products={products}
+        title={`Мебели за ${name.toLowerCase()}`}
+        showSubcategoryFilter
+        categoryNames={CATEGORY_NAMES}
+      />
     </>
   );
 }

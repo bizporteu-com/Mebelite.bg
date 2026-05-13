@@ -11,10 +11,12 @@ export function CategoryView({
   products,
   title,
   showSubcategoryFilter = false,
+  categoryNames = {},
 }: {
   products: Product[];
   title: string;
   showSubcategoryFilter?: boolean;
+  categoryNames?: Record<string, string>;
 }) {
   const [sort, setSort] = useState<Sort>("popular");
   const [maxPrice, setMaxPrice] = useState<number | null>(null);
@@ -133,7 +135,7 @@ export function CategoryView({
                         onChange={() => toggle(activeCats, slug, setActiveCats)}
                         className="accent-ink-900"
                       />
-                      <span className="capitalize">{slug.replace(/-/g, " ")}</span>
+                      <span>{categoryNames[slug] ?? slug}</span>
                       <span className="ml-auto text-xs text-ink-400">{count}</span>
                     </label>
                   </li>
