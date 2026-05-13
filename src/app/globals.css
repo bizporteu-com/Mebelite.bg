@@ -6,7 +6,7 @@
   :root { color-scheme: light; }
   html, body {
     background: #ffffff;
-    color: theme(colors.ink.900);
+    color: theme(colors.ink.800);
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
   }
@@ -15,8 +15,9 @@
     font-size: 14px;
   }
   h1, h2, h3, h4 {
-    font-weight: 500;
-    letter-spacing: -0.005em;
+    font-weight: 700;
+    color: theme(colors.ink.900);
+    letter-spacing: -0.01em;
   }
 }
 
@@ -25,16 +26,22 @@
     @apply mx-auto w-full max-w-[1280px] px-4 sm:px-6 lg:px-8;
   }
   .btn {
-    @apply inline-flex items-center justify-center gap-2 rounded px-5 py-2.5 text-sm font-medium transition-colors;
+    @apply inline-flex items-center justify-center gap-2 rounded-lg px-5 py-2.5 text-sm font-bold transition-colors;
   }
   .btn-primary {
-    @apply btn bg-ink-900 text-white hover:bg-black;
+    @apply btn bg-brand text-white shadow-cta hover:bg-brand-dark;
   }
   .btn-outline {
-    @apply btn border border-ink-200 bg-white text-ink-900 hover:border-ink-900;
+    @apply btn border border-brand bg-white text-brand hover:bg-brand hover:text-white;
+  }
+  .btn-ghost {
+    @apply btn border border-ink-200 bg-white text-ink-700 hover:border-ink-900;
   }
   .section-h {
-    @apply text-base font-medium text-ink-900;
+    @apply text-base font-semibold text-ink-900;
+  }
+  a.link-brand {
+    @apply text-brand hover:text-brand-dark;
   }
 }
 
