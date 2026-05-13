@@ -4,107 +4,18 @@ import { KIDS_CATEGORIES } from "./kids-categories.generated";
 
 export { KIDS_CATEGORIES };
 
-const kidsTopCols = (() => {
-  const top = KIDS_CATEGORIES.slice(0, 16);
-  const perCol = Math.ceil(top.length / 4);
-  const cols: { title: string; links: { label: string; href: string }[] }[] = [];
-  for (let i = 0; i < 4; i++) {
-    const slice = top.slice(i * perCol, (i + 1) * perCol);
-    if (!slice.length) break;
-    cols.push({
-      title: i === 0 ? "Категории" : " ",
-      links: slice.map((c) => ({ label: c.name, href: `/category/${c.slug}` })),
-    });
-  }
-  return cols;
-})();
-
 export const NAV = [
-  {
-    label: "Мебели",
-    href: "/category/mebeli",
-    columns: [
-      {
-        title: "Меки мебели",
-        links: [
-          { label: "Ъглови дивани", href: "/category/aglovi-divani" },
-          { label: "Триместни дивани", href: "/category/triemestni-divani" },
-          { label: "Двуместни дивани", href: "/category/dvuemestni-divani" },
-          { label: "Кресла", href: "/category/kresla" },
-          { label: "Пуфове", href: "/category/pufove" },
-        ],
-      },
-      {
-        title: "Корпусни мебели",
-        links: [
-          { label: "Шкафове", href: "/category/shkafove" },
-          { label: "Гардероби", href: "/category/garderobi" },
-          { label: "Скринове", href: "/category/skrinove" },
-          { label: "Витрини", href: "/category/vitrini" },
-        ],
-      },
-      {
-        title: "Маси и столове",
-        links: [
-          { label: "Трапезни маси", href: "/category/trapezni-masi" },
-          { label: "Холни маси", href: "/category/holni-masi" },
-          { label: "Бар маси", href: "/category/bar-masi" },
-          { label: "Столове", href: "/category/stolove" },
-        ],
-      },
-      {
-        title: "Спалня",
-        links: [
-          { label: "Спални", href: "/category/spalni" },
-          { label: "Матраци", href: "/category/matraci" },
-          { label: "Нощни шкафчета", href: "/category/noshtni-shkafcheta" },
-        ],
-      },
-    ],
-  },
-  {
-    label: "Стаи",
-    href: "/rooms",
-    columns: [
-      {
-        title: "Стаи",
-        links: [
-          { label: "Хол", href: "/room/hol" },
-          { label: "Спалня", href: "/room/spalnya" },
-          { label: "Кухня", href: "/room/kuhnya" },
-          { label: "Антре", href: "/room/antre" },
-          { label: "Домашен офис", href: "/room/ofis" },
-          { label: "Детска стая", href: "/room/detska" },
-        ],
-      },
-    ],
-  },
-  {
-    label: "Мебели за детска стая",
-    href: "/room/detska",
-    columns: kidsTopCols,
-  },
-  {
-    label: "Вдъхновения",
-    href: "/inspiration",
-    columns: [
-      {
-        title: "Стилове",
-        links: [
-          { label: "Скандинавски", href: "/style/scandinavian" },
-          { label: "Индустриален", href: "/style/industrial" },
-          { label: "Модерен", href: "/style/modern" },
-          { label: "Класически", href: "/style/classic" },
-          { label: "Japandi", href: "/style/japandi" },
-          { label: "Прованс", href: "/style/provence" },
-        ],
-      },
-    ],
-  },
-  { label: "Outlet", href: "/outlet" },
-  { label: "Нови продукти", href: "/new" },
+  { label: "Мебели", href: "/category/mebeli", separator: true },
+  { label: "Мека мебел", href: "/category/aglovi-divani" },
+  { label: "Хол", href: "/room/hol" },
+  { label: "Спалня", href: "/room/spalnya" },
+  { label: "Кухня и трапезария", href: "/room/kuhnya" },
+  { label: "Антре", href: "/room/antre" },
+  { label: "Домашен офис", href: "/room/ofis" },
+  { label: "Баня", href: "/room/banya" },
+  { label: "Детски мебели", href: "/room/detska" },
+  { label: "Градински мебели", href: "/room/gradina" },
 ] as const;
-
 export const ROOMS_HOME = [
   {
     slug: "hol",

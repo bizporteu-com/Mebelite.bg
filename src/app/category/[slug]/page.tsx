@@ -1,45 +1,42 @@
 import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CategoryView } from "@/components/CategoryView";
-import { NAV, ALL_PRODUCTS, KIDS_CATEGORIES, getProductsByCategory } from "@/data/catalog";
+import { ALL_PRODUCTS, KIDS_CATEGORIES, getProductsByCategory } from "@/data/catalog";
 
-const CATEGORY_NAMES = Object.fromEntries(
-  KIDS_CATEGORIES.map((c) => [c.slug, c.name]),
-);
+const CURATED_CATEGORY_LABELS: Record<string, string> = {
+  mebeli: "Всички мебели",
+  "aglovi-divani": "Ъглови дивани",
+  "triemestni-divani": "Триместни дивани",
+  "dvuemestni-divani": "Двуместни дивани",
+  kresla: "Кресла",
+  pufove: "Пуфове",
+  shkafove: "Шкафове",
+  garderobi: "Гардероби",
+  skrinove: "Скринове",
+  vitrini: "Витрини",
+  "trapezni-masi": "Трапезни маси",
+  "holni-masi": "Холни маси",
+  "bar-masi": "Бар маси",
+  stolove: "Столове",
+  spalni: "Спални",
+  matraci: "Матраци",
+  "noshtni-shkafcheta": "Нощни шкафчета",
+};
+
+const CATEGORY_NAMES: Record<string, string> = {
+  ...CURATED_CATEGORY_LABELS,
+  ...Object.fromEntries(KIDS_CATEGORIES.map((c) => [c.slug, c.name])),
+};
 
 function findCategoryLabel(slug: string): string | null {
-  for (const item of NAV) {
-    if ("columns" in item && item.columns) {
-      for (const col of item.columns) {
-        for (const l of col.links) {
-          if (l.href === `/category/${slug}`) return l.label;
-        }
-      }
-    }
-  }
-  const kid = KIDS_CATEGORIES.find((c) => c.slug === slug);
-  if (kid) return kid.name;
-  if (slug === "mebeli") return "Всички мебели";
-  return null;
+  return CATEGORY_NAMES[slug] ?? null;
 }
 
 export const dynamicParams = true;
 
 export function generateStaticParams() {
-  // Only nav-linked categories are prerendered; the long tail (200+ generated
-  // kids categories) renders on demand.
-  const slugs = new Set<string>();
-  for (const item of NAV) {
-    if ("columns" in item && item.columns) {
-      for (const col of item.columns) {
-        for (const l of col.links) {
-          if (l.href.startsWith("/category/")) slugs.add(l.href.replace("/category/", ""));
-        }
-      }
-    }
-  }
-  slugs.add("mebeli");
-  return Array.from(slugs).map((slug) => ({ slug }));
+  // Only curated categories prerender; kids subcategories render on demand.
+  return Object.keys(CURATED_CATEGORY_LABELS).map((slug) => ({ slug }));
 }
 
 export default async function CategoryPage({ params }: { params: Promise<{ slug: string }> }) {
