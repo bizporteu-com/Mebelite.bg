@@ -3,38 +3,8 @@ export type KidsCategory = { slug: string; name: string; count: number };
 
 export const KIDS_CATEGORIES: KidsCategory[] = [
   {
-    "name": "Мебели за детски стаи, градини и центрове",
-    "slug": "mebeli-za-detski-stai-gradini-i-tsentrove",
-    "count": 71
-  },
-  {
-    "name": "Игри на открито",
-    "slug": "igri-na-otkrito",
-    "count": 23
-  },
-  {
-    "name": "Детски къщи и центрове за игра",
-    "slug": "detski-kashti-i-tsentrove-za-igra",
-    "count": 18
-  },
-  {
-    "name": "Комплекти за игра с пясък",
-    "slug": "komplekti-za-igra-s-pyasak",
-    "count": 5
-  },
-  {
-    "name": "Детски маси и столове",
-    "slug": "detski-masi-i-stolove",
-    "count": 4
-  },
-  {
-    "name": "Творческо и музикално обучение за деца",
-    "slug": "tvorchesko-i-muzikalno-obuchenie-za-detsa",
-    "count": 3
-  },
-  {
     "name": "Мебели",
     "slug": "mebeli",
-    "count": 2
+    "count": 120
   }
 ];
