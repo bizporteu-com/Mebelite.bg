@@ -111,6 +111,76 @@ def deterministic_rating(seed: str):
 
 FURNITURE_TOP_CATEGORIES = {"Мебели"}
 
+# Wholesale discount agreement with guga.bg (see PDF, Търговско предложение).
+# Brand match (substring, case-insensitive) is checked first; category fallback
+# is used when the manufacturer is unknown. Value is the wholesale discount —
+# we then add a +15% margin on top of the discounted cost.
+BRAND_DISCOUNTS = [
+    # (brand fragment lower-cased, discount)
+    ("classic world educational", 0.25),
+    ("classic world", 0.30),
+    ("globber", 0.30),      # both GLOBBER and E-GLOBBER (25%) overridden below
+    ("e-globber", 0.25),
+    ("puky", 0.25),
+    ("arias", 0.30),
+    ("crazon", 0.30),
+    ("idance", 0.35),
+    ("mario inex", 0.30),
+    ("marioinex", 0.30),
+    ("amazing toys", 0.30),
+    ("greenex", 0.30),
+    ("tronex", 0.30),
+    ("stemnex", 0.30),
+    ("conex", 0.30),
+    ("mc toys", 0.35),
+    ("dbolo", 0.35),
+    ("ferrari", 0.40),
+    ("navir", 0.35),
+    ("guga steam", 0.40),
+    ("big bang science", 0.40),
+    ("wow", 0.30),
+    ("d`arpeje", 0.30),
+    ("darpeje", 0.30),
+    ("e.m.d", 0.30),
+    ("emd group", 0.30),
+    ("twistshake", 0.40),
+    ("learning resources", 0.30),
+    ("educational insights", 0.30),
+    ("mensa", 0.35),
+    ("robetoy", 0.35),
+    ("multiprint", 0.30),
+    ("zooper", 0.40),
+    ("baby merc", 0.20),
+    ("baby auto", 0.20),
+    ("immaster", 0.30),
+    ("koco", 0.30),
+]
+
+CATEGORY_DISCOUNTS = {
+    "Детски къщи и центрове за игра": 0.35,
+    "Пъзели": 0.30,
+}
+
+MARGIN = 1.15
+
+# new.guga.bg is the URL guga publishes in the feed but doesn't actually serve;
+# the same paths exist under www.guga.bg behind Cloudflare.
+def fix_image(url: str) -> str:
+    return url.replace("https://new.guga.bg/", "https://www.guga.bg/").replace(
+        "http://new.guga.bg/", "https://www.guga.bg/"
+    )
+
+
+def discount_for(brand: str, cats: list[str]) -> float:
+    b = (brand or "").lower()
+    for frag, d in BRAND_DISCOUNTS:
+        if frag in b:
+            return d
+    for c in cats:
+        if c in CATEGORY_DISCOUNTS:
+            return CATEGORY_DISCOUNTS[c]
+    return 0.0
+
 
 def parse_product(p: ET.Element):
     sku = text_or(p, "sku")
@@ -133,8 +203,10 @@ def parse_product(p: ET.Element):
     images = []
     for tag in ("image", "image0", "image1", "image2", "image3", "image4", "image5", "image6"):
         url = text_or(p, tag)
-        if url and url not in images:
-            images.append(url)
+        if url:
+            url = fix_image(url)
+            if url not in images:
+                images.append(url)
     if not images:
         return None
 
@@ -147,9 +219,14 @@ def parse_product(p: ET.Element):
     except ValueError:
         base_bgn = 0
 
-    # Feed prices are in BGN with VAT included. base_price is VAT-excluded
-    # (price / 1.20), not a "was X, now Y" markdown — we leave oldPrice unset.
-    price = round(price_bgn, 2)
+    # Apply wholesale discount agreement + 15% margin.
+    discount = discount_for(manufacturer, cats)
+    if discount > 0 and price_bgn > 0:
+        wholesale = price_bgn * (1 - discount)
+        final = wholesale * MARGIN
+        price = round(final, 2)
+    else:
+        price = round(price_bgn, 2)
     old_price = None
 
     width = height = length = 0.0

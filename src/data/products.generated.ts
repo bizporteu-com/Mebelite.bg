@@ -9,7 +9,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "room": "detska",
 "brand": "Classic World Educational",
 "sku": "CWE70037",
-"price": 296.5,
+"price": 255.73,
 "rating": 4.6,
 "reviews": 157,
 "deliveryDays": 6,
@@ -28,10 +28,10 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 78
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/p/o/podvizhen-darven-stelazh-za-igrachki-100286134_1.jpg",
-"https://new.guga.bg/media/catalog/product/p/o/podvizhen-darven-stelazh-za-igrachki-322021131_1.jpg",
-"https://new.guga.bg/media/catalog/product/p/o/podvizhen-darven-stelazh-za-igrachki-691247730_1.jpg",
-"https://new.guga.bg/media/catalog/product/p/o/podvizhen-darven-stelazh-za-igrachki-196449106_1.jpg"
+"https://www.guga.bg/media/catalog/product/p/o/podvizhen-darven-stelazh-za-igrachki-100286134_1.jpg",
+"https://www.guga.bg/media/catalog/product/p/o/podvizhen-darven-stelazh-za-igrachki-322021131_1.jpg",
+"https://www.guga.bg/media/catalog/product/p/o/podvizhen-darven-stelazh-za-igrachki-691247730_1.jpg",
+"https://www.guga.bg/media/catalog/product/p/o/podvizhen-darven-stelazh-za-igrachki-196449106_1.jpg"
 ],
 "description": "Подвижен стелаж на колелца за съхранение на различни видове играчки и/или материали за обучение. Особено подходящ за детски градини и центрове, където след приключване на заниманията, е нужно бързо всички използвани играчки да се приберат по местата си. Включването на децата в процеса на подреждане само може да подпомогне тяхното личностно израстване и придобиване на полезни навици.\n\nЗа вашето по-голямо удобство може да следвате инструкцията за сглобяване на продукта, която ще откриете тук.",
 "features": []
@@ -43,7 +43,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "room": "detska",
 "brand": "Classic World Educational",
 "sku": "CWE54075",
-"price": 424.32,
+"price": 365.98,
 "rating": 4.5,
 "reviews": 105,
 "deliveryDays": 4,
@@ -62,9 +62,9 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 89
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/s/h/shkafche-za-sahranenie-na-detski-igrachki-i-instrumenti-924994523_1.jpg",
-"https://new.guga.bg/media/catalog/product/s/h/shkafche-za-sahranenie-na-detski-igrachki-i-instrumenti-278167056_1.jpg",
-"https://new.guga.bg/media/catalog/product/s/h/shkafche-za-sahranenie-na-detski-igrachki-i-instrumenti-122773444_1.jpg"
+"https://www.guga.bg/media/catalog/product/s/h/shkafche-za-sahranenie-na-detski-igrachki-i-instrumenti-924994523_1.jpg",
+"https://www.guga.bg/media/catalog/product/s/h/shkafche-za-sahranenie-na-detski-igrachki-i-instrumenti-278167056_1.jpg",
+"https://www.guga.bg/media/catalog/product/s/h/shkafche-za-sahranenie-na-detski-igrachki-i-instrumenti-122773444_1.jpg"
 ],
 "description": "Многофункционално шкафче с рафтове за събиране и съхранение на различни видове обучителни материали. Подходящо за съхранение на ножички, лепила, моливи, химикали и много други. Важна мебел за всяка детска градина или образователен център, където редът е на почит. Изработен е от висококачествен шперплат със заоблени ръбове, като отговаря на всички стандарти за безопасност.\n\nЗа вашето по-голямо удобство може да следвате инструкцията за сглобяване на продукта, която ще откриете тук.",
 "features": []
@@ -76,7 +76,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "room": "detska",
 "brand": "Classic World Educational",
 "sku": "CWE54068",
-"price": 39.83,
+"price": 34.35,
 "rating": 4.3,
 "reviews": 53,
 "deliveryDays": 10,
@@ -95,8 +95,8 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 38
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detska-zakachalka-za-do-8-prestilki-za-risuvane-803232782_1.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-zakachalka-za-do-8-prestilki-za-risuvane-290284212_1.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detska-zakachalka-za-do-8-prestilki-za-risuvane-803232782_1.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-zakachalka-za-do-8-prestilki-za-risuvane-290284212_1.jpg"
 ],
 "description": "Дървената закачалка е чудесно допълнение за детската градина или класната стая, а защо не и за детската стая на вашето хлапе. Тя е изработена от висококачествено дърво и може да се използва по много начини, защото е снабдена с 8 метални куки , на които децата да закачат своите престилки за рисуване, якета или други дрехи.\n\nС нейна помощ малчуганите ще се научат да бъдат организирани и подредени.\n\nЗа вашето по-голямо удобство може да следвате инструкцията за сглобяване на продукта, която ще откриете тук.",
 "features": []
@@ -108,7 +108,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "room": "detska",
 "brand": "Classic World Educational",
 "sku": "CWE54006",
-"price": 163.56,
+"price": 141.07,
 "rating": 4.5,
 "reviews": 118,
 "deliveryDays": 5,
@@ -127,7 +127,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 44
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/a/darven-podvizhen-stelazh-za-sahranenie-i-sahnene-na-30-risunki-984902208_1.jpg"
+"https://www.guga.bg/media/catalog/product/d/a/darven-podvizhen-stelazh-za-sahranenie-i-sahnene-na-30-risunki-984902208_1.jpg"
 ],
 "description": "Учител сте в детска градина и започвате да рисувате заедно с 20 и повече деца. След приключване на урока установявате, че няма къде да оставите всички рисунки, за да изсъхнат... Знаете, че ако просто ги оставите по масите или по земята, шансът да се размажат е доста голям. Затова тук на помощ идва нашият рафт, на който едновременно можете да наредите до 30 рисунки (с размер А3). Там те ще изсъхнат напълно безопасно и компактно. Стелажът също така е подвижен, което ви позволява да обиколите всички маси и да съберете творбите на малчуганите. \n\nКакто всички продукти на марката Classic World, така",
 "features": []
@@ -139,7 +139,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "room": "detska",
 "brand": "Classic World Educational",
 "sku": "CWE70036",
-"price": 214.69,
+"price": 185.17,
 "rating": 4.5,
 "reviews": 144,
 "deliveryDays": 3,
@@ -158,8 +158,8 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 95
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/p/o/podvizhen-skrin-za-sahranenie-na-detski-knizhki-506648500_1.jpg",
-"https://new.guga.bg/media/catalog/product/p/o/podvizhen-skrin-za-sahranenie-na-detski-knizhki-610204061_1.jpg"
+"https://www.guga.bg/media/catalog/product/p/o/podvizhen-skrin-za-sahranenie-na-detski-knizhki-506648500_1.jpg",
+"https://www.guga.bg/media/catalog/product/p/o/podvizhen-skrin-za-sahranenie-na-detski-knizhki-610204061_1.jpg"
 ],
 "description": "Подвижният скрин е отличен начин за организация и съхранение на детски книжки.\n\nЕто някои от ключовите характеристики и предимства на този продукт:\n\n · Дървен материал: скринът е изработен от дърво, което го прави здрав и устойчив. Този материал осигурява дълготрайност и надеждност при съхранението на детски книжки.\n\n · Подвижност: скринът е снабден с колелца и е лесен за придвижване в стаята. Това позволява на децата да го използват на различни места и да имат лесен достъп до своите четива.\n · Разделени отделения: в скрина има разделения и рафтове, които дават възможност на децата да организи",
 "features": []
@@ -171,7 +171,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "room": "detska",
 "brand": "Classic World Educational",
 "sku": "CWE70012",
-"price": 194.24,
+"price": 167.53,
 "rating": 4.4,
 "reviews": 66,
 "deliveryDays": 7,
@@ -190,11 +190,11 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 93
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detski-kuhnenska-masa-s-aksesoari-za-igra-na-otkrito-235362772_1.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detski-kuhnenska-masa-s-aksesoari-za-igra-na-otkrito-24965401_1.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detski-kuhnenska-masa-s-aksesoari-za-igra-na-otkrito-778518613_1.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detski-kuhnenska-masa-s-aksesoari-za-igra-na-otkrito-264589972_1.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detski-kuhnenska-masa-s-aksesoari-za-igra-na-otkrito-119883751_1.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detski-kuhnenska-masa-s-aksesoari-za-igra-na-otkrito-235362772_1.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detski-kuhnenska-masa-s-aksesoari-za-igra-na-otkrito-24965401_1.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detski-kuhnenska-masa-s-aksesoari-za-igra-na-otkrito-778518613_1.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detski-kuhnenska-masa-s-aksesoari-za-igra-na-otkrito-264589972_1.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detski-kuhnenska-masa-s-aksesoari-za-igra-na-otkrito-119883751_1.jpg"
 ],
 "description": "Детската кухненска маса е чудесен начин, с който малките кулинари ще могат да готвят свободно навън. \n\nТя е просторна и ще събере всички съдове, с които малчуганите ще приготвят въображаемите си ястия, защото разполага с достатъчно пространство и има голям рафт за съхранение на всевъзможни аксесоари. Игрите с нея са полезни за фината моторика и развиват въображението, социалните и комуникативните умения на децата. Освен това моделът може да се превърне в едно чудесно допълнение към дървената кухня и мивката за игри на открито.\n\nЗа ваше по-голямо удобство може да следвате инструкцията за сглобя",
 "features": []
@@ -206,7 +206,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "room": "detska",
 "brand": "Classic World Educational",
 "sku": "CWE54594",
-"price": 249.9,
+"price": 215.54,
 "rating": 4.5,
 "reviews": 105,
 "deliveryDays": 4,
@@ -225,8 +225,8 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 105
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/k/o/komplekt-detska-darvena-peyka-s-masa-za-igra-na-otkrito-937236171_1.jpg",
-"https://new.guga.bg/media/catalog/product/k/o/komplekt-detska-darvena-peyka-s-masa-za-igra-na-otkrito-701968702_1.jpg"
+"https://www.guga.bg/media/catalog/product/k/o/komplekt-detska-darvena-peyka-s-masa-za-igra-na-otkrito-937236171_1.jpg",
+"https://www.guga.bg/media/catalog/product/k/o/komplekt-detska-darvena-peyka-s-masa-za-igra-na-otkrito-701968702_1.jpg"
 ],
 "description": "Здрава и стабилна градинска пейка с маса за детски игри на открито. Дървото е специално обработено, за да може да издържи както на слънце, така и на дъжд. В комплекта е включен и чадър, който да пази сянка на децата, докато се забавляват.\n\nЗа вашето по-голямо удобство може да следвате инструкцията за сглобяване на продукта, която ще откриете тук.",
 "features": []
@@ -238,7 +238,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "room": "detska",
 "brand": "Classic World Educational",
 "sku": "CWE70013",
-"price": 311.83,
+"price": 268.95,
 "rating": 4.3,
 "reviews": 53,
 "deliveryDays": 6,
@@ -257,9 +257,9 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 70
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detska-kunenska-mivka-za-igra-na-otkrito-957073720_1.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-kunenska-mivka-za-igra-na-otkrito-840710898_1.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-kunenska-mivka-za-igra-na-otkrito-670936663_1.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detska-kunenska-mivka-za-igra-na-otkrito-957073720_1.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-kunenska-mivka-za-igra-na-otkrito-840710898_1.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-kunenska-mivka-za-igra-na-otkrito-670936663_1.jpg"
 ],
 "description": "Тази дървена мивка за игра на открито стимулира ролевите игри при децата. Те могат да развиват своите социални и комуникативни умения, докато се упражняват в реална среда. Мивката е оборудвана с ръчна помпа, с което водата може да циркулира колкото пъти е нужно, преди да бъде подменена с нова.\n\nЗа вашето по-голямо удобство може да следвате инструкцията за сглобяване на продукта, която ще откриете тук.",
 "features": []
@@ -271,7 +271,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "room": "detska",
 "brand": "Classic World Educational",
 "sku": "CWE70059",
-"price": 34.9,
+"price": 30.1,
 "rating": 4.3,
 "reviews": 53,
 "deliveryDays": 8,
@@ -290,7 +290,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 0
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detski-igrachki-za-gotvene-ot-nerazhdaema-stomana-110837492_1.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detski-igrachki-za-gotvene-ot-nerazhdaema-stomana-110837492_1.jpg"
 ],
 "description": "Детските играчки за готвене от неръждаема стомана са отличен начин за децата да се забавляват и развиват своите умения в игралната кухня. \n\nЕто някои от характеристиките и предимствата на тези играчки:\n\n · Неръждаема стомана: играчките са изработени от неръждаема стомана, което ги прави издръжливи и устойчиви на ръжда. Това означава, че децата могат да ги използват продължително време, без да се износват.\n · Реалистичен дизайн: играчките имат реалистичен дизайн, който наподобява кухненско оборудване за готвене. Това дава на децата възможност да се забавляват, играейки ролеви игри и създавайки ",
 "features": []
@@ -302,7 +302,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "room": "detska",
 "brand": "Classic World Educational",
 "sku": "CWE54013",
-"price": 112.43,
+"price": 96.97,
 "rating": 4.3,
 "reviews": 53,
 "deliveryDays": 8,
@@ -321,8 +321,8 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 60
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/r/e/reguliruema-uchitelska-dvustranna-daska-za-risuvane-i-pisane-304549178_1.jpg",
-"https://new.guga.bg/media/catalog/product/r/e/reguliruema-uchitelska-dvustranna-daska-za-risuvane-i-pisane-153147371_1.jpg"
+"https://www.guga.bg/media/catalog/product/r/e/reguliruema-uchitelska-dvustranna-daska-za-risuvane-i-pisane-304549178_1.jpg",
+"https://www.guga.bg/media/catalog/product/r/e/reguliruema-uchitelska-dvustranna-daska-za-risuvane-i-pisane-153147371_1.jpg"
 ],
 "description": "Направете ученето забавно и интересно с нашата регулируема учителска двустранна дъска за рисуване и писане.\n\nТази двустранна дъска разполага с черна страна за тебешири и бяла страна за маркери. В горната си част има щипка, служеща за защипването на хартия за рисуване. Тя е с регулируема височина, като горната й част може да бъде махната и поставена на маса, и е подходяща както за детски градини и учебни центрове, така и за у дома. Дъската може да развие въображението и творчеството на малчуганите, научавайки ги на важни умения като писане и рисуване. \n\nЗа вашето по-голямо удобство може да след",
 "features": []
@@ -334,7 +334,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "room": "detska",
 "brand": "Classic World Educational",
 "sku": "CWE70040",
-"price": 270.94,
+"price": 233.69,
 "rating": 4.4,
 "reviews": 79,
 "deliveryDays": 4,
@@ -353,7 +353,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 89
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/p/o/podvizhen-skrin-za-sahranenie-na-igrachki-149592216_1.jpg"
+"https://www.guga.bg/media/catalog/product/p/o/podvizhen-skrin-za-sahranenie-na-igrachki-149592216_1.jpg"
 ],
 "description": "Подвижният скрин е отличен начин за организация и съхранение на детските играчки.\n\nЕто някои от ключовите характеристики и предимства на този продукт:\n\n · Дървен материал: скринът е изработен от дърво, което го прави здрав и устойчив. Този материал осигурява дълготрайност и надеждност при съхранението на детски играчки.\n\n · Подвижност: скринът е снабден с колелца и е лесен за придвижване в стаята. Това позволява на децата да го използват на различни места и да имат лесен достъп до своите играчки.\n · Разделени отделения: скринът има разделения, които дават възможност на децата да организират и ",
 "features": []
@@ -365,7 +365,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "room": "detska",
 "brand": "Classic World Educational",
 "sku": "CWE54587",
-"price": 409.9,
+"price": 353.54,
 "rating": 4.4,
 "reviews": 92,
 "deliveryDays": 3,
@@ -384,11 +384,11 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 100
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detska-darvena-kuhnya-za-igra-navan-401206301_1.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-darvena-kuhnya-za-igra-navan-246590711_1.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-darvena-kuhnya-za-igra-navan-271783806_1.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-darvena-kuhnya-za-igra-navan-52243603_1.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-darvena-kuhnya-za-igra-navan-52802566_1.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detska-darvena-kuhnya-za-igra-navan-401206301_1.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-darvena-kuhnya-za-igra-navan-246590711_1.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-darvena-kuhnya-za-igra-navan-271783806_1.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-darvena-kuhnya-za-igra-navan-52243603_1.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-darvena-kuhnya-za-igra-navan-52802566_1.jpg"
 ],
 "description": "Детска кухня от дърво за игра на открито в градината. Оборудвана е с издаващи звуци ролери /въртящи се барабани/. Подходяща за ролеви игри, с които може да се възпроизведе истинско усещане за готвене в кухня. Разполага с различни лавици, на които могат да се поставят всевъзможни съдове и прибори за готвене. Кухнята е изработена от специално дърво, което е устойчиво на атмосферните влияния.\n\nЗа вашето по-голямо удобство може да следвате инструкцията за сглобяване на продукта, която ще откриете тук.",
 "features": []
@@ -400,7 +400,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "room": "detska",
 "brand": "Classic World Educational",
 "sku": "CWE70193",
-"price": 102.2,
+"price": 88.15,
 "rating": 4.5,
 "reviews": 105,
 "deliveryDays": 4,
@@ -419,8 +419,8 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 23
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detska-darvena-melnichka-za-igra-s-pyasak-974168768_1.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-darvena-melnichka-za-igra-s-pyasak-829051795_1.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detska-darvena-melnichka-za-igra-s-pyasak-974168768_1.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-darvena-melnichka-za-igra-s-pyasak-829051795_1.jpg"
 ],
 "description": "Детската дървена мелничка за игра с пясък предоставя на децата чудесна възможност за дълги забавления на открито. Тя е пoдxoдяща зa игpи нa плaжa или в пяcъчника, и може да се превърне в идеалното място, на което малчуганите ще имат шанса да играят различни ролеви игри, ще стимулират въображението си и ще се забавляват на свеж въздух.\n\nХарактеристики:\n\n · Възрастова група: подходяща за деца на възраст от 3 до 11 години, които искат да създадат свой собствен малък свят от пясък.\n · Материал: изработена от висококачествена дървесина, която е издръжлива и безопасна за игра на открито.\n · Подходящ",
 "features": []
@@ -432,7 +432,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "room": "detska",
 "brand": "Classic World Educational",
 "sku": "CWE70008",
-"price": 508.18,
+"price": 438.31,
 "rating": 4.5,
 "reviews": 131,
 "deliveryDays": 6,
@@ -451,9 +451,9 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 160
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detski-darven-pyasachnik-s-naves-380139062_1.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detski-darven-pyasachnik-s-naves-750926671_1.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detski-darven-pyasachnik-s-naves-962397374_1.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detski-darven-pyasachnik-s-naves-380139062_1.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detski-darven-pyasachnik-s-naves-750926671_1.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detski-darven-pyasachnik-s-naves-962397374_1.jpg"
 ],
 "description": "Детският дървен пясъчник с навес представлява отлична възможност за децата да се забавляват и развиват в играта на открито. Този пясъчник е проектиран със следните характеристики:\n\n ·  Възрастова група: подходящ за деца на възраст от 3 до 11 години, които искат да създадат свой собствен малък свят от пясък.\n ·  Материал: изработен от висококачествена дървесина, която е издръжлива и безопасна за игра на открито.\n ·  Подходящ за подарък на: момичета и момчета. Този пясъчник е подходящ за всички деца, които обичат играта на открито и търсят вълнение и забавление.\n ·  Размери: 131.4 х 128 х 159.5 ",
 "features": []
@@ -465,7 +465,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "room": "detska",
 "brand": "Classic World Educational",
 "sku": "CWE54105",
-"price": 10.18,
+"price": 8.78,
 "rating": 4.4,
 "reviews": 66,
 "deliveryDays": 5,
@@ -484,8 +484,8 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 125
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detska-prestilka-za-risuvane-956384084_1.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-prestilka-za-risuvane-384592524_1.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detska-prestilka-za-risuvane-956384084_1.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-prestilka-za-risuvane-384592524_1.jpg"
 ],
 "description": "Детската престилка за рисуване е перфектният аксесоар за децата, които обичат изкуството и рисуването. Тя помага на децата да се забавляват без да се притесняват от мръсотия или петна по дрехите им.\n\nЗа по-голяма сигурност престилката е изработена с дълги ръкави и ластик на ръцете. Освен това се почиства лесно и е универсален размер, което я прави подходяща за деца над 3-годишна възраст.",
 "features": []
@@ -497,7 +497,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "room": "detska",
 "brand": "Classic World Educational",
 "sku": "CWE70194",
-"price": 97.09,
+"price": 83.74,
 "rating": 4.6,
 "reviews": 157,
 "deliveryDays": 6,
@@ -516,8 +516,8 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 28
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detski-darven-tsveten-siloz-za-igra-s-pyasak-203819048_1.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detski-darven-tsveten-siloz-za-igra-s-pyasak-695106589_1.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detski-darven-tsveten-siloz-za-igra-s-pyasak-203819048_1.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detski-darven-tsveten-siloz-za-igra-s-pyasak-695106589_1.jpg"
 ],
 "description": "Детският дървен цветен силоз за игра с пясък предоставя на децата чудесна възможност за дълги забавления на открито. Той е пoдxoдящ зa игpи нa плaжa или в пяcъчника, и може да се превърне в идеалното място, на което малчуганите ще имат шанса да играят различни ролеви игри, ще стимулират въображението си и ще се забавляват на свеж въздух.\n\nХарактеристики:\n\n · Възрастова група: подходящ за деца на възраст от 3 до 11 години, които искат да създадат свой собствен малък свят от пясък.\n · Материал: изработен от висококачествена дървесина, която е издръжлива и безопасна за игра на открито.\n · Подходя",
 "features": []
@@ -529,7 +529,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "room": "detska",
 "brand": "Classic World Educational",
 "sku": "CWE70121",
-"price": 339.9,
+"price": 293.16,
 "rating": 4.6,
 "reviews": 157,
 "deliveryDays": 10,
@@ -548,10 +548,10 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 104
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detski-darven-komplekt-masa-s-pejka-za-igra-s-pyasak-i-voda-360998345_1.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detski-darven-komplekt-masa-s-pejka-za-igra-s-pyasak-i-voda-206170338_1.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detski-darven-komplekt-masa-s-pejka-za-igra-s-pyasak-i-voda-913990215_1.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detski-darven-komplekt-masa-s-pejka-za-igra-s-pyasak-i-voda-171337592_1.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detski-darven-komplekt-masa-s-pejka-za-igra-s-pyasak-i-voda-360998345_1.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detski-darven-komplekt-masa-s-pejka-za-igra-s-pyasak-i-voda-206170338_1.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detski-darven-komplekt-masa-s-pejka-za-igra-s-pyasak-i-voda-913990215_1.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detski-darven-komplekt-masa-s-pejka-za-igra-s-pyasak-i-voda-171337592_1.jpg"
 ],
 "description": "Детският дървен комплект маса с пейка за игра с пясък и вода дава на децата чудесна възможност за дълги забавления на открито. Той е идеален помощник по насърчаване на активната игра, социалната интеракция и творчеството на малчуганите, като им предоставя незабравими моменти на забавление и учене.\n\nПрез топлите дни мултифункционалната дървена маса служи като комплект за почивка и пикник, а благодарение на подвижния си плот тя може да се използва и като вълшебна маса за игра с пясък, вода и каквито още други забавни игри си измислят малчуганите! През студените дни комплектът за сядане пък може ",
 "features": []
@@ -563,7 +563,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "room": "detska",
 "brand": "Classic World Educational",
 "sku": "CWE70032",
-"price": 235.14,
+"price": 202.81,
 "rating": 4.5,
 "reviews": 131,
 "deliveryDays": 10,
@@ -582,8 +582,8 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 62
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/u/c/uchenicheski-garderob-za-drehi-i-obuvki-za-2-detsa-741899123_1.jpg",
-"https://new.guga.bg/media/catalog/product/u/c/uchenicheski-garderob-za-drehi-i-obuvki-za-2-detsa-299699725_1.jpg"
+"https://www.guga.bg/media/catalog/product/u/c/uchenicheski-garderob-za-drehi-i-obuvki-za-2-detsa-741899123_1.jpg",
+"https://www.guga.bg/media/catalog/product/u/c/uchenicheski-garderob-za-drehi-i-obuvki-za-2-detsa-299699725_1.jpg"
 ],
 "description": "Дървен ученически гардероб за дрехи и обувки, предназначен за употреба от 2 деца. Благодарение на него малчуганите ще се научат да прибират нещата си на предназначените за целта места. Това ще им помогне да придобият важни умения и ще развие у тях чувство за ред.\n\nЕлегантният дизайн на гардероба го прави идеален за детски градини и училища.\n\nЗа вашето по-голямо удобство може да следвате инструкцията за сглобяване на продукта, която ще откриете тук.",
 "features": []
@@ -595,7 +595,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "room": "detska",
 "brand": "Classic World Educational",
 "sku": "CWE40525",
-"price": 71.53,
+"price": 61.69,
 "rating": 4.4,
 "reviews": 79,
 "deliveryDays": 10,
@@ -614,11 +614,11 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 35
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/k/o/komplekt-detski-muzikalni-instrumenti-za-obuchenie-834856122_1.jpg",
-"https://new.guga.bg/media/catalog/product/k/o/komplekt-detski-muzikalni-instrumenti-za-obuchenie-194992886_1.jpg",
-"https://new.guga.bg/media/catalog/product/k/o/komplekt-detski-muzikalni-instrumenti-za-obuchenie-703232624_1.jpg",
-"https://new.guga.bg/media/catalog/product/k/o/komplekt-detski-muzikalni-instrumenti-za-obuchenie-49798394_1.jpg",
-"https://new.guga.bg/media/catalog/product/k/o/komplekt-detski-muzikalni-instrumenti-za-obuchenie-652405747_1.jpg"
+"https://www.guga.bg/media/catalog/product/k/o/komplekt-detski-muzikalni-instrumenti-za-obuchenie-834856122_1.jpg",
+"https://www.guga.bg/media/catalog/product/k/o/komplekt-detski-muzikalni-instrumenti-za-obuchenie-194992886_1.jpg",
+"https://www.guga.bg/media/catalog/product/k/o/komplekt-detski-muzikalni-instrumenti-za-obuchenie-703232624_1.jpg",
+"https://www.guga.bg/media/catalog/product/k/o/komplekt-detski-muzikalni-instrumenti-za-obuchenie-49798394_1.jpg",
+"https://www.guga.bg/media/catalog/product/k/o/komplekt-detski-muzikalni-instrumenti-za-obuchenie-652405747_1.jpg"
 ],
 "description": "Този комплект детски музикални инструменти за обучение представлява идеален начин за децата да се запознаят със света на музиката и да развият своите музикални способности.\n\n Ето някои от включените дървени инструменти и техните предимства:\n\n · Детски комплект кимвали (чинели): кимвалите (чинели) са известни със своя звук и са чудесен начин за децата да се научат да усещат ритъма и такта на музиката.\n · Дървен стик с 4 метални звънчета: този инструмент комбинира дърво и метал, предоставяйки уникален звук и възможност за децата да създават забавни мелодии.\n · Дървени кастанети с държка: кастане",
 "features": []
@@ -630,7 +630,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "room": "detska",
 "brand": "Classic World Educational",
 "sku": "CWE70047",
-"price": 97.09,
+"price": 83.74,
 "rating": 4.5,
 "reviews": 131,
 "deliveryDays": 6,
@@ -649,7 +649,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 45
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/t/a/tapitsirano-detsko-stolche-s-oblegalka-376374060_1.jpg"
+"https://www.guga.bg/media/catalog/product/t/a/tapitsirano-detsko-stolche-s-oblegalka-376374060_1.jpg"
 ],
 "description": "Удобно тапицирано детско столче с облегалка, на което малчуганите ви могат да седнат да учат или просто да отпочинат. То е изработено от висококачествено дърво и е прецизно тапицирано в червена изкуствена кожа.\n\nХарактеристики:\n\n · Тапицирана облегалка: облегалката на столчето е тапицирана в червено, което му придава мек и приятен вид. Тапицираната повърхност осигурява комфорт при сядане и предлага допълнителна мекота.\n · Подходящ размер: столчето е предназначено специално за деца, което го прави подходящо за техните малки размери. Съответно, то осигурява нужната подкрепа и удобство за децата ",
 "features": []
@@ -661,7 +661,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "room": "detska",
 "brand": "Classic World Educational",
 "sku": "CWE70053",
-"price": 132.89,
+"price": 114.62,
 "rating": 4.5,
 "reviews": 118,
 "deliveryDays": 7,
@@ -680,7 +680,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 84
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/v/dvumestna-detska-tapitsirana-peyka-493751354_1.jpg"
+"https://www.guga.bg/media/catalog/product/d/v/dvumestna-detska-tapitsirana-peyka-493751354_1.jpg"
 ],
 "description": "Удобна двуместна детска тапицирана пейка, на която малчуганите ви могат да седнат да учат или просто да отпочинат. Тя е изработена от висококачествено дърво и е прецизно тапицирана в червена изкуствена кожа.\n\nХарактеристики:\n\n · Тапицирана облегалка: облегалката на пейката е тапицирана в червено, което й придава мек и приятен вид. Тапицираната повърхност осигурява комфорт при сядане и предлага допълнителна мекота.\n\n · Подходящ размер: пейката е предназначена специално за деца, което я прави подходяща за техните малки размери. Съответно, тя осигурява нужната подкрепа и удобство за децата по вре",
 "features": []
@@ -711,8 +711,8 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 62
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/F/Q/FQ-QHZPW0102-WH_9.jpg",
-"https://new.guga.bg/media/catalog/product/F/Q/FQ-QHZPW0102-WH-1_9.jpg"
+"https://www.guga.bg/media/catalog/product/F/Q/FQ-QHZPW0102-WH_9.jpg",
+"https://www.guga.bg/media/catalog/product/F/Q/FQ-QHZPW0102-WH-1_9.jpg"
 ],
 "description": "Вълшебна къщичка за игра Feelkids, в която започват големите приключенияПодарете на детето си собствено място за игра, въображение и спокойствие с тази очарователна детска къщичка, която е създадена, за да вдъхновява ролеви игри, социални умения и креативност още от първия ден. \n\nИзработена от устойчиви и безопасни материали HDPE и PP, както и с UV защита, тя е стабилна, дълготрайна и подходяща за активна ежедневна употреба.\n\nДизайн на пластмасовата детска къщичка за игра с маса за конструкториКъщичката разполага с пълно затворено пространство, което създава усещане за уют и сигурност, както и",
 "features": []
@@ -743,7 +743,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 115
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detska-biblioteka-s-vartyasch-se-dizajn-i-myasto-za-sahranenie-na-knigi-i-aksesoari-siva-363452476_9.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detska-biblioteka-s-vartyasch-se-dizajn-i-myasto-za-sahranenie-na-knigi-i-aksesoari-siva-363452476_9.jpg"
 ],
 "description": "Детска въртяща се библиотека „Космическа ракета“ – креативно решение за модерен интериор и весели игриДетската библиотека Feelkids с въртящ се дизайн е създадена за родители, които търсят практично решение с изчистен дизайн. Цветът е неутрален и елегантен, което позволява библиотеката да се впише еднакво добре в детска стая, хол или учебен кът. \n\nФормата на космически кораб го превръща в атрактивен акцент, без да нарушава баланса на интериора.\n\nДизайн, който комбинира стил и въображениеКорпусът наподобява ракета с плавни линии и добре обмислени детайли:\n\n · кръгъл прозорец с прозрачна вратичка",
 "features": []
@@ -774,8 +774,8 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 115
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detska-biblioteka-s-vartyasch-se-dizajn-i-myasto-za-sahranenie-na-knigi-i-aksesoari-kafyava-246867963_9.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-biblioteka-s-vartyasch-se-dizajn-i-myasto-za-sahranenie-na-knigi-i-aksesoari-kafyava-272823256_9.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detska-biblioteka-s-vartyasch-se-dizajn-i-myasto-za-sahranenie-na-knigi-i-aksesoari-kafyava-246867963_9.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-biblioteka-s-vartyasch-se-dizajn-i-myasto-za-sahranenie-na-knigi-i-aksesoari-kafyava-272823256_9.jpg"
 ],
 "description": "Детска въртяща се библиотека „Космическа ракета“ – съхранение, което вдъхновява игра и редТази оригинална детска библиотека превръща подреждането в забавно приключение, като съчетава функционалност с впечатляващ космически дизайн. Създадена специално за малките откриватели, тя стимулира любовта към книгите и изгражда полезни навици за организация още от най-ранна детска възраст.\n\nИновативен дизайн и впечатляваща визияОрганайзерът е оформен като космическа ракета/астронавтски кораб, което го превръща не просто в мебел, а в част от детската игра. Дизайнът му ключва:\n\n · кръгъл прозорец тип „илюм",
 "features": []
@@ -806,11 +806,11 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 92
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/o/r/organajzer-za-igrachki-s-forma-na-avtobus-s-11-kutii-i-2-shkafcheta-za-sahranenie-856540675_7.jpg",
-"https://new.guga.bg/media/catalog/product/o/r/organajzer-za-igrachki-s-forma-na-avtobus-s-11-kutii-i-2-shkafcheta-za-sahranenie-632763425_7.jpg",
-"https://new.guga.bg/media/catalog/product/o/r/organajzer-za-igrachki-s-forma-na-avtobus-s-11-kutii-i-2-shkafcheta-za-sahranenie-863055404_7.jpg",
-"https://new.guga.bg/media/catalog/product/o/r/organajzer-za-igrachki-s-forma-na-avtobus-s-11-kutii-i-2-shkafcheta-za-sahranenie-787461550_7.jpg",
-"https://new.guga.bg/media/catalog/product/o/r/organajzer-za-igrachki-s-forma-na-avtobus-s-11-kutii-i-2-shkafcheta-za-sahranenie-728481941_7.jpg"
+"https://www.guga.bg/media/catalog/product/o/r/organajzer-za-igrachki-s-forma-na-avtobus-s-11-kutii-i-2-shkafcheta-za-sahranenie-856540675_7.jpg",
+"https://www.guga.bg/media/catalog/product/o/r/organajzer-za-igrachki-s-forma-na-avtobus-s-11-kutii-i-2-shkafcheta-za-sahranenie-632763425_7.jpg",
+"https://www.guga.bg/media/catalog/product/o/r/organajzer-za-igrachki-s-forma-na-avtobus-s-11-kutii-i-2-shkafcheta-za-sahranenie-863055404_7.jpg",
+"https://www.guga.bg/media/catalog/product/o/r/organajzer-za-igrachki-s-forma-na-avtobus-s-11-kutii-i-2-shkafcheta-za-sahranenie-787461550_7.jpg",
+"https://www.guga.bg/media/catalog/product/o/r/organajzer-za-igrachki-s-forma-na-avtobus-s-11-kutii-i-2-shkafcheta-za-sahranenie-728481941_7.jpg"
 ],
 "description": "Детски модулен органайзер с дизайн на камион – интелигентно пространство за ред и играДетският органайзер Feelkids с форма на автобус с включени кутии и шкафчета за съхранение е създаден, за да внесе ред в детската стая по забавен и практичен начин. Впечатлява с оригинален дизайн във формата на камион, който превръща подреждането в игра. \n\nМоделът комбинира рафтове, чекмеджета и контейнери за съхранение, като осигурява достатъчно място за играчки, книжки, топки и аксесоари.\n\nПрактично решение за организиране на детските вещиАко вкъщи винаги има разпилени играчки, този органайзер е идеалното ре",
 "features": []
@@ -841,7 +841,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 65
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detska-etagerka-rozovo-meche-3-reda-s-koshnitsi-za-sahranenie-na-igrachki-i-stranichni-raftove-za-knigi-888385179_9.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detska-etagerka-rozovo-meche-3-reda-s-koshnitsi-za-sahranenie-na-igrachki-i-stranichni-raftove-za-knigi-888385179_9.jpg"
 ],
 "description": "Детски органайзер „Розово мече“ – красива визия и практично пространство за играРозовият детски органайзер с 3 реда кошници Feelkids съчетава функционалност и очарователен дизайн, който превръща подреждането в приятно занимание. Моделът е създаден за семейства, които търсят удобен начин да организират играчките и книжките на детето, без да правят компромис с визията на стаята. \n\nПастелната цветова комбинация в розово, бяло и светлосиво създава уютна атмосфера и се вписва естествено във всеки детски интериор.\n\nДизайн, съобразен с безопасността на най-малкитеКонструкцията на детския органайзер с",
 "features": []
@@ -872,7 +872,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 65
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detska-etagerka-sino-meche-3-reda-s-koshnitsi-za-sahranenie-na-igrachki-i-stranichni-raftove-za-knigi-705865463_9.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detska-etagerka-sino-meche-3-reda-s-koshnitsi-za-sahranenie-na-igrachki-i-stranichni-raftove-za-knigi-705865463_9.jpg"
 ],
 "description": "Детски органайзер „Синьо мече“ – максимално пространство, интелигентен дизайн и сигурностТози модел детски органайзер с 3 реда кошници и странични рафтове за книги впечатлява с модерна визия, практично разпределение и стабилна конструкция, създадена специално за нуждите на малките деца. \n\nМоделът съчетава симпатичен дизайн с форма на мече и функционална система за съхранение, която превръща подреждането в лесна и естествена част от ежедневието. \n\nИнтелигентно разпределение за повече ред и естетикаОрганайзерът Feelkids разполага с множество наклонени контейнери, които позволяват лесен достъп до",
 "features": []
@@ -903,7 +903,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 86
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/m/n/mnogofunktsionalen-organajzer-za-igrachki-s-kutii-za-sahranenie-rozovo-meche-180704170_9.jpg"
+"https://www.guga.bg/media/catalog/product/m/n/mnogofunktsionalen-organajzer-za-igrachki-s-kutii-za-sahranenie-rozovo-meche-180704170_9.jpg"
 ],
 "description": "Детски органайзер Feelkids „Розово мече“ – стил и ред в детската стаяМногофункционалният детски органайзер Feelkids е създаден като практично и визуално привлекателно решение за съхранение на детски играчки и принадлежности. Нежната цветова гама в розово, бяло и светлосиво внася мекота и уют в пространството, а симпатичната форма на мече превръща мебела в част от интериора, а не просто в средство за подредба.\n\nУдобство, съобразено с детските навициКонтейнерите са разположени под лек наклон, което позволява на децата лесно да виждат и достигат до съдържанието. Това ги насърчава сами да избират ",
 "features": []
@@ -934,7 +934,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 86
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/m/n/mnogofunktsionalen-organajzer-za-igrachki-s-kutii-za-sahranenie-sino-meche-127367481_9.jpg"
+"https://www.guga.bg/media/catalog/product/m/n/mnogofunktsionalen-organajzer-za-igrachki-s-kutii-za-sahranenie-sino-meche-127367481_9.jpg"
 ],
 "description": "Детски органайзер с форма на мече – практично решение за подредена детска стаяТози детски органайзер на марката Feelkids е създаден с мисъл за удобството на малките и спокойствието на родителите. Благодарение на своята функционална форма, децата могат лесно да достигат до играчките си, което насърчава самостоятелността и изгражда навици за подреждане още от ранна възраст.\n\nВсеки контейнер е наклонен напред, така че съдържанието да се вижда ясно и да се изважда без усилие от малките деца.\n\nДизайн и функции на органайзера за играчки FeelkidsДизайнът с усмихнато мече придава на органайзера топло ",
 "features": []
@@ -965,11 +965,11 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 86
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detski-organajzer-rozovo-meche-za-igrachki-na-4-niva-i-12-podvigni-kutii-105959896_9.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detski-organajzer-rozovo-meche-za-igrachki-na-4-niva-i-12-podvigni-kutii-919341529_9.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detski-organajzer-rozovo-meche-za-igrachki-na-4-niva-i-12-podvigni-kutii-287056192_9.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detski-organajzer-rozovo-meche-za-igrachki-na-4-niva-i-12-podvigni-kutii-425644436_9.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detski-organajzer-rozovo-meche-za-igrachki-na-4-niva-i-12-podvigni-kutii-866877819_9.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detski-organajzer-rozovo-meche-za-igrachki-na-4-niva-i-12-podvigni-kutii-105959896_9.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detski-organajzer-rozovo-meche-za-igrachki-na-4-niva-i-12-podvigni-kutii-919341529_9.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detski-organajzer-rozovo-meche-za-igrachki-na-4-niva-i-12-podvigni-kutii-287056192_9.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detski-organajzer-rozovo-meche-za-igrachki-na-4-niva-i-12-podvigni-kutii-425644436_9.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detski-organajzer-rozovo-meche-za-igrachki-na-4-niva-i-12-podvigni-kutii-866877819_9.jpg"
 ],
 "description": "Детски органайзер „Розово мече“ – стилно решение за подредена детска стаяРозовият модел на детския органайзер „Мече“ е създаден, за да внесе нежност, уют и ред в детската стая. Със своята мека цветова гама в пастелно розово, бяло и светлосиво, той се превръща в красив акцент, който допълва интериора и радва децата. Симпатичната форма на мече с усмихнато личице прави органайзера не просто практичен, а и част от играта.\n\nПрактична организация на детските вещиКонструкцията разполага с четири последователни нива и 12 подвижни контейнера, които позволяват ясно разделяне на играчките по вид – плюшен",
 "features": []
@@ -1000,10 +1000,10 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 86
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detski-organajzer-sino-meche-za-igrachki-na-4-niva-i-12-podvigni-kutii-173584084_3.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detski-organajzer-sino-meche-za-igrachki-na-4-niva-i-12-podvigni-kutii-169049690_3.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detski-organajzer-sino-meche-za-igrachki-na-4-niva-i-12-podvigni-kutii-673398182_3.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detski-organajzer-sino-meche-za-igrachki-na-4-niva-i-12-podvigni-kutii-890857314_3.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detski-organajzer-sino-meche-za-igrachki-na-4-niva-i-12-podvigni-kutii-173584084_3.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detski-organajzer-sino-meche-za-igrachki-na-4-niva-i-12-podvigni-kutii-169049690_3.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detski-organajzer-sino-meche-za-igrachki-na-4-niva-i-12-podvigni-kutii-673398182_3.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detski-organajzer-sino-meche-za-igrachki-na-4-niva-i-12-podvigni-kutii-890857314_3.jpg"
 ],
 "description": "Детски органайзер „Синьо мече“ – подреден свят за игра и усмивки всеки денТози очарователен детски органайзер с форма на мече е практично и стилно решение за съхранение на играчки, книжки и дребни аксесоари. Дизайнът в нежни сини и бели тонове създава уютна атмосфера в детската стая, а усмихнатото мече превръща подреждането в забавна игра.\n\nКонструкцията на модела е стабилна, с четири нива и общо 12 подвижни кутии, които осигуряват достатъчно пространство за всички детски съкровища.\n\nОчарователен дизайн, създаден за децаОрганайзерът впечатлява с декоративни странични панели във формата на мече",
 "features": []
@@ -1034,11 +1034,11 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 62
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/p/l/plastmasova-detska-kaschichka-za-igra-s-masa-za-konstruktori-kafyava-497334851_3.jpg",
-"https://new.guga.bg/media/catalog/product/p/l/plastmasova-detska-kaschichka-za-igra-s-masa-za-konstruktori-kafyava-913811129_3.jpg",
-"https://new.guga.bg/media/catalog/product/p/l/plastmasova-detska-kaschichka-za-igra-s-masa-za-konstruktori-kafyava-157972974_3.jpg",
-"https://new.guga.bg/media/catalog/product/p/l/plastmasova-detska-kaschichka-za-igra-s-masa-za-konstruktori-kafyava-447578962_3.jpg",
-"https://new.guga.bg/media/catalog/product/p/l/plastmasova-detska-kaschichka-za-igra-s-masa-za-konstruktori-kafyava-178228667_3.jpg"
+"https://www.guga.bg/media/catalog/product/p/l/plastmasova-detska-kaschichka-za-igra-s-masa-za-konstruktori-kafyava-497334851_3.jpg",
+"https://www.guga.bg/media/catalog/product/p/l/plastmasova-detska-kaschichka-za-igra-s-masa-za-konstruktori-kafyava-913811129_3.jpg",
+"https://www.guga.bg/media/catalog/product/p/l/plastmasova-detska-kaschichka-za-igra-s-masa-za-konstruktori-kafyava-157972974_3.jpg",
+"https://www.guga.bg/media/catalog/product/p/l/plastmasova-detska-kaschichka-za-igra-s-masa-za-konstruktori-kafyava-447578962_3.jpg",
+"https://www.guga.bg/media/catalog/product/p/l/plastmasova-detska-kaschichka-za-igra-s-masa-za-konstruktori-kafyava-178228667_3.jpg"
 ],
 "description": "Детска къща за игра Feelkids с маса и зони за съхранение: малко пространство за големи идеиПластмасовата детска къща за игра Feelkids създава собствено пространство, в което детето може да играе, да открива и да развива въображението си в спокойна и защитена среда. Вдъхновена от формата на истинска къщичка, тя комбинира игра, ред и функционалност в един хармоничен дизайн.\n\nПространство за игра, ролеви сцени и творчествоКъщичката разполага с вратички и отвори, които улесняват влизането и излизането на децата, както и насърчават ролевите игри. Вградената маса за игра е проектирана за използване ",
 "features": []
@@ -1069,9 +1069,9 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 66
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detska-plastmasova-stalbichka-za-dostigane-podhodyascha-za-banya-toaletna-i-kuhnya-709005698_3.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-plastmasova-stalbichka-za-dostigane-podhodyascha-za-banya-toaletna-i-kuhnya-408051888_3.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-plastmasova-stalbichka-za-dostigane-podhodyascha-za-banya-toaletna-i-kuhnya-404108006_3.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detska-plastmasova-stalbichka-za-dostigane-podhodyascha-za-banya-toaletna-i-kuhnya-709005698_3.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-plastmasova-stalbichka-za-dostigane-podhodyascha-za-banya-toaletna-i-kuhnya-408051888_3.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-plastmasova-stalbichka-za-dostigane-podhodyascha-za-banya-toaletna-i-kuhnya-404108006_3.jpg"
 ],
 "description": "Детска помощна стълба Feelkids – сигурна височина за малките крачетаДетската стълба на Feelkids е създадена, за да даде на детето уверен достъп до мивката, плота или работния кът, като съчетава стабилна конструкция, плавни линии и изчистена визия, подходяща за всеки дом.\n\nСтабилен дизайн с мисъл за ежедневиетоСтълбата впечатлява с компактна, но устойчива форма и високи странични ръкохватки, които осигуряват сигурност при качване и слизане. Широките стъпала са оформени с релефна повърхност за по-добро сцепление, а заоблените ръбове правят допира комфортен и безопасен. \n\nНеутралната бяло-сивкава",
 "features": []
@@ -1102,11 +1102,11 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 63
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detska-vatreshna-ploschadka-s-ograda-lyulka-i-aktivni-elementi-za-igra-14424319_3.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-vatreshna-ploschadka-s-ograda-lyulka-i-aktivni-elementi-za-igra-271561019_3.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-vatreshna-ploschadka-s-ograda-lyulka-i-aktivni-elementi-za-igra-175120929_3.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-vatreshna-ploschadka-s-ograda-lyulka-i-aktivni-elementi-za-igra-729662943_3.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-vatreshna-ploschadka-s-ograda-lyulka-i-aktivni-elementi-za-igra-512403975_3.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detska-vatreshna-ploschadka-s-ograda-lyulka-i-aktivni-elementi-za-igra-14424319_3.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-vatreshna-ploschadka-s-ograda-lyulka-i-aktivni-elementi-za-igra-271561019_3.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-vatreshna-ploschadka-s-ograda-lyulka-i-aktivni-elementi-za-igra-175120929_3.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-vatreshna-ploschadka-s-ograda-lyulka-i-aktivni-elementi-za-igra-729662943_3.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-vatreshna-ploschadka-s-ograda-lyulka-i-aktivni-elementi-za-igra-512403975_3.jpg"
 ],
 "description": "Детска къща за игра Feelkids – модулен свят за игра, движение и въображениеДетската къща за игра с площадка и люлка Feelkids е цялостно игрово пространство, което съчетава защитена зона за игра, интерактивни елементи и практични модули за съхранение. Дизайнът наподобява малка къщичка с ограждение и създава усещане за „собствен свят“, в който детето може да играе, да изследва и да се движи свободно, но сигурно.\n\nИгра, която развива и задържа вниманиетоКонструкцията на детската площадка Feelkids е изградена така, че да предлага разнообразни сценарии за игра и учене:\n\n · интерактивни панели с вър",
 "features": []
@@ -1137,9 +1137,9 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 112
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detska-kaschichka-za-igra-buhalche-s-moderen-organajzer-za-igrachki-podhodyascha-za-doma-i-za-navan-365178739_3.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-kaschichka-za-igra-buhalche-s-moderen-organajzer-za-igrachki-podhodyascha-za-doma-i-za-navan-424848043_3.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-kaschichka-za-igra-buhalche-s-moderen-organajzer-za-igrachki-podhodyascha-za-doma-i-za-navan-255682104_3.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detska-kaschichka-za-igra-buhalche-s-moderen-organajzer-za-igrachki-podhodyascha-za-doma-i-za-navan-365178739_3.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-kaschichka-za-igra-buhalche-s-moderen-organajzer-za-igrachki-podhodyascha-za-doma-i-za-navan-424848043_3.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-kaschichka-za-igra-buhalche-s-moderen-organajzer-za-igrachki-podhodyascha-za-doma-i-za-navan-255682104_3.jpg"
 ],
 "description": "Детска къща за игра Feelkids – пространство за игри, мечти и приключенияМногофункционалният детски кът “Бухалче” на марката Feelkids създава усещане за собствено детско пространство за игра, учене и организация, с дизайн във формата на къщичка. Комбинацията от ограждение, игрови елементи и практични зони за съхранение превръща на играчки и книги всяка стая в безопасна и стимулираща среда за детето.\n\nИгра, която развива въображението и ангажира вниманиетоЧрез внимателно подбран дизайн и игрови елементи, къщичката насърчава концентрацията и творческото мислене. Отличава се със следното:\n\n · инте",
 "features": []
@@ -1170,7 +1170,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 110
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detska-etagerka-organajzer-za-igrachki-i-knigi-sas-17-otdeleniya-i-izteglyaschi-se-kutii-byala-555939038_3.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detska-etagerka-organajzer-za-igrachki-i-knigi-sas-17-otdeleniya-i-izteglyaschi-se-kutii-byala-555939038_3.jpg"
 ],
 "description": "Детски органайзер Feelkids с форма на замък – уютно пространство за игра и книгиБелият детски органайзер Feelkids е създаден като функционална и визуално лека мебел, която внася усещане за чистота, подреденост и спокойствие в детската стая. Формата на замък добавя приказен елемент към ежедневието, а добре структурираните зони превръщат съхранението на играчки и книги в естествена част от играта.\n\nБялата цветова гама отразява светлината и прави пространството по-отворено, което е особено подходящо за детски стаи, кътове за игра и образователна среда.\n\nУдобна организация за книги, играчки и аксе",
 "features": []
@@ -1201,11 +1201,11 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 110
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detska-etagerka-organajzer-za-igrachki-i-knigi-sas-17-otdeleniya-i-izteglyaschi-se-kutii-zelena-616812998_3.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-etagerka-organajzer-za-igrachki-i-knigi-sas-17-otdeleniya-i-izteglyaschi-se-kutii-zelena-516904702_3.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-etagerka-organajzer-za-igrachki-i-knigi-sas-17-otdeleniya-i-izteglyaschi-se-kutii-zelena-592528643_3.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-etagerka-organajzer-za-igrachki-i-knigi-sas-17-otdeleniya-i-izteglyaschi-se-kutii-zelena-377471608_3.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-etagerka-organajzer-za-igrachki-i-knigi-sas-17-otdeleniya-i-izteglyaschi-se-kutii-zelena-927786093_3.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detska-etagerka-organajzer-za-igrachki-i-knigi-sas-17-otdeleniya-i-izteglyaschi-se-kutii-zelena-616812998_3.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-etagerka-organajzer-za-igrachki-i-knigi-sas-17-otdeleniya-i-izteglyaschi-se-kutii-zelena-516904702_3.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-etagerka-organajzer-za-igrachki-i-knigi-sas-17-otdeleniya-i-izteglyaschi-se-kutii-zelena-592528643_3.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-etagerka-organajzer-za-igrachki-i-knigi-sas-17-otdeleniya-i-izteglyaschi-se-kutii-zelena-377471608_3.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-etagerka-organajzer-za-igrachki-i-knigi-sas-17-otdeleniya-i-izteglyaschi-se-kutii-zelena-927786093_3.jpg"
 ],
 "description": "Детски органайзер Feelkids за играчки и книги с форма на замък – вдъхновение за малки откривателиКогато всяка играчка има своето място, играта става по-забавна, а подреждането – лесно и естествено. Този детски органайзер с форма на замък е създаден като многофункционално решение за съхранение на играчки, книги и аксесоари, което помага на децата да развиват навици за ред и самостоятелност още от най-ранна възраст. \n\nДизайнът съчетава практичност, безопасност и силен визуален акцент, който превръща подреждането в неизменна част от всяка игра.\n\nГъвкава система за съхранение с ясно разделени зони",
 "features": []
@@ -1236,9 +1236,9 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 100
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/m/n/mnogofunktsionalen-detski-schand-za-rolevi-igri-s-plot-i-podvigni-kutii-za-sahranenie-siv-11991321_2_13.jpg",
-"https://new.guga.bg/media/catalog/product/m/n/mnogofunktsionalen-detski-schand-za-rolevi-igri-s-plot-i-podvigni-kutii-za-sahranenie-siv-461367343_12.jpg",
-"https://new.guga.bg/media/catalog/product/m/n/mnogofunktsionalen-detski-schand-za-rolevi-igri-s-plot-i-podvigni-kutii-za-sahranenie-siv-39501276_12.jpg"
+"https://www.guga.bg/media/catalog/product/m/n/mnogofunktsionalen-detski-schand-za-rolevi-igri-s-plot-i-podvigni-kutii-za-sahranenie-siv-11991321_2_13.jpg",
+"https://www.guga.bg/media/catalog/product/m/n/mnogofunktsionalen-detski-schand-za-rolevi-igri-s-plot-i-podvigni-kutii-za-sahranenie-siv-461367343_12.jpg",
+"https://www.guga.bg/media/catalog/product/m/n/mnogofunktsionalen-detski-schand-za-rolevi-igri-s-plot-i-podvigni-kutii-za-sahranenie-siv-39501276_12.jpg"
 ],
 "description": "Детски щанд Feelkids в сиво – практично и красиво решение за детската стаяСивият модел детски щанд за играчки Feelkids е проектиран като интелигентно решение за съхранение, което превръща подреждането в естествена част от детското ежедневие. Благодарение на изчистената си визия и ясно структурираните зони, той подпомага изграждането на навици за самостоятелност, концентрация и отговорност още от най-ранна възраст.\n\nНеутралният сив цвят внася спокойствие и баланс в пространството, като се вписва еднакво добре както в модерна детска стая, така и в общи помещения или детски кътове.\n\nОрганизация, ",
 "features": []
@@ -1269,11 +1269,11 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 100
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/m/n/mnogofunktsionalen-detski-schand-za-rolevi-igri-s-plot-i-podvigni-kutii-za-sahranenie-kafyav-370253155_3.jpg",
-"https://new.guga.bg/media/catalog/product/m/n/mnogofunktsionalen-detski-schand-za-rolevi-igri-s-plot-i-podvigni-kutii-za-sahranenie-kafyav-702824782_3.jpg",
-"https://new.guga.bg/media/catalog/product/m/n/mnogofunktsionalen-detski-schand-za-rolevi-igri-s-plot-i-podvigni-kutii-za-sahranenie-kafyav-493587144_3.jpg",
-"https://new.guga.bg/media/catalog/product/m/n/mnogofunktsionalen-detski-schand-za-rolevi-igri-s-plot-i-podvigni-kutii-za-sahranenie-kafyav-91929976_3.jpg",
-"https://new.guga.bg/media/catalog/product/m/n/mnogofunktsionalen-detski-schand-za-rolevi-igri-s-plot-i-podvigni-kutii-za-sahranenie-kafyav-160629877_3.jpg"
+"https://www.guga.bg/media/catalog/product/m/n/mnogofunktsionalen-detski-schand-za-rolevi-igri-s-plot-i-podvigni-kutii-za-sahranenie-kafyav-370253155_3.jpg",
+"https://www.guga.bg/media/catalog/product/m/n/mnogofunktsionalen-detski-schand-za-rolevi-igri-s-plot-i-podvigni-kutii-za-sahranenie-kafyav-702824782_3.jpg",
+"https://www.guga.bg/media/catalog/product/m/n/mnogofunktsionalen-detski-schand-za-rolevi-igri-s-plot-i-podvigni-kutii-za-sahranenie-kafyav-493587144_3.jpg",
+"https://www.guga.bg/media/catalog/product/m/n/mnogofunktsionalen-detski-schand-za-rolevi-igri-s-plot-i-podvigni-kutii-za-sahranenie-kafyav-91929976_3.jpg",
+"https://www.guga.bg/media/catalog/product/m/n/mnogofunktsionalen-detski-schand-za-rolevi-igri-s-plot-i-podvigni-kutii-za-sahranenie-kafyav-160629877_3.jpg"
 ],
 "description": "Детски щанд за играчки Feelkids – когато подреждането се превърне в игра!Детският щанд за играчки Feelkids е създаден като практично и красиво решение за съхранение, което превръща подреждането в част от ежедневните игри. Със своя нежен дизайн, вдъхновен от скандинавската естетика, и добре организирани зони, той помага на децата да изграждат навици за ред, самостоятелност и концентрация още от най-ранна възраст.\n\nПодреждане чрез игра, която учи на самодисциплина · ясно обособени зони за съхранение – всичко е на видно място и лесно за намиране;\n\n · няколко подвижни контейнера за сортиране на иг",
 "features": []
@@ -1304,7 +1304,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 127
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detska-lyulka-s-basketbolen-kosh-i-interaktivni-elementi-za-vatreshna-upotreba-kafyava-19461978_3.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detska-lyulka-s-basketbolen-kosh-i-interaktivni-elementi-za-vatreshna-upotreba-kafyava-19461978_3.jpg"
 ],
 "description": "Център за игра с люлка и баскетбол Feelkids – радост от движението всеки денДетският игрови център Feelkids е създаден като компактно и функционално решение за активна игра у дома. Комбинацията от люлка и баскетболен кош насърчава движението, координацията и увереността на детето, като съчетава забавление и безопасност в една стабилна конструкция.\n\nЗаоблените форми и свежият светлокафяв цвят придават игрив характер на модела, който е особено подходящ за детски стаи, занимателни кътове или за игри на открито.\n\nБаланс между здравина и изчистена визияЦентърът е проектиран с внимание към детската ",
 "features": []
@@ -1335,7 +1335,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 127
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detska-lyulka-s-basketbolen-kosh-i-interaktivni-elementi-za-vatreshna-upotreba-siva-238777129_3.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detska-lyulka-s-basketbolen-kosh-i-interaktivni-elementi-za-vatreshna-upotreba-siva-238777129_3.jpg"
 ],
 "description": "Сив детски игрови център Feelkids: пространство за движение, игра и много усмивкиСъздаден за първите години от живота на детето, детският център за игра Feelkids в сив цвят комбинира люлка и баскетболен кош в една компактна и добре организирана конструкция. Моделът предлага балансирано съчетание между активна игра и сигурна среда, като подпомага развитието на координацията, двигателните умения и увереността на детето. Изработката му включва здрава и устойчива пластмаса с UV защита.\n\nЦветовата комбинация в сиво придава чист и балансиран облик на интериора, подходящ както за детската стая, така ",
 "features": []
@@ -1366,9 +1366,9 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 127
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detska-lyulka-s-basketbolen-kosh-i-interaktivni-elementi-za-vatreshna-upotreba-galta-709958472_3.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-lyulka-s-basketbolen-kosh-i-interaktivni-elementi-za-vatreshna-upotreba-galta-206423254_3.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-lyulka-s-basketbolen-kosh-i-interaktivni-elementi-za-vatreshna-upotreba-galta-899126018_3.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detska-lyulka-s-basketbolen-kosh-i-interaktivni-elementi-za-vatreshna-upotreba-galta-709958472_3.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-lyulka-s-basketbolen-kosh-i-interaktivni-elementi-za-vatreshna-upotreba-galta-206423254_3.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-lyulka-s-basketbolen-kosh-i-interaktivni-elementi-za-vatreshna-upotreba-galta-899126018_3.jpg"
 ],
 "description": "Детски игрови център Feelkids в жълто с люлка и баскетбол – пространство за движение и усмивкиСъздаден като практично решение за активните моменти у дома и навън, детският център за игра на Feelkids в жълт цвят комбинира люлка и баскетболен кош в една компактна и добре балансирана конструкция. Този модел е подходящ за деца, които обичат движението и имат нужда от сигурна среда за игра, развиваща координацията и увереността им.\n\nЖълтият цвят внася настроение и енергия, а изчистените и елегантни линии го правят естествено допълнение към детска стая или център за игра. Моделът е изработен от висо",
 "features": []
@@ -1399,11 +1399,11 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 62
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detski-tsentar-za-igra-s-parzalka-kascha-i-basketbolen-kosh-siv-230604053_3.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detski-tsentar-za-igra-s-parzalka-kascha-i-basketbolen-kosh-siv-174914932_3.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detski-tsentar-za-igra-s-parzalka-kascha-i-basketbolen-kosh-siv-935653962_3.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detski-tsentar-za-igra-s-parzalka-kascha-i-basketbolen-kosh-siv-187670833_3.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detski-tsentar-za-igra-s-parzalka-kascha-i-basketbolen-kosh-siv-951554863_3.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detski-tsentar-za-igra-s-parzalka-kascha-i-basketbolen-kosh-siv-230604053_3.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detski-tsentar-za-igra-s-parzalka-kascha-i-basketbolen-kosh-siv-174914932_3.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detski-tsentar-za-igra-s-parzalka-kascha-i-basketbolen-kosh-siv-935653962_3.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detski-tsentar-za-igra-s-parzalka-kascha-i-basketbolen-kosh-siv-187670833_3.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detski-tsentar-za-igra-s-parzalka-kascha-i-basketbolen-kosh-siv-951554863_3.jpg"
 ],
 "description": "Детски игрови център Feelkids в сив цвят – балансирано решение за активна игра у домаМногофункционалният игрови център Feelkids в сиво е създаден за родители, които търсят практичен, визуално неутрален и дългосрочно използваем продукт за ежедневна игра на закрито и открито. Цветът се вписва лесно във всеки интериор, а конструкцията запазва всички функционални предимства на модела. Използваната за изработката на игровия център пластмаса с UV защита го прави устойчив на атмосферни влияния.\n\nИгровият център Feelkids комбинира движение, концентрация и свободна игра в едно компактно пространство, б",
 "features": []
@@ -1434,10 +1434,10 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 62
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detski-tsentar-za-igra-s-parzalka-kascha-i-basketbolen-kosh-kafyav-33530799_3.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detski-tsentar-za-igra-s-parzalka-kascha-i-basketbolen-kosh-kafyav-888927503_3.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detski-tsentar-za-igra-s-parzalka-kascha-i-basketbolen-kosh-kafyav-836108605_3.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detski-tsentar-za-igra-s-parzalka-kascha-i-basketbolen-kosh-kafyav-198542441_3.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detski-tsentar-za-igra-s-parzalka-kascha-i-basketbolen-kosh-kafyav-33530799_3.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detski-tsentar-za-igra-s-parzalka-kascha-i-basketbolen-kosh-kafyav-888927503_3.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detski-tsentar-za-igra-s-parzalka-kascha-i-basketbolen-kosh-kafyav-836108605_3.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detski-tsentar-za-igra-s-parzalka-kascha-i-basketbolen-kosh-kafyav-198542441_3.jpg"
 ],
 "description": "Детски многофункционален игрови център Feelkids с пързалка и баскетболен кошТози детски игрови център съчетава няколко активности в едно компактно и добре организирано пространство, създадено за активна и безопасна игра у дома. Комплектът включва пързалка, зона за катерене, баскетболен кош с топки и закрито пространство за игра, оформено като малка къщичка с покрив.\n\nЦентърът е подходящ и за ежедневна употреба на закрито и открито, като стимулира движението, координацията и въображението на детето.\n\nВсичко необходимо за активна и балансирана детска играПързалката е с плавен наклон и стабилна к",
 "features": []
@@ -1468,10 +1468,10 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 52
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/m/i/mini-detska-krepost-za-igra-s-parzalka-siva-664635033_3.jpg",
-"https://new.guga.bg/media/catalog/product/m/i/mini-detska-krepost-za-igra-s-parzalka-siva-497835486_3.jpg",
-"https://new.guga.bg/media/catalog/product/m/i/mini-detska-krepost-za-igra-s-parzalka-siva-341728263_3.jpg",
-"https://new.guga.bg/media/catalog/product/m/i/mini-detska-krepost-za-igra-s-parzalka-siva-765173990_3.jpg"
+"https://www.guga.bg/media/catalog/product/m/i/mini-detska-krepost-za-igra-s-parzalka-siva-664635033_3.jpg",
+"https://www.guga.bg/media/catalog/product/m/i/mini-detska-krepost-za-igra-s-parzalka-siva-497835486_3.jpg",
+"https://www.guga.bg/media/catalog/product/m/i/mini-detska-krepost-za-igra-s-parzalka-siva-341728263_3.jpg",
+"https://www.guga.bg/media/catalog/product/m/i/mini-detska-krepost-za-igra-s-parzalka-siva-765173990_3.jpg"
 ],
 "description": "Детски игрален център Feelkids с пързалка в сив цвят – модерна среда за активна играСивият вариант на този детски игрален център е създаден за родители, които търсят баланс между функционалност, безопасност и изчистена визия. Неутралната цветова гама се вписва естествено в съвременни интериори и открити пространства, а конструкцията предлага богато разнообразие от активности, съобразени с ранното детско развитие.\n\nФункционалност, която поддържа движението и увереносттаМодулът комбинира различни зони за катерене, пързаляне и игра, които стимулират координацията, мускулния тонус и самостоятелнос",
 "features": []
@@ -1502,10 +1502,10 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 52
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/m/i/mini-detska-krepost-za-igra-s-parzalka-kafyava-783616135_3.jpg",
-"https://new.guga.bg/media/catalog/product/m/i/mini-detska-krepost-za-igra-s-parzalka-kafyava-719587737_3.jpg",
-"https://new.guga.bg/media/catalog/product/m/i/mini-detska-krepost-za-igra-s-parzalka-kafyava-597626060_3.jpg",
-"https://new.guga.bg/media/catalog/product/m/i/mini-detska-krepost-za-igra-s-parzalka-kafyava-415428720_3.jpg"
+"https://www.guga.bg/media/catalog/product/m/i/mini-detska-krepost-za-igra-s-parzalka-kafyava-783616135_3.jpg",
+"https://www.guga.bg/media/catalog/product/m/i/mini-detska-krepost-za-igra-s-parzalka-kafyava-719587737_3.jpg",
+"https://www.guga.bg/media/catalog/product/m/i/mini-detska-krepost-za-igra-s-parzalka-kafyava-597626060_3.jpg",
+"https://www.guga.bg/media/catalog/product/m/i/mini-detska-krepost-za-igra-s-parzalka-kafyava-415428720_3.jpg"
 ],
 "description": "Детски игрален център 9 в 1 Feelkids – пространство за движение, игра и откритияТози многофункционален детски игрален център е създаден като компактна, но богата на преживявания среда, в която децата могат да се движат, катерят, играят и изследват в пълна безопасност. \n\nКонструкцията е подходяща както за вътрешни пространства, така и за външни зони, като предлага стабилност, устойчивост и дългосрочна употреба.\n\nАктивна игра с множество зониИгралният модул съчетава различни активности, които поддържат интереса на детето и стимулират физическото и координационното развитие:\n\n · пързалка с плавно",
 "features": []
@@ -1536,7 +1536,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 52
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detski-priklyuchenski-tsentar-za-igra-11-v-1-s-parzalka-katerushka-lyulka-i-basket-kosh-siv-79075716_3.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detski-priklyuchenski-tsentar-za-igra-11-v-1-s-parzalka-katerushka-lyulka-i-basket-kosh-siv-79075716_3.jpg"
 ],
 "description": "Детски игрален център Feelkids с пързалка – създаден за активното детство и малки мечтателиДетският игрален център 11-в-1 на марката Feelkids в неутрален сив цвят е създаден за семейства, които търсят практично, безопасно и естетично решение за ежедневна активна игра. Дизайнът му позволява лесно вписване в интериора, без да прави компромис с детското усещане за забавление и свобода на движение.\n\nИгрови зони, които стимулират движение, въображение и увереностПриключенският център 11 в 1 обединява няколко основни активности в една стабилна конструкция, която подпомага физическото развитие и само",
 "features": []
@@ -1567,11 +1567,11 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 52
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/F/E/FE-HT-QD025-BR-1_3.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detski-priklyuchenski-tsentar-za-igra-11-v-1-s-parzalka-katerushka-lyulka-i-basket-kosh-kafyav-655582121_3.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detski-priklyuchenski-tsentar-za-igra-11-v-1-s-parzalka-katerushka-lyulka-i-basket-kosh-kafyav-518775523_3.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detski-priklyuchenski-tsentar-za-igra-11-v-1-s-parzalka-katerushka-lyulka-i-basket-kosh-kafyav-521547505_3.jpg",
-"https://new.guga.bg/media/catalog/product/F/E/FE-HT-QD025-BR_3.jpg"
+"https://www.guga.bg/media/catalog/product/F/E/FE-HT-QD025-BR-1_3.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detski-priklyuchenski-tsentar-za-igra-11-v-1-s-parzalka-katerushka-lyulka-i-basket-kosh-kafyav-655582121_3.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detski-priklyuchenski-tsentar-za-igra-11-v-1-s-parzalka-katerushka-lyulka-i-basket-kosh-kafyav-518775523_3.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detski-priklyuchenski-tsentar-za-igra-11-v-1-s-parzalka-katerushka-lyulka-i-basket-kosh-kafyav-521547505_3.jpg",
+"https://www.guga.bg/media/catalog/product/F/E/FE-HT-QD025-BR_3.jpg"
 ],
 "description": "Детски игрален център с пързалка в кафяв цвят: безопасна и активна играДетският игрален център в кафяво-бежова гама на марката Feelkids е създаден за активна игра в спокойна и безопасна среда. Комбинира движение, баланс и първи спортни активности в компактна конструкция, подходяща за дома или защитени външни пространства.\n\nФункционални елементи за разнообразна играИгралният модул 11 в 1 включва внимателно подбрани елементи, които насърчават физическото развитие и увереността на детето:\n\n · пързалка с плавен наклон и удължена зона за спиране;\n\n · стълба за катерене със затворени и стабилни стъп",
 "features": []
@@ -1602,7 +1602,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 52
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detski-priklyuchenski-tsentar-za-igra-11-v-1-s-parzalka-katerushka-lyulka-i-basket-kosh-sin-665449894_3.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detski-priklyuchenski-tsentar-za-igra-11-v-1-s-parzalka-katerushka-lyulka-i-basket-kosh-sin-665449894_3.jpg"
 ],
 "description": "11-в-1 детска площадка Feelkids за безкрайни приключения у домаМногофункционалният детски игрален център Feelkids превръща всяко пространство в малка площадка за открития, движение и въображаеми игри. Създаден специално за най-малките, той съчетава разнообразни активности в една сигурна и добре обмислена конструкция, която задържа вниманието на децата с часове.\n\nАктивна игра с реална полза за развитиетоИгралният модул предлага богат набор от активности, които насърчават физическото развитие и любопитството. Децата могат да се спускат по гладката пързалка, да се катерят, да пропълзяват през тун",
 "features": []
@@ -1633,11 +1633,11 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 100
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/m/u/multifunktsionalen-detski-tsentar-korab-s-parzalka-tunel-i-basketbolen-kosh-sin-752432162_3.jpg",
-"https://new.guga.bg/media/catalog/product/m/u/multifunktsionalen-detski-tsentar-korab-s-parzalka-tunel-i-basketbolen-kosh-sin-303849041_3.jpg",
-"https://new.guga.bg/media/catalog/product/m/u/multifunktsionalen-detski-tsentar-korab-s-parzalka-tunel-i-basketbolen-kosh-sin-387485403_3.jpg",
-"https://new.guga.bg/media/catalog/product/m/u/multifunktsionalen-detski-tsentar-korab-s-parzalka-tunel-i-basketbolen-kosh-sin-10625762_3.jpg",
-"https://new.guga.bg/media/catalog/product/m/u/multifunktsionalen-detski-tsentar-korab-s-parzalka-tunel-i-basketbolen-kosh-sin-74564228_3.jpg"
+"https://www.guga.bg/media/catalog/product/m/u/multifunktsionalen-detski-tsentar-korab-s-parzalka-tunel-i-basketbolen-kosh-sin-752432162_3.jpg",
+"https://www.guga.bg/media/catalog/product/m/u/multifunktsionalen-detski-tsentar-korab-s-parzalka-tunel-i-basketbolen-kosh-sin-303849041_3.jpg",
+"https://www.guga.bg/media/catalog/product/m/u/multifunktsionalen-detski-tsentar-korab-s-parzalka-tunel-i-basketbolen-kosh-sin-387485403_3.jpg",
+"https://www.guga.bg/media/catalog/product/m/u/multifunktsionalen-detski-tsentar-korab-s-parzalka-tunel-i-basketbolen-kosh-sin-10625762_3.jpg",
+"https://www.guga.bg/media/catalog/product/m/u/multifunktsionalen-detski-tsentar-korab-s-parzalka-tunel-i-basketbolen-kosh-sin-74564228_3.jpg"
 ],
 "description": "Приключенски детски игрален център – движение, игра и откривателски духТози многофункционален детски игрален модул “Кораб” на марката Feelkids е създаден като малка крепост за големи приключения. Той съчетава пързалка, катерушка, баскетболен кош, тунел тип „корабен илюминатор“, телескоп и интерактивни елементи, които насърчават активната игра, въображението и физическото развитие на детето.\n\nИнтелигентен дизайн “Кораб” за максимална безопасностМодулът разполага със затворени стъпала, които осигуряват стабилност при изкачване, повдигнати ръкохватки за допълнителна опора и оптимално разстояние м",
 "features": []
@@ -1668,11 +1668,11 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 75
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detski-igralen-modul-avtobus-s-parzalka-siv-679636089_3.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detski-igralen-modul-avtobus-s-parzalka-siv-359436241_3.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detski-igralen-modul-avtobus-s-parzalka-siv-263436617_3.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detski-igralen-modul-avtobus-s-parzalka-siv-701209961_3.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detski-igralen-modul-avtobus-s-parzalka-siv-788187171_3.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detski-igralen-modul-avtobus-s-parzalka-siv-679636089_3.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detski-igralen-modul-avtobus-s-parzalka-siv-359436241_3.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detski-igralen-modul-avtobus-s-parzalka-siv-263436617_3.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detski-igralen-modul-avtobus-s-parzalka-siv-701209961_3.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detski-igralen-modul-avtobus-s-parzalka-siv-788187171_3.jpg"
 ],
 "description": "Детски автобус с пързалка Feelkids – игра, движение и въображение в едноТози многофункционален детски автобус с пързалка е създаден, за да превърне ежедневната игра в активно и развиващо преживяване. Изработен от екологично чисти и безопасни материали (HDPE и PP), той се отличава със стабилност, устойчивост и е напълно подходящ за малки деца.\n\nКомбинацията от возило за ролеви игри и гладка пързалка насърчава движението, координацията и увереността още от ранна възраст.\n\nДизайн и функции на детския игрален модул автобус с пързалкаПързалката е със странични предпазни бордове и удължена буферна з",
 "features": []
@@ -1703,7 +1703,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 122
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/v/i/viber_image_2025-07-22_10-40-23-834_4.jpg"
+"https://www.guga.bg/media/catalog/product/v/i/viber_image_2025-07-22_10-40-23-834_4.jpg"
 ],
 "description": "Детската люлка, в розов цвят на Feelkids е чудесен избор за весели игри както у дома, така и на двора. Тя се отличава с модулно сглобяване, което я прави лесна за монтаж и практична за съхранение. Сигурната и стабилна конструкция гарантира безопасност при люлеене, а дизайнът със заоблени ъгли осигурява допълнителна защита на малките откриватели. UV устойчивата пластмаса допринася за запазването на цвета и качеството на продукта при продължителна употреба на открито.\n\nСедалката е закрепена към двете основи с помощта на въжета. Специалният елемент – корона – придава вълшебен акцент, като гаранти",
 "features": []
@@ -1734,7 +1734,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 122
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/v/i/viber_image_2025-07-22_11-46-09-556_4.jpg"
+"https://www.guga.bg/media/catalog/product/v/i/viber_image_2025-07-22_11-46-09-556_4.jpg"
 ],
 "description": "Детската люлка, в син цвят, е чудесен избор за весели игри както у дома, така и на двора. Тя се отличава с модулно сглобяване, което я прави лесна за монтаж и практична за съхранение. Сигурната и стабилна конструкция гарантира безопасност при люлеене, а дизайнът със заоблени ъгли осигурява допълнителна защита на малките откриватели. Използваната пластмаса е с UV защита, което спомага за по-дълго запазване на цвета и устойчивостта на материала.\n\nСедалката е закрепена към страничните стени чрез пластмасови окачващи елементи. Специалният елемент – корона – придава вълшебен акцент, като гарантира ",
 "features": []
@@ -1765,7 +1765,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 66
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/F/Q/FQ-WL-QD043-P_4.jpg"
+"https://www.guga.bg/media/catalog/product/F/Q/FQ-WL-QD043-P_4.jpg"
 ],
 "description": "Сгъваема бебешка ограда ще внесе радост и много усмивки у дома. В нея, детето ще може да играе безопасно и сигурно, чрез здравата и лека конструкция. Дизайнът на модела е в приятен розов цвят, с бели елементи. Оградата ще бъде любимото място на всеки малчуган, а междувременно родителите ще имат време за релакс и почивка!Предимства: · Модули - те се свързват с лекота, като правят конструкцията здрава и стабилна;\n · Сигурност при игра - оградата разполага със заключване на вратичката, за допълнителна безопасност на детето;\n · Пренос - моделът се пренася бързо и удобно, заради леките и практични ",
 "features": []
@@ -1796,8 +1796,8 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 54
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/s/g/sgavaema-detska-ograda-s-parzalka-lyulka-i-basketbolen-kosh-v-tsvyat-menta-35514112_4.jpg",
-"https://new.guga.bg/media/catalog/product/s/g/sgavaema-detska-ograda-s-parzalka-lyulka-i-basketbolen-kosh-v-tsvyat-menta-373586612_4.jpg"
+"https://www.guga.bg/media/catalog/product/s/g/sgavaema-detska-ograda-s-parzalka-lyulka-i-basketbolen-kosh-v-tsvyat-menta-35514112_4.jpg",
+"https://www.guga.bg/media/catalog/product/s/g/sgavaema-detska-ograda-s-parzalka-lyulka-i-basketbolen-kosh-v-tsvyat-menta-373586612_4.jpg"
 ],
 "description": "Сгъваема детска ограда с пързалка, люлка и баскетболен кош е точното попълнение за вашия детски кът. Детето може да играе както вкъщи, така и на двора. Изработена е от пластмаса с UV защита, която спомага за запазването на цвета и здравината на материала при продължително излагане на слънце.\n\nЕлементите на модела са компактни, безопасни и здрави. С него, малчуганите ще се забавляват на воля, а вие ще имате време за почивка и отдих!\n\nПредимства:\n\n · Конструкция - тя е изключително стабилна, благодарение на свързващите модули, която я правят устойчива при игри;\n · Стена с активности и баскетболе",
 "features": []
@@ -1828,8 +1828,8 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 66
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/s/g/sgavaema-bebeshka-ograda-za-bezopasna-igra-meche-v-galt-tsvyat-902575041_4.jpg",
-"https://new.guga.bg/media/catalog/product/s/g/sgavaema-bebeshka-ograda-za-bezopasna-igra-meche-v-galt-tsvyat-460301878_4.jpg"
+"https://www.guga.bg/media/catalog/product/s/g/sgavaema-bebeshka-ograda-za-bezopasna-igra-meche-v-galt-tsvyat-902575041_4.jpg",
+"https://www.guga.bg/media/catalog/product/s/g/sgavaema-bebeshka-ograda-za-bezopasna-igra-meche-v-galt-tsvyat-460301878_4.jpg"
 ],
 "description": "Сгъваема бебешка ограда ще внесе радост и много усмивки у дома. В нея, детето ще може да играе безопасно и сигурно, чрез здравата и лека конструкция. Дизайнът на модела е в топъл жълт цвят, с бели елементи, като включва UV устойчива пластмаса, която съхранява цвета и устойчивостта на материала дори при продължителна употреба на открито. Оградата ще бъде любимото място на всеки малчуган, а междувременно родителите ще имат време за релакс и почивка!Предимства: · Модули - те се свързват с лекота, като правят конструкцията здрава и стабилна;\n · Сигурност при игра - оградата разполага със заключван",
 "features": []
@@ -1860,8 +1860,8 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 67
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/F/Q/FQ-WL-QD085-BL_4.jpg",
-"https://new.guga.bg/media/catalog/product/F/Q/FQ-WL-QD085-BL-1_4.jpg"
+"https://www.guga.bg/media/catalog/product/F/Q/FQ-WL-QD085-BL_4.jpg",
+"https://www.guga.bg/media/catalog/product/F/Q/FQ-WL-QD085-BL-1_4.jpg"
 ],
 "description": "Сгъваемата бебешка ограда за игра с баскетболен кош и специален елемент - мече е чудесен подарък за всяко дете. Моделът е със здрава конструкция, обли ъгли на модулите и свеж дизайн. Изработена е от UV устойчива пластмаса, която предпазва цвета и здравината на материала при продължително излагане на слънце. Съдържа много активности, които ще усмихнат малчуганите и ще осигурят свободно време на родителите.\n\nПредимства:\n\n · Баскетболен кош и стена с активности - разнообразието от занимания ще направи игрите неспирни, а децата радостни;\n · Сигурност при игра - вратичката се заключва със специален",
 "features": []
@@ -1892,8 +1892,8 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 67
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/F/Q/FQ-WL-QD085-P_4.jpg",
-"https://new.guga.bg/media/catalog/product/F/Q/FQ-WL-QD085-P-1_4.jpg"
+"https://www.guga.bg/media/catalog/product/F/Q/FQ-WL-QD085-P_4.jpg",
+"https://www.guga.bg/media/catalog/product/F/Q/FQ-WL-QD085-P-1_4.jpg"
 ],
 "description": "Сгъваемата бебешка ограда за игра с баскетболен кош и специален елемент - мече е чудесен подарък за всяко дете. Моделът е със здрава конструкция, обли ъгли на модулите и свеж дизайн. Съдържа много активности, които ще усмихнат малчуганите и ще осигурят свободно време на родителите. Изработена от UV устойчива пластмаса, която предпазва цвета и здравината на материала при продължително излагане на слънце.\n\nПредимства:\n\n · Баскетболен кош и стена с активности - разнообразието от занимания ще направи игрите неспирни, а децата радостни;\n · Сигурност при игра - вратичката се заключва със специален м",
 "features": []
@@ -1924,7 +1924,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 65
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/k/o/kombiniran-plastmasov-skrin-za-sahranenie-na-igrachki-i-knigi-sino-meche-111973077_4.jpg"
+"https://www.guga.bg/media/catalog/product/k/o/kombiniran-plastmasov-skrin-za-sahranenie-na-igrachki-i-knigi-sino-meche-111973077_4.jpg"
 ],
 "description": "Функционалният скрин със специален елемент - синьо мече, е създаден с мисъл за децата – за тяхната сигурност и забавление. Конструкцията е стабилна и издръжлива, дизайнът е в свежи цветове, които ще се съчетаят чудесно с всяка детска стая. С практично разпределени отделения и лесен достъп до тях, подреждането на играчки и книги ще се превърне в любимото занимание на малките приключенци. Заоблените ъгли на модулите правят подреждането и организацията напълно безопасни, а интуитивното сглобяване не изисква допълнителни инструменти. Благодарение на компактния си размер, моделът се вписва чудесно ",
 "features": []
@@ -1955,7 +1955,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 65
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/k/o/kombiniran-plastmasov-skrin-za-sahranenie-na-igrachki-i-knigi-rozovo-meche-188126982_4.jpg"
+"https://www.guga.bg/media/catalog/product/k/o/kombiniran-plastmasov-skrin-za-sahranenie-na-igrachki-i-knigi-rozovo-meche-188126982_4.jpg"
 ],
 "description": "Функционалният скрин със специален елемент - розово мече, е създаден с мисъл за децата – за тяхната сигурност и забавление. Конструкцията е стабилна и издръжлива, дизайнът е в свежи цветове, които ще се съчетаят чудесно с всяка детска стая. С практично разпределени отделения и лесен достъп до тях, подреждането на играчки и книги ще се превърне в любимото занимание на малките приключенци. Заоблените ъгли на модулите правят подреждането и организацията напълно безопасни, а интуитивното сглобяване не изисква допълнителни инструменти. Благодарение на компактния си размер, моделът се вписва чудесно",
 "features": []
@@ -1986,8 +1986,8 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 94
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/o/r/organajzer-s-postavka-za-detski-igrachki-zelen-tsvyat-501960143_4.jpg",
-"https://new.guga.bg/media/catalog/product/o/r/organajzer-s-postavka-za-detski-igrachki-zelen-tsvyat-567639132_4.jpg"
+"https://www.guga.bg/media/catalog/product/o/r/organajzer-s-postavka-za-detski-igrachki-zelen-tsvyat-501960143_4.jpg",
+"https://www.guga.bg/media/catalog/product/o/r/organajzer-s-postavka-za-detski-igrachki-zelen-tsvyat-567639132_4.jpg"
 ],
 "description": "Този зелен органайзер с поставка е точният помощник в ежедневието на всяко семейство с малки деца! С него подреждането на играчки, книжки и принадлежности става бързо и забавно. Благодарение на компактните си размери се поставя лесно навсякъде и се съхранява практично. Конструкцията е стабилна и създадена с мисъл за безопасността на малчуганите. Всички ъгли са заоблени, за да се избегнат нежелани наранявания. Сглобяването му е интуитивно и не изисква специални инструменти. Веселите декоративни елементи на двата странични модула ще зарадват всяко дете!\n\nОсновни характеристики:\n\n · размер: 77*44",
 "features": []
@@ -2018,8 +2018,8 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 94
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/o/r/organajzer-s-postavka-za-detski-igrachki-byal-tsvyat-33494155_4.jpg",
-"https://new.guga.bg/media/catalog/product/o/r/organajzer-s-postavka-za-detski-igrachki-byal-tsvyat-600409320_4.jpg"
+"https://www.guga.bg/media/catalog/product/o/r/organajzer-s-postavka-za-detski-igrachki-byal-tsvyat-33494155_4.jpg",
+"https://www.guga.bg/media/catalog/product/o/r/organajzer-s-postavka-za-detski-igrachki-byal-tsvyat-600409320_4.jpg"
 ],
 "description": "Този бял органайзер с поставка е точният помощник в ежедневието на всяко семейство с малки деца! С него подреждането на играчки, книжки и принадлежности става бързо и забавно. Благодарение на компактните си размери се поставя лесно навсякъде и се съхранява практично. Конструкцията е стабилна и създадена с мисъл за безопасността на малчуганите. Всички ъгли са заоблени, за да се избегнат нежелани наранявания. Сглобяването му е интуитивно и не изисква специални инструменти. Веселите декоративни елементи на двата странични модула ще зарадват всяко дете!\n\nОсновни характеристики:\n\n · размер: 77*44*9",
 "features": []
@@ -2050,9 +2050,9 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 77
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/p/o/podvigen-plastmasov-organajzer-za-detski-igrachki-kafyav-230980607_4.jpg",
-"https://new.guga.bg/media/catalog/product/p/o/podvigen-plastmasov-organajzer-za-detski-igrachki-kafyav-645306613_4.jpg",
-"https://new.guga.bg/media/catalog/product/p/o/podvigen-plastmasov-organajzer-za-detski-igrachki-kafyav-370479100_4.jpg"
+"https://www.guga.bg/media/catalog/product/p/o/podvigen-plastmasov-organajzer-za-detski-igrachki-kafyav-230980607_4.jpg",
+"https://www.guga.bg/media/catalog/product/p/o/podvigen-plastmasov-organajzer-za-detski-igrachki-kafyav-645306613_4.jpg",
+"https://www.guga.bg/media/catalog/product/p/o/podvigen-plastmasov-organajzer-za-detski-igrachki-kafyav-370479100_4.jpg"
 ],
 "description": "Компактният органайзер за детски играчки, в бял цвят на марката Feelkids е практично решение за всяка детска стая. Снабден с колелца, моделът се мести бързо и без усилия, което позволява подвижност и лесно пренареждане. Големият брой отделения осигуряват достатъчно място за всички книжки и аксесоари на детето. Малчуганите ще имат възможността сами да подреждат своите вещи – и то по забавен и интересен начин. Този сет за книжки и играчки на Feelkids, насърчава изграждането на навици за организираност и самостоятелност още от ранна възраст. Заоблените ъгли и здрава конструкция осигуряват спокойс",
 "features": []
@@ -2083,9 +2083,9 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 77
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/p/o/podvigen-plastmasov-organajzer-za-detski-igrachki-byal-282531335_4.jpg",
-"https://new.guga.bg/media/catalog/product/p/o/podvigen-plastmasov-organajzer-za-detski-igrachki-byal-862513474_4.jpg",
-"https://new.guga.bg/media/catalog/product/p/o/podvigen-plastmasov-organajzer-za-detski-igrachki-byal-161010742_4.jpg"
+"https://www.guga.bg/media/catalog/product/p/o/podvigen-plastmasov-organajzer-za-detski-igrachki-byal-282531335_4.jpg",
+"https://www.guga.bg/media/catalog/product/p/o/podvigen-plastmasov-organajzer-za-detski-igrachki-byal-862513474_4.jpg",
+"https://www.guga.bg/media/catalog/product/p/o/podvigen-plastmasov-organajzer-za-detski-igrachki-byal-161010742_4.jpg"
 ],
 "description": "Компактният органайзер за детски играчки, в бял цвят, е практично решение за всяка детска стая. Снабден с колелца, моделът се мести бързо и без усилия, което позволява подвижност и лесно пренареждане. Големият брой отделения осигуряват достатъчно място за всички книжки и аксесоари на детето. Малчуганите ще имат възможността сами да подреждат своите вещи – и то по забавен и интересен начин. Комплектът насърчава изграждането на навици за организираност и самостоятелност още от ранна възраст. Заоблените ъгли и здрава конструкция осигуряват спокойствие на родителите и безопасност на най-малките. С",
 "features": []
@@ -2116,10 +2116,10 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 60
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/v/i/viber_image_2025-06-16_12-46-22-814_4.jpg",
-"https://new.guga.bg/media/catalog/product/F/Q/FQ-SN-HL006-Y-5_4.jpg",
-"https://new.guga.bg/media/catalog/product/F/Q/FQ-SN-HL006-Y-4_4.jpg",
-"https://new.guga.bg/media/catalog/product/F/Q/FQ-SN-HL006-Y-2_4.jpg"
+"https://www.guga.bg/media/catalog/product/v/i/viber_image_2025-06-16_12-46-22-814_4.jpg",
+"https://www.guga.bg/media/catalog/product/F/Q/FQ-SN-HL006-Y-5_4.jpg",
+"https://www.guga.bg/media/catalog/product/F/Q/FQ-SN-HL006-Y-4_4.jpg",
+"https://www.guga.bg/media/catalog/product/F/Q/FQ-SN-HL006-Y-2_4.jpg"
 ],
 "description": "Детската етажерка в червен цвят е функционална, удобна и практична за всяка детска стая! Цветният дизайн носи положителни емоции и се вписва във всеки интериор. Тя ще провокира самостоятелността на детето, ще развие неговото чувство за организация и ще направи подреждането лесно и забавно всеки ден. Монтажът е бърз и без усилия. При разглобяване елементите се съхраняват компактно навсякъде. Модулите са леки и със заоблени ъгли за допълнителна сигурност на малчугана. На горните рафтове могат да се съхраняват всички книжки, а в двете долни отделения - любимите му играчки. Моделът е точното решен",
 "features": []
@@ -2150,11 +2150,11 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 60
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/k/o/kombinirana-detska-etagerka-za-knigi-i-igrachki-zelena-770994111_4.jpg",
-"https://new.guga.bg/media/catalog/product/F/Q/FQ-SN-HL006-Y-3-1_4.jpg",
-"https://new.guga.bg/media/catalog/product/F/Q/FQ-SN-HL006-Y-2-1_4.jpg",
-"https://new.guga.bg/media/catalog/product/F/Q/FQ-SN-HL006-Y-6_4.jpg",
-"https://new.guga.bg/media/catalog/product/F/Q/FQ-SN-HL006-Y-5-1_5.jpg"
+"https://www.guga.bg/media/catalog/product/k/o/kombinirana-detska-etagerka-za-knigi-i-igrachki-zelena-770994111_4.jpg",
+"https://www.guga.bg/media/catalog/product/F/Q/FQ-SN-HL006-Y-3-1_4.jpg",
+"https://www.guga.bg/media/catalog/product/F/Q/FQ-SN-HL006-Y-2-1_4.jpg",
+"https://www.guga.bg/media/catalog/product/F/Q/FQ-SN-HL006-Y-6_4.jpg",
+"https://www.guga.bg/media/catalog/product/F/Q/FQ-SN-HL006-Y-5-1_5.jpg"
 ],
 "description": "Детската етажерка в зелен цвят е функционална, удобна и практична за всяка детска стая! Цветният дизайн носи положителни емоции и се вписва във всеки интериор. Тя ще провокира самостоятелността на детето, ще развие неговото чувство за организация и ще направи подреждането лесно и забавно всеки ден. Монтажът е бърз и без усилия. При разглобяване елементите се съхраняват компактно навсякъде. Модулите са леки и със заоблени ъгли за допълнителна сигурност на малчугана. На горните рафтове могат да се съхраняват всички книжки, а в двете долни отделения - любимите му играчки. Моделът е точното решени",
 "features": []
@@ -2185,11 +2185,11 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 60
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/F/Q/FQ-SN-HL006-Y-10_4.jpg",
-"https://new.guga.bg/media/catalog/product/k/o/kombinirana-detska-etagerka-za-knigi-i-igrachki-galta-697892383_4.jpg",
-"https://new.guga.bg/media/catalog/product/F/Q/FQ-SN-HL006-Y-4jpg_4.jpg",
-"https://new.guga.bg/media/catalog/product/k/o/kombinirana-detska-etagerka-za-knigi-i-igrachki-galta-456421496_4.jpg",
-"https://new.guga.bg/media/catalog/product/F/Q/FQ-SN-HL006-Y-12_4.jpg"
+"https://www.guga.bg/media/catalog/product/F/Q/FQ-SN-HL006-Y-10_4.jpg",
+"https://www.guga.bg/media/catalog/product/k/o/kombinirana-detska-etagerka-za-knigi-i-igrachki-galta-697892383_4.jpg",
+"https://www.guga.bg/media/catalog/product/F/Q/FQ-SN-HL006-Y-4jpg_4.jpg",
+"https://www.guga.bg/media/catalog/product/k/o/kombinirana-detska-etagerka-za-knigi-i-igrachki-galta-456421496_4.jpg",
+"https://www.guga.bg/media/catalog/product/F/Q/FQ-SN-HL006-Y-12_4.jpg"
 ],
 "description": "Детската етажерка в жълт цвят на марката Feelkids е функционална, удобна и практична за всяка детска стая! Цветният дизайн носи положителни емоции и се вписва във всеки интериор. Тя ще провокира самостоятелността на детето, ще развие неговото чувство за организация и ще направи подреждането лесно и забавно всеки ден. Монтажът е бърз и без усилия. При разглобяване елементите се съхраняват компактно навсякъде. Модулите са леки и със заоблени ъгли за допълнителна сигурност на малчугана. На горните рафтове могат да се съхраняват всички книжки, а в двете долни отделения - любимите му играчки. Етаже",
 "features": []
@@ -2220,7 +2220,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 48
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detsko-plastmasovo-stolche-byalo-432473681_4.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detsko-plastmasovo-stolche-byalo-432473681_4.jpg"
 ],
 "description": "Детското бяло столче е създадено от висококачествена пластмаса, с мисъл за всяко дете! Формата му е ергономична и осигурява удобна опора за гърба и тялото. Всички ръбове са гладки и заоблени, което го прави напълно безопасен. Моделът е стабилен и устойчив дори при активно движение на детето. Благодарение на дизайна си, той е идеален за игра, учене и забавление. Всеки малчуган ще се зарадва на такъв подарък! \n\nОсновни характеристики:\n\n · размер: 36*40*48 см;\n · тегло: 2.30 кг;\n · цвят: бял.\nСнимките имат илюстративен характер и може да се различават от действителния цвят на продукта.",
 "features": []
@@ -2251,9 +2251,9 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 52
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detsko-byuro-za-pisane-i-risuvane-sas-stolche-v-byal-tsvyat-597341618_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detsko-byuro-za-pisane-i-risuvane-sas-stolche-v-byal-tsvyat-477504499_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detsko-byuro-za-pisane-i-risuvane-sas-stolche-v-byal-tsvyat-253642135_4.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detsko-byuro-za-pisane-i-risuvane-sas-stolche-v-byal-tsvyat-597341618_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detsko-byuro-za-pisane-i-risuvane-sas-stolche-v-byal-tsvyat-477504499_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detsko-byuro-za-pisane-i-risuvane-sas-stolche-v-byal-tsvyat-253642135_4.jpg"
 ],
 "description": "Бялото бюро със столче е отлично решение за всеки детски кът. Конструкцията е здрава и стабилна, създадена специално за активното ежедневие на малките деца. Всички ръбове са заоблени, което осигурява безопасност по време на занимания. Моделът е лек и удобен за пренасяне, а компактният дизайн позволява практично съхранение, когато не се използва. Изчистеният бял цвят придава свежо излъчване, подходящо за всеки интериор. Сглобяването е интуитивно и бързо, без необходимост от инструменти. Столчето е ергономично, като осигурява комфортна позиция при седене. Цялостната форма и функционалност на ком",
 "features": []
@@ -2284,11 +2284,11 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 72
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detsko-byuro-za-pisane-i-risuvane-sas-stolche-v-cherven-tsvyat-371054335_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detsko-byuro-za-pisane-i-risuvane-sas-stolche-v-cherven-tsvyat-812422901_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detsko-byuro-za-pisane-i-risuvane-sas-stolche-v-cherven-tsvyat-16408970_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detsko-byuro-za-pisane-i-risuvane-sas-stolche-v-cherven-tsvyat-935701106_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detsko-byuro-za-pisane-i-risuvane-sas-stolche-v-cherven-tsvyat-894977748_4.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detsko-byuro-za-pisane-i-risuvane-sas-stolche-v-cherven-tsvyat-371054335_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detsko-byuro-za-pisane-i-risuvane-sas-stolche-v-cherven-tsvyat-812422901_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detsko-byuro-za-pisane-i-risuvane-sas-stolche-v-cherven-tsvyat-16408970_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detsko-byuro-za-pisane-i-risuvane-sas-stolche-v-cherven-tsvyat-935701106_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detsko-byuro-za-pisane-i-risuvane-sas-stolche-v-cherven-tsvyat-894977748_4.jpg"
 ],
 "description": "Детското бюро със столче, в червено-син цвят, е чудесно допълнение във всяка детска стая. С негова помощ малчуганите ще могат да създават красиви рисунки, да се учат да пишат или смятат. Моделът е лесно преносим, съставен от устойчиви части и напълно безопасен!\n\nПредимства:\n\n · Конструкция - здрава и стабилна, с обли модули на ъглите, за допълнителна сигурност. Поставен е допълнителен рафт под основното бюро, за съхранение на принадлежностите на детето;\n · Мобилност - комплектът може да се използва както на открито, така и вкъщи, като се пренася лесно и удобно, без усилия;\n · Свежа визия - диз",
 "features": []
@@ -2319,11 +2319,11 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 72
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detsko-byuro-za-pisane-i-risuvane-sas-stolche-v-sin-i-galt-tsvyat-558182702_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detsko-byuro-za-pisane-i-risuvane-sas-stolche-v-sin-i-galt-tsvyat-852996089_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detsko-byuro-za-pisane-i-risuvane-sas-stolche-v-sin-i-galt-tsvyat-229828244_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detsko-byuro-za-pisane-i-risuvane-sas-stolche-v-sin-i-galt-tsvyat-168255747_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detsko-byuro-za-pisane-i-risuvane-sas-stolche-v-sin-i-galt-tsvyat-855367883_4.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detsko-byuro-za-pisane-i-risuvane-sas-stolche-v-sin-i-galt-tsvyat-558182702_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detsko-byuro-za-pisane-i-risuvane-sas-stolche-v-sin-i-galt-tsvyat-852996089_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detsko-byuro-za-pisane-i-risuvane-sas-stolche-v-sin-i-galt-tsvyat-229828244_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detsko-byuro-za-pisane-i-risuvane-sas-stolche-v-sin-i-galt-tsvyat-168255747_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detsko-byuro-za-pisane-i-risuvane-sas-stolche-v-sin-i-galt-tsvyat-855367883_4.jpg"
 ],
 "description": "Детското бюро със столче, в жълто-син цвят, е чудесно допълнение във всяка детска стая. С негова помощ малчуганите ще могат да създават красиви рисунки, да се учат да пишат или смятат. Моделът е лесно преносим, съставен от устойчиви части и напълно безопасен!\n\nПредимства:\n\n · Конструкция - здрава и стабилна, с обли модули на ъглите, за допълнителна сигурност. Поставен е допълнителен рафт под основното бюро, за съхранение на принадлежностите на детето;\n · Мобилност - комплектът може да се използва както на открито, така и вкъщи, като се пренася лесно и удобно, без усилия;\n · Свежа визия - дизай",
 "features": []
@@ -2354,9 +2354,9 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 86
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detska-reguliruema-etagerka-za-knigi-i-igrachki-sino-meche-443480215_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-reguliruema-etagerka-za-knigi-i-igrachki-sino-meche-849880374_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-reguliruema-etagerka-za-knigi-i-igrachki-sino-meche-695177099_4.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detska-reguliruema-etagerka-za-knigi-i-igrachki-sino-meche-443480215_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-reguliruema-etagerka-za-knigi-i-igrachki-sino-meche-849880374_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-reguliruema-etagerka-za-knigi-i-igrachki-sino-meche-695177099_4.jpg"
 ],
 "description": "Регулируемата цветна етажерка – Розово мече е най-добрият начин за съхранение на детски принадлежности. Благодарение на устойчивата си модулна конструкция, тя е здрава и стабилна. Идеална е за подреждане на играчки, книжки и други пособия, като помага за бързото организиране на всеки детския кът. Лесният монтаж позволява бързо и удобно сглобяване без нужда от специални инструменти. Компактният ѝ размер не заема много място и я прави подходяща дори и за по-малки помещения. Дизайнът, с обли ъгли, осигурява допълнителна безопасност на детето докато нарежда. Специалният декоративен елемент във фор",
 "features": []
@@ -2387,9 +2387,9 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 86
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detska-reguliruema-etagerka-za-knigi-i-igrachki-rozovo-meche-728305973_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-reguliruema-etagerka-za-knigi-i-igrachki-rozovo-meche-541225773_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-reguliruema-etagerka-za-knigi-i-igrachki-rozovo-meche-457409034_4.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detska-reguliruema-etagerka-za-knigi-i-igrachki-rozovo-meche-728305973_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-reguliruema-etagerka-za-knigi-i-igrachki-rozovo-meche-541225773_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-reguliruema-etagerka-za-knigi-i-igrachki-rozovo-meche-457409034_4.jpg"
 ],
 "description": "Регулируемата цветна етажерка – Розово мече е най-добрият начин за съхранение на детски принадлежности. Благодарение на устойчивата си модулна конструкция, тя е здрава и стабилна. Идеална е за подреждане на играчки, книжки и други пособия, като помага за бързото организиране на всеки детския кът. Лесният монтаж позволява бързо и удобно сглобяване без нужда от специални инструменти. Компактният ѝ размер не заема много място и я прави подходяща дори и за по-малки помещения. Дизайнът, с обли ъгли, осигурява допълнителна безопасност на детето докато нарежда. Специалният декоративен елемент във фор",
 "features": []
@@ -2420,11 +2420,11 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 64
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detska-kaschichka-s-ograda-i-basketbolen-kosh-kosmonavt-734498344_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-kaschichka-s-ograda-i-basketbolen-kosh-kosmonavt-649328243_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-kaschichka-s-ograda-i-basketbolen-kosh-kosmonavt-718814719_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-kaschichka-s-ograda-i-basketbolen-kosh-kosmonavt-448409688_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-kaschichka-s-ograda-i-basketbolen-kosh-kosmonavt-647817662_4.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detska-kaschichka-s-ograda-i-basketbolen-kosh-kosmonavt-734498344_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-kaschichka-s-ograda-i-basketbolen-kosh-kosmonavt-649328243_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-kaschichka-s-ograda-i-basketbolen-kosh-kosmonavt-718814719_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-kaschichka-s-ograda-i-basketbolen-kosh-kosmonavt-448409688_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-kaschichka-s-ograda-i-basketbolen-kosh-kosmonavt-647817662_4.jpg"
 ],
 "description": "Детската къщичка с ограда и баскетболен кош, със специален елемент - космонавт, е функционален и забавен детски кът за малчуганите. С включени занимания като стена с активности, баскетболен кош и къщичка, те ще играят на воля. Моделът е лек, компактен и изключително безопасен. \n\nДизайнът му включва пластмаса с UV защита, създадена да запазва ярките цветове и стабилността на материала при слънчево въздействие. С детската къщичка ще подарите усмивки на децата и почивка за себе си!\n\nПредимства:\n\n · Конструкция от модули - елементите са здрави и устойчиви, а при тяхното свързване моделът е надежде",
 "features": []
@@ -2455,7 +2455,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 115
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detski-tsentar-za-igra-4-v-1-avtobus-v-sin-i-orangev-tsvyat-630623366_4.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detski-tsentar-za-igra-4-v-1-avtobus-v-sin-i-orangev-tsvyat-630623366_4.jpg"
 ],
 "description": "Детският център за игра 4 в 1 ще достави радост и незабравими моменти на всички малки приключенци. Моделът е напълно безопасен и устойчив, със сигурна модулна конструкция. Пренася се лесно, като съхранението на елементите е практично. С комплектът, малчуганите ще се забавляват с различни активности, докато родителите ще имат време за отдих.\n\nПредимства:\n\n · Конструкция - модулна, свързването на частите е лесно и стабилно. Моделът е проектиран така, че да бъде устойчив във времето;\n · Пренос - лесен и достъпен, без допълнително усилие. Детският център може да използва както навън, така и вкъщи;",
 "features": []
@@ -2486,7 +2486,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 115
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detski-tsentar-za-igra-4-v-1-avtobus-v-sin-i-galt-tsvyat-955494191_4.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detski-tsentar-za-igra-4-v-1-avtobus-v-sin-i-galt-tsvyat-955494191_4.jpg"
 ],
 "description": "Детският център за игра 4 в 1 ще достави радост и незабравими моменти на всички малки приключенци. Моделът е напълно безопасен и устойчив, със сигурна модулна конструкция. Пренася се лесно, като съхранението на елементите е практично. С комплектът, малчуганите ще се забавляват с различни активности, докато родителите ще имат време за отдих.\n\nПредимства:\n\n · Конструкция - модулна, свързването на частите е лесно и стабилно. Моделът е проектиран така, че да бъде устойчив във времето - включва UV защитена пластмаса, която спомага за съхраняването на цвета и структурата на продукта при редовна упот",
 "features": []
@@ -2517,7 +2517,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 115
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detski-tsentar-za-igra-4-v-1-avtobus-v-siv-tsvyat-144302631_4.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detski-tsentar-za-igra-4-v-1-avtobus-v-siv-tsvyat-144302631_4.jpg"
 ],
 "description": "Детският център за игра 4 в 1 ще достави радост и незабравими моменти на всички малки приключенци. Моделът е напълно безопасен и устойчив, със сигурна модулна конструкция. Детският център е произведен от пластмаса, устойчива на UV лъчи, подходяща за продължителна употреба на открито и излагане на слънчева светлина. Пренася се лесно, като съхранението на елементите е практично. С комплектът, малчуганите ще се забавляват с различни активности, докато родителите ще имат време за отдих.\n\nПредимства:\n\n · Конструкция - модулна, свързването на частите е лесно и стабилно. Моделът е проектиран така, че",
 "features": []
@@ -2548,11 +2548,11 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 115
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detski-tsentar-za-igra-4-v-1-avtobus-v-kafyav-tsvyat-142643502_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detski-tsentar-za-igra-4-v-1-avtobus-v-kafyav-tsvyat-400798094_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detski-tsentar-za-igra-4-v-1-avtobus-v-kafyav-tsvyat-652021015_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detski-tsentar-za-igra-4-v-1-avtobus-v-kafyav-tsvyat-274557285_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detski-tsentar-za-igra-4-v-1-avtobus-v-kafyav-tsvyat-255800770_4.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detski-tsentar-za-igra-4-v-1-avtobus-v-kafyav-tsvyat-142643502_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detski-tsentar-za-igra-4-v-1-avtobus-v-kafyav-tsvyat-400798094_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detski-tsentar-za-igra-4-v-1-avtobus-v-kafyav-tsvyat-652021015_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detski-tsentar-za-igra-4-v-1-avtobus-v-kafyav-tsvyat-274557285_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detski-tsentar-za-igra-4-v-1-avtobus-v-kafyav-tsvyat-255800770_4.jpg"
 ],
 "description": "Детският център за игра 4 в 1 ще достави радост и незабравими моменти на всички малки приключенци. Моделът е напълно безопасен и устойчив, със сигурна модулна конструкция. Пренася се лесно, като съхранението на елементите е практично. Моделът е изработен от UV устойчив материал, който поддържа наситеността на цветовете и устойчивостта на конструкцията при продължителна употреба на открито.\n\nС комплектът, малчуганите ще се забавляват с различни активности, докато родителите ще имат време за отдих.\n\nПредимства:\n\n · Конструкция - модулна, свързването на частите е лесно и стабилно. Моделът е проек",
 "features": []
@@ -2583,11 +2583,11 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 59
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/s/g/sgavaema-bebeshka-ograda-s-basketbolen-kosh-za-igra-531939228_4.jpg",
-"https://new.guga.bg/media/catalog/product/s/g/sgavaema-bebeshka-ograda-s-basketbolen-kosh-za-igra-887304754_4.jpg",
-"https://new.guga.bg/media/catalog/product/s/g/sgavaema-bebeshka-ograda-s-basketbolen-kosh-za-igra-430722234_4.jpg",
-"https://new.guga.bg/media/catalog/product/s/g/sgavaema-bebeshka-ograda-s-basketbolen-kosh-za-igra-461974247_4.jpg",
-"https://new.guga.bg/media/catalog/product/s/g/sgavaema-bebeshka-ograda-s-basketbolen-kosh-za-igra-77105321_4.jpg"
+"https://www.guga.bg/media/catalog/product/s/g/sgavaema-bebeshka-ograda-s-basketbolen-kosh-za-igra-531939228_4.jpg",
+"https://www.guga.bg/media/catalog/product/s/g/sgavaema-bebeshka-ograda-s-basketbolen-kosh-za-igra-887304754_4.jpg",
+"https://www.guga.bg/media/catalog/product/s/g/sgavaema-bebeshka-ograda-s-basketbolen-kosh-za-igra-430722234_4.jpg",
+"https://www.guga.bg/media/catalog/product/s/g/sgavaema-bebeshka-ograda-s-basketbolen-kosh-za-igra-461974247_4.jpg",
+"https://www.guga.bg/media/catalog/product/s/g/sgavaema-bebeshka-ograda-s-basketbolen-kosh-za-igra-77105321_4.jpg"
 ],
 "description": "Сгъваемата бебешка ограда с баскетболен кош е точният подарък за всеки малчуган. С включените активности - люлка, пързалка, баскетболен кош и стена с дейности, игрите няма да имат край. Моделът е напълно безопасен и сигурен за използване, като ще зарадва децата и ще подари почивка на родителите!\n\nПредимства:\n\n · Конструкция - тя е стабилна и устойчива, благодарение на модулното свързване. Пластмаса с висока UV устойчивост, създадена да запази външния вид и качеството на продукта дори при продължително излагане на слънце;\n · Стена с активности и баскетболен кош - разнообразието от дейности прав",
 "features": []
@@ -2618,7 +2618,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 93
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detska-parzalka-s-teleskop-i-basketbolen-kosh-sivo-meche-629056345_4.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detska-parzalka-s-teleskop-i-basketbolen-kosh-sivo-meche-629056345_4.jpg"
 ],
 "description": "Пързалката с телескоп и баскетболен кош ще създаде много весели моменти в игри! С лесен и бърз монтаж, моделът ще бъде любимата част от детския кът на всеки малчуган. Той е напълно безопасен и функционален, като съдържа забавни активности. Произведен е от качествена пластмаса с UV защита, създадена да издържа на слънчево въздействие и различни външни условия.\n\nПредимства:\n\n · Обли ъгли на конструкцията - безопасността е гарантирана с леките и обли модули;\n · Съхранение - частите са компактни и могат да се приберат удобно навсякъде;\n · Баскетболен кош, пързалка и телескоп - детето може да избир",
 "features": []
@@ -2649,8 +2649,8 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 93
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detska-parzalka-s-teleskop-i-basketbolen-kosh-kafyavo-meche-595450620_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-parzalka-s-teleskop-i-basketbolen-kosh-kafyavo-meche-474847819_4.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detska-parzalka-s-teleskop-i-basketbolen-kosh-kafyavo-meche-595450620_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-parzalka-s-teleskop-i-basketbolen-kosh-kafyavo-meche-474847819_4.jpg"
 ],
 "description": "Пързалката с телескоп и баскетболен кош ще създаде много весели моменти в игри! С лесен и бърз монтаж, моделът ще бъде любимата част от детския кът на всеки малчуган. Той е напълно безопасен и функционален, като съдържа забавни активности.\n\nПредимства:\n\n · Обли ъгли на конструкцията - безопасността е гарантирана с леките и обли модули;\n · Съхранение - частите са компактни и могат да се приберат удобно навсякъде;\n · Баскетболен кош, пързалка и телескоп - детето може да избира от няколко интересни занимания - да се пързаля, да играе с топка или да изследва обекти;\n · Свежа визия - дизайнът е мод",
 "features": []
@@ -2681,8 +2681,8 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 84
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detska-parzalka-s-teleskop-i-basketbolen-kosh-siva-30953507_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-parzalka-s-teleskop-i-basketbolen-kosh-siva-646210996_4.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detska-parzalka-s-teleskop-i-basketbolen-kosh-siva-30953507_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-parzalka-s-teleskop-i-basketbolen-kosh-siva-646210996_4.jpg"
 ],
 "description": "Пързалката с телескоп и баскетболен кош съчетава функционалност, здравина и безопасност в едно! Децата ще се забавляват с многобройните занимания - пързаляне, дриблиране или изучаване на обектите с телескопа. Моделът ще създаде много усмивки и весели моменти!\n\nПредимства:\n\n · Конструкция - тя е сигурна и издръжлива, проектирана със стабилни модули за допълнителна издръжливост при използване;\n · Баскетболен кош и телескоп - различните видове активности ще направят игрите още по-забавни и интересни. С помощта на комплекта, малчуганите ще усъвършенстват както моториката, така и креативността си;\n",
 "features": []
@@ -2713,8 +2713,8 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 84
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detska-parzalka-s-teleskop-i-basketbolen-kosh-kafyava-643079461_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-parzalka-s-teleskop-i-basketbolen-kosh-kafyava-756572117_4.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detska-parzalka-s-teleskop-i-basketbolen-kosh-kafyava-643079461_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-parzalka-s-teleskop-i-basketbolen-kosh-kafyava-756572117_4.jpg"
 ],
 "description": "Пързалката с телескоп и баскетболен кош съчетава функционалност, здравина и безопасност в едно! Децата ще се забавляват с многобройните занимания - пързаляне, дриблиране или изучаване на обектите с телескопа. Моделът ще създаде много усмивки и весели моменти!\n\nПредимства:\n\n · Конструкция - тя е сигурна и издръжлива, проектирана със стабилни модули за допълнителна издръжливост при използване. Пързалката е изработена от материал с UV устойчивост, който защитава продукта от влиянието на слънчевите лъчи и запазва неговия външен вид;\n · Баскетболен кош и телескоп - различните видове активности ще н",
 "features": []
@@ -2745,8 +2745,8 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 84
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detska-plastmasova-parzalka-s-basketbolen-kosh-siva-707009660_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-plastmasova-parzalka-s-basketbolen-kosh-siva-402713727_4.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detska-plastmasova-parzalka-s-basketbolen-kosh-siva-707009660_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-plastmasova-parzalka-s-basketbolen-kosh-siva-402713727_4.jpg"
 ],
 "description": "Пързалката с баскетболен кош е перфектното допълнение към всеки кът за игри! С него децата ще се забавляват, докато се пързалят и се учат да бъдат професионални баскетболисти. Моделът ще осигури безопасност на малчуганите и спокойствие на родителите. Дизайнът му включва UV устойчив материал, който предпазва повърхността от избледняване и подпомага дълготрайността на продукта при игра на открито.\n\nПредимства:\n\n · Конструкция - лека и компактна, напълно обезопасена и устойчива за игри;\n · Баскетболен кош - детето ще може да избира от няколко активности - да се пързаля, да дриблира или да вкарва ",
 "features": []
@@ -2777,8 +2777,8 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 84
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detska-plastmasova-parzalka-s-basketbolen-kosh-kafyava-842365804_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-plastmasova-parzalka-s-basketbolen-kosh-kafyava-262592323_4.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detska-plastmasova-parzalka-s-basketbolen-kosh-kafyava-842365804_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-plastmasova-parzalka-s-basketbolen-kosh-kafyava-262592323_4.jpg"
 ],
 "description": "Пързалката с баскетболен кош е перфектното допълнение към всеки кът за игри! С него децата ще се забавляват, докато се пързалят и се учат да бъдат професионални баскетболисти. Моделът ще осигури безопасност на малчуганите и спокойствие на родителите.\n\nПредимства:\n\n · Конструкция - лека и компактна, напълно обезопасена и устойчива за игри. Пластмаса с UV защита, създадена да запазва ярките цветове и стабилността на материала при слънчево въздействие;\n · Баскетболен кош - детето ще може да избира от няколко активности - да се пързаля, да дриблира или да вкарва кош, докато се учи на точност и коо",
 "features": []
@@ -2809,8 +2809,8 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 64
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/b/e/bebeshka-ograda-s-basketbolen-kosh-i-daska-za-risuvane-buhalche-547879141_4.jpg",
-"https://new.guga.bg/media/catalog/product/b/e/bebeshka-ograda-s-basketbolen-kosh-i-daska-za-risuvane-buhalche-120942434_4.jpg"
+"https://www.guga.bg/media/catalog/product/b/e/bebeshka-ograda-s-basketbolen-kosh-i-daska-za-risuvane-buhalche-547879141_4.jpg",
+"https://www.guga.bg/media/catalog/product/b/e/bebeshka-ograda-s-basketbolen-kosh-i-daska-za-risuvane-buhalche-120942434_4.jpg"
 ],
 "description": "Бебешката ограда с баскетболен кош и дъска за рисуване съчетава безопасност, практичност и функционалност в едно! Тя ще допринесе за развитието на моториката и двигателните умения на малчуганите. Различните активности ще създадат много забавни моменти в игри, а визията на модела е в светли, топли цветове и с креативен елемент - бухалче. \n\nОградата ще бъде любимото място на всяко дете, а междувременно родителите ще имат време за релакс и почивка!\n\nПредимства:\n\n · Сглобяване и разглобяване с лекота - монтирането е бързо, чрез добавените инструкции и свързващи елементи в комплекта. При демонтиран",
 "features": []
@@ -2841,8 +2841,8 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 64
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/b/e/bebeshka-ograda-s-basketbolen-kosh-i-tablo-s-aktivnosti-mecho-869739311_4.jpg",
-"https://new.guga.bg/media/catalog/product/b/e/bebeshka-ograda-s-basketbolen-kosh-i-tablo-s-aktivnosti-mecho-172198781_4.jpg"
+"https://www.guga.bg/media/catalog/product/b/e/bebeshka-ograda-s-basketbolen-kosh-i-tablo-s-aktivnosti-mecho-869739311_4.jpg",
+"https://www.guga.bg/media/catalog/product/b/e/bebeshka-ograda-s-basketbolen-kosh-i-tablo-s-aktivnosti-mecho-172198781_4.jpg"
 ],
 "description": "Бебешката ограда с баскетболен кош и табло с активности е чудесен подарък за всяко креативно дете, което обича да играе и да приключенства. Моделът допринася за координацията на малчуганите, за цялостната им моторика и ще предизвика много весели моменти вкъщи. Докато те се забавляват, родителите ще могат да се насладят на заслужено време за почивка!\n\nПредимства:\n\n · Конструкция от модули - компактните и функционални елементи с UV защита допринасят за здравината и стабилността на модела по време на игра;\n · Баскетболен кош - детският кът, освен забавен, провокира малчуганите да се запознаят със",
 "features": []
@@ -2873,11 +2873,11 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 61
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/b/e/bebeshka-ograda-s-basketbolen-kosh-i-tablo-s-aktivnosti-siva-kola-284528015_4.jpg",
-"https://new.guga.bg/media/catalog/product/b/e/bebeshka-ograda-s-basketbolen-kosh-i-tablo-s-aktivnosti-siva-kola-317627590_4.jpg",
-"https://new.guga.bg/media/catalog/product/b/e/bebeshka-ograda-s-basketbolen-kosh-i-tablo-s-aktivnosti-siva-kola-834983367_4.jpg",
-"https://new.guga.bg/media/catalog/product/b/e/bebeshka-ograda-s-basketbolen-kosh-i-tablo-s-aktivnosti-siva-kola-103060676_4.jpg",
-"https://new.guga.bg/media/catalog/product/b/e/bebeshka-ograda-s-basketbolen-kosh-i-tablo-s-aktivnosti-siva-kola-289567282_4.jpg"
+"https://www.guga.bg/media/catalog/product/b/e/bebeshka-ograda-s-basketbolen-kosh-i-tablo-s-aktivnosti-siva-kola-284528015_4.jpg",
+"https://www.guga.bg/media/catalog/product/b/e/bebeshka-ograda-s-basketbolen-kosh-i-tablo-s-aktivnosti-siva-kola-317627590_4.jpg",
+"https://www.guga.bg/media/catalog/product/b/e/bebeshka-ograda-s-basketbolen-kosh-i-tablo-s-aktivnosti-siva-kola-834983367_4.jpg",
+"https://www.guga.bg/media/catalog/product/b/e/bebeshka-ograda-s-basketbolen-kosh-i-tablo-s-aktivnosti-siva-kola-103060676_4.jpg",
+"https://www.guga.bg/media/catalog/product/b/e/bebeshka-ograda-s-basketbolen-kosh-i-tablo-s-aktivnosti-siva-kola-289567282_4.jpg"
 ],
 "description": "Бебешката занимателна ограда ще усмихне всяко дете. С функционалности като стена за активности и баскетболен кош, игрите ще бъдат неспирни. Конструкцията е напълно безопасна, като се монтира и пренася лесно и удобно.\n\nПредимства:\n\n · Баскетболен кош и стена с активности - моделът е проектиран с мисъл както за движението на малчуганите, така и за развитието на тяхната креативност и творчество;\n · Безопасност - елементите са с обли ъгли и сигурно заключване; \n · Конструкция - здрава и стабилна, благодарение на устойчивото свързване на модулите;\n · Сигурност при игра - родителите могат да бъдат н",
 "features": []
@@ -2908,11 +2908,11 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 61
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/b/e/bebeshka-ograda-s-basketbolen-kosh-i-tablo-s-aktivnosti-kafyava-kola-750582869_4.jpg",
-"https://new.guga.bg/media/catalog/product/b/e/bebeshka-ograda-s-basketbolen-kosh-i-tablo-s-aktivnosti-kafyava-kola-540805109_4.jpg",
-"https://new.guga.bg/media/catalog/product/b/e/bebeshka-ograda-s-basketbolen-kosh-i-tablo-s-aktivnosti-kafyava-kola-873643287_4.jpg",
-"https://new.guga.bg/media/catalog/product/b/e/bebeshka-ograda-s-basketbolen-kosh-i-tablo-s-aktivnosti-kafyava-kola-849475584_4.jpg",
-"https://new.guga.bg/media/catalog/product/b/e/bebeshka-ograda-s-basketbolen-kosh-i-tablo-s-aktivnosti-kafyava-kola-504998245_4.jpg"
+"https://www.guga.bg/media/catalog/product/b/e/bebeshka-ograda-s-basketbolen-kosh-i-tablo-s-aktivnosti-kafyava-kola-750582869_4.jpg",
+"https://www.guga.bg/media/catalog/product/b/e/bebeshka-ograda-s-basketbolen-kosh-i-tablo-s-aktivnosti-kafyava-kola-540805109_4.jpg",
+"https://www.guga.bg/media/catalog/product/b/e/bebeshka-ograda-s-basketbolen-kosh-i-tablo-s-aktivnosti-kafyava-kola-873643287_4.jpg",
+"https://www.guga.bg/media/catalog/product/b/e/bebeshka-ograda-s-basketbolen-kosh-i-tablo-s-aktivnosti-kafyava-kola-849475584_4.jpg",
+"https://www.guga.bg/media/catalog/product/b/e/bebeshka-ograda-s-basketbolen-kosh-i-tablo-s-aktivnosti-kafyava-kola-504998245_4.jpg"
 ],
 "description": "Бебешката занимателна ограда ще усмихне всяко дете. С функционалности като стена за активности и баскетболен кош, игрите ще бъдат неспирни. Конструкцията е напълно безопасна, като се монтира и пренася лесно и удобно. Изработена е от пластмаса с UV защита, която спомага за запазването на цвета и здравината на материала при продължително излагане на слънце.\n\nПредимства:\n\n · Баскетболен кош и стена с активности - моделът е проектиран с мисъл както за движението на малчуганите, така и за развитието на тяхната креативност и творчество;\n · Безопасност - елементите са с обли ъгли и сигурно заключване",
 "features": []
@@ -2943,11 +2943,11 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 63
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/b/e/bebeshka-ograda-s-basketbolen-kosh-i-tablo-s-aktivnosti-oktopod-68153793_4.jpg",
-"https://new.guga.bg/media/catalog/product/b/e/bebeshka-ograda-s-basketbolen-kosh-i-tablo-s-aktivnosti-oktopod-966820549_4.jpg",
-"https://new.guga.bg/media/catalog/product/b/e/bebeshka-ograda-s-basketbolen-kosh-i-tablo-s-aktivnosti-oktopod-93371620_4.jpg",
-"https://new.guga.bg/media/catalog/product/b/e/bebeshka-ograda-s-basketbolen-kosh-i-tablo-s-aktivnosti-oktopod-823979243_4.jpg",
-"https://new.guga.bg/media/catalog/product/b/e/bebeshka-ograda-s-basketbolen-kosh-i-tablo-s-aktivnosti-oktopod-363839064_4.jpg"
+"https://www.guga.bg/media/catalog/product/b/e/bebeshka-ograda-s-basketbolen-kosh-i-tablo-s-aktivnosti-oktopod-68153793_4.jpg",
+"https://www.guga.bg/media/catalog/product/b/e/bebeshka-ograda-s-basketbolen-kosh-i-tablo-s-aktivnosti-oktopod-966820549_4.jpg",
+"https://www.guga.bg/media/catalog/product/b/e/bebeshka-ograda-s-basketbolen-kosh-i-tablo-s-aktivnosti-oktopod-93371620_4.jpg",
+"https://www.guga.bg/media/catalog/product/b/e/bebeshka-ograda-s-basketbolen-kosh-i-tablo-s-aktivnosti-oktopod-823979243_4.jpg",
+"https://www.guga.bg/media/catalog/product/b/e/bebeshka-ograda-s-basketbolen-kosh-i-tablo-s-aktivnosti-oktopod-363839064_4.jpg"
 ],
 "description": "Бебешката ограда с баскетболен кош и табло с активности е чудесен занимателен кът за всеки малчуган. Комплектът съдържа забавни активности, модулите са компактни, а монтирането лесно и бързо. Оградата е изключително безопасна, направена от висококачествени материали с UV защита.\n\nПредимства:\n\n · Креативност - моделът е чудесен начин детето да развие своето въображение, чрез включените творчески активности;\n · Безопасност - елементите са със заоблени ъгли против нежелани наранявания;\n · Лесен пренос - оградата може да се използва както вкъщи, така и на двора, като се пренася бързо и без усилия,",
 "features": []
@@ -2978,8 +2978,8 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 105
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detska-plastmasova-kascha-s-basketbolen-kosh-i-masichka-za-igra-v-morski-tsvetove-500055190_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-plastmasova-kascha-s-basketbolen-kosh-i-masichka-za-igra-v-morski-tsvetove-179614244_4.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detska-plastmasova-kascha-s-basketbolen-kosh-i-masichka-za-igra-v-morski-tsvetove-500055190_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-plastmasova-kascha-s-basketbolen-kosh-i-masichka-za-igra-v-morski-tsvetove-179614244_4.jpg"
 ],
 "description": "Детската къща с баскетболен кош и масичка за игра ще усмихне всеки малък приключенец! Напълно безопасна, тя е изработена от висококачествени материали, които гарантират здравина и дълготрайност. С лесен монтаж и разглобяване, тя се мести бързо и се съхранява компактно. Произведена е от висококачествена пластмаса с UV защита, устойчива на слънчеви лъчи и неблагоприятни външни условия.\n\nРазнообразните активности – от хвърляне на топка в баскетболния кош до ролеви игри в къщичката, ще предизвикат безброй усмивки и весели емоции. Моделът ще стимулира въображението и ще развие цялостната моторика н",
 "features": []
@@ -3010,8 +3010,8 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 105
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detska-plastmasova-kascha-s-basketbolen-kosh-i-masichka-za-igra-siva-655747948_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-plastmasova-kascha-s-basketbolen-kosh-i-masichka-za-igra-siva-795318823_4.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detska-plastmasova-kascha-s-basketbolen-kosh-i-masichka-za-igra-siva-655747948_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-plastmasova-kascha-s-basketbolen-kosh-i-masichka-za-igra-siva-795318823_4.jpg"
 ],
 "description": "Детската къща с баскетболен кош и масичка за игра ще усмихне всеки малък приключенец! Напълно безопасна, тя е изработена от висококачествени материали, които гарантират здравина и дълготрайност. Дизайнът ѝ включва UV устойчива пластмаса, която съхранява цвета и устойчивостта на материала дори при продължителна употреба на открито. С лесен монтаж и разглобяване, тя се мести бързо и се съхранява компактно. \n\nРазнообразните активности – от хвърляне на топка в баскетболния кош до ролеви игри в къщичката, ще предизвикат безброй усмивки и весели емоции. Моделът ще стимулира въображението и ще развие",
 "features": []
@@ -3042,8 +3042,8 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 105
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detska-plastmasova-kascha-s-basketbolen-kosh-i-masichka-za-igra-kafyava-79882844_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-plastmasova-kascha-s-basketbolen-kosh-i-masichka-za-igra-kafyava-622166514_4.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detska-plastmasova-kascha-s-basketbolen-kosh-i-masichka-za-igra-kafyava-79882844_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-plastmasova-kascha-s-basketbolen-kosh-i-masichka-za-igra-kafyava-622166514_4.jpg"
 ],
 "description": "Детската къща с баскетболен кош и масичка за игра ще усмихне всеки малък приключенец! Напълно безопасна, тя е изработена от висококачествени материали, които гарантират здравина и дълготрайност. С лесен монтаж и разглобяване, тя се мести бързо и се съхранява компактно. \n\nРазнообразните активности – от хвърляне на топка в баскетболния кош до ролеви игри в къщичката, ще предизвикат безброй усмивки и весели емоции. Моделът ще стимулира въображението и ще развие цялостната моторика на малчуганите, като ще ги насърчава да бъдат активни и креативни. Свежите, ярки цветове ще създадат положително наст",
 "features": []
@@ -3074,7 +3074,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 113
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detska-plastmasova-stena-za-izkachvane-5-v-1-siva-876681836_4.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detska-plastmasova-stena-za-izkachvane-5-v-1-siva-876681836_4.jpg"
 ],
 "description": "Стената за изкачване 5 в 1 впечатлява с модерен дизайн и свежи цветове, които ще зарадват всеки малчуган! Тя съчетава мултифункционалност и разнообразие от активности, подходящи както за развиване на фината, така и на цялостната моторика. Катеренето стимулира координацията и пространственото мислене, докато дъската за рисуване и конструкторът развиват въображението и творческите умения. \n\nБезопасната конструкция с обли ъгли гарантира спокойствие на родителите и сигурност на детето. Комплектът съдържа стена за изкачване, дъска за редене на конструктор, дъска за рисуване и баскетболен кош – всич",
 "features": []
@@ -3105,7 +3105,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 113
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detska-plastmasova-stena-za-izkachvane-5-v-1-rozova-389255113_4.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detska-plastmasova-stena-za-izkachvane-5-v-1-rozova-389255113_4.jpg"
 ],
 "description": "Стената за изкачване 5 в 1 впечатлява с модерен дизайн и свежи цветове, които ще зарадват всеки малчуган! Тя съчетава мултифункционалност и разнообразие от активности, подходящи както за развиване на фината, така и на цялостната моторика. Катеренето стимулира координацията и пространственото мислене, докато дъската за рисуване и конструкторът развиват въображението и творческите умения. \n\nБезопасната конструкция с обли ъгли гарантира спокойствие на родителите и сигурност на детето. Комплектът съдържа стена за изкачване, дъска за редене на конструктор, дъска за рисуване и баскетболен кош – всич",
 "features": []
@@ -3136,10 +3136,10 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 113
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detska-plastmasova-stena-za-izkachvane-5-v-1-zelena-150738372_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-plastmasova-stena-za-izkachvane-5-v-1-zelena-240571301_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-plastmasova-stena-za-izkachvane-5-v-1-zelena-853827211_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-plastmasova-stena-za-izkachvane-5-v-1-zelena-998241582_4.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detska-plastmasova-stena-za-izkachvane-5-v-1-zelena-150738372_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-plastmasova-stena-za-izkachvane-5-v-1-zelena-240571301_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-plastmasova-stena-za-izkachvane-5-v-1-zelena-853827211_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-plastmasova-stena-za-izkachvane-5-v-1-zelena-998241582_4.jpg"
 ],
 "description": "Стената за изкачване 5 в 1 впечатлява с модерен дизайн и свежи цветове, които ще зарадват всеки малчуган! Тя съчетава мултифункционалност и разнообразие от активности, подходящи както за развиване на фината, така и на цялостната моторика. Катеренето стимулира координацията и пространственото мислене, докато дъската за рисуване и конструкторът развиват въображението и творческите умения. Безопасната конструкция с обли ъгли гарантира спокойствие на родителите и сигурност на детето. За изработката на модела е използван UV устойчив материал, който помага на продукта да запази своя цвят и структура",
 "features": []
@@ -3170,9 +3170,9 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 79
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detska-kombinirana-etagerka-za-knigi-i-igrachki-kafyava-alpaka-111121994_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-kombinirana-etagerka-za-knigi-i-igrachki-kafyava-alpaka-634305551_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-kombinirana-etagerka-za-knigi-i-igrachki-kafyava-alpaka-747739030_4.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detska-kombinirana-etagerka-za-knigi-i-igrachki-kafyava-alpaka-111121994_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-kombinirana-etagerka-za-knigi-i-igrachki-kafyava-alpaka-634305551_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-kombinirana-etagerka-za-knigi-i-igrachki-kafyava-alpaka-747739030_4.jpg"
 ],
 "description": "Комбинираната етажерка, със специален елемент- кафява алпака, съчетава удобство, ред и забавление в едно! С напълно безопасна конструкция, заоблени ъгли и леки модули, тя ще допринесе както за самостоятелността на детето, така и за неговата координация и движение. На двата странични модула са проектирани кош за топка и елемент за хвърляне на рингове, за да може игрите да не спират. Монтажът е лесен и бърз, с включените свързващи елементи в комплекта. При разглобяването частите се съхраняват практично навсякъде. Цветната визия и дизайн ще допринесат за много усмивки и весели моменти. Организира",
 "features": []
@@ -3203,11 +3203,11 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 79
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detska-kombinirana-etagerka-za-knigi-i-igrachki-galta-alpaka-401883251_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-kombinirana-etagerka-za-knigi-i-igrachki-galta-alpaka-906667214_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-kombinirana-etagerka-za-knigi-i-igrachki-galta-alpaka-831495794_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-kombinirana-etagerka-za-knigi-i-igrachki-galta-alpaka-356933087_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-kombinirana-etagerka-za-knigi-i-igrachki-galta-alpaka-347214999_4.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detska-kombinirana-etagerka-za-knigi-i-igrachki-galta-alpaka-401883251_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-kombinirana-etagerka-za-knigi-i-igrachki-galta-alpaka-906667214_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-kombinirana-etagerka-za-knigi-i-igrachki-galta-alpaka-831495794_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-kombinirana-etagerka-za-knigi-i-igrachki-galta-alpaka-356933087_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-kombinirana-etagerka-za-knigi-i-igrachki-galta-alpaka-347214999_4.jpg"
 ],
 "description": "Комбинираната етажерка, със специален елемент- жълта алпака, съчетава удобство, ред и забавление в едно! С напълно безопасна конструкция, заоблени ъгли и леки модули, тя ще допринесе както за самостоятелността на детето, така и за неговата координация и движение. На двата странични модула са проектирани кош за топка и елемент за хвърляне на рингове, за да може игрите да не спират. Монтажът е лесен и бърз, с включените свързващи елементи в комплекта. При разглобяването частите се съхраняват практично навсякъде. Цветната визия и дизайн ще допринесат за много усмивки и весели моменти. Организирай",
 "features": []
@@ -3238,7 +3238,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 109
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detska-plastmasova-parzalka-s-lyulka-i-basketbolen-kosh-sivo-meche-286172126_4.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detska-plastmasova-parzalka-s-lyulka-i-basketbolen-kosh-sivo-meche-286172126_4.jpg"
 ],
 "description": "Пързалката с люлка и баскетболен кош и специален елемент - сиво мече е точният комплект, с който детето ще се движи и забавлява едновременно! Моделът е пригоден за използване както вкъщи, така и на двора. Той ще допринесе за моториката на малчуганите и ще подари свободно време на родителите!\n\nПредимства:\n\n · Конструкция - тя е стабилна и здрава, благодарение на сигурното свързване на модулите. Висококачествената пластмаса с UV защита помага на продукта да съхрани своята здравина и цветове във времето;\n · Свежа визия - дизайнът е в топли цветове, с цветни забавни детайли - мечета;\n · Функционал",
 "features": []
@@ -3269,8 +3269,8 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 109
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detska-plastmasova-parzalka-s-lyulka-i-basketbolen-kosh-kafyavo-meche-224809164_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-plastmasova-parzalka-s-lyulka-i-basketbolen-kosh-kafyavo-meche-826937032_4.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detska-plastmasova-parzalka-s-lyulka-i-basketbolen-kosh-kafyavo-meche-224809164_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-plastmasova-parzalka-s-lyulka-i-basketbolen-kosh-kafyavo-meche-826937032_4.jpg"
 ],
 "description": "Пързалката с люлка и баскетболен кош и специален елемент - кафяво мече е точният комплект, с който детето ще се движи и забавлява едновременно! Моделът е пригоден за използване както вкъщи, така и на двора - изработен е от материал с UV устойчивост, който защитава продукта от влиянието на слънчевите лъчи и запазва неговия външен вид. \n\nДетската пластмасова пързалка ще допринесе за моториката на малчуганите и ще подари свободно време на родителите!\n\nПредимства:\n\n · Конструкция - тя е стабилна и здрава, благодарение на сигурното свързване на модулите;\n · Свежа визия - дизайнът е в топли цветове,",
 "features": []
@@ -3301,9 +3301,9 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 124
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detska-parzalka-s-lyulka-5-v-1-castle-11475556_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-parzalka-s-lyulka-5-v-1-castle-138548296_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-parzalka-s-lyulka-5-v-1-castle-461408295_4.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detska-parzalka-s-lyulka-5-v-1-castle-11475556_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-parzalka-s-lyulka-5-v-1-castle-138548296_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-parzalka-s-lyulka-5-v-1-castle-461408295_4.jpg"
 ],
 "description": "Детската пързалка с люлка 5 в 1, със специален елемент - замък е най-добрият подарък за всеки малък приключенец. Моделът е проектиран със здрава конструкция и стабилни модули. Пренася се лесно и ще създаде много незабравими моменти в игри, вкъщи или на двора!\n\nПредимства:\n\n · Конструкция - стабилна и устойчива, заради здравите модули и сигурното им свързване. Използвана е пластмаса с UV защита, създадена да запазва ярките цветове и стабилността на материала при слънчево въздействие;\n · Сглобяване и разглобяване с лекота - монтирането е бързо, с включените свързващи елементи между частите;\n · Ц",
 "features": []
@@ -3334,11 +3334,11 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 124
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/m/u/multifunktsionalen-detski-komplekt-za-igra-8-v-1-s-parzalka-556448789_4.jpg",
-"https://new.guga.bg/media/catalog/product/m/u/multifunktsionalen-detski-komplekt-za-igra-8-v-1-s-parzalka-483076574_4.jpg",
-"https://new.guga.bg/media/catalog/product/m/u/multifunktsionalen-detski-komplekt-za-igra-8-v-1-s-parzalka-221867844_4.jpg",
-"https://new.guga.bg/media/catalog/product/m/u/multifunktsionalen-detski-komplekt-za-igra-8-v-1-s-parzalka-286929097_4.jpg",
-"https://new.guga.bg/media/catalog/product/m/u/multifunktsionalen-detski-komplekt-za-igra-8-v-1-s-parzalka-114948448_4.jpg"
+"https://www.guga.bg/media/catalog/product/m/u/multifunktsionalen-detski-komplekt-za-igra-8-v-1-s-parzalka-556448789_4.jpg",
+"https://www.guga.bg/media/catalog/product/m/u/multifunktsionalen-detski-komplekt-za-igra-8-v-1-s-parzalka-483076574_4.jpg",
+"https://www.guga.bg/media/catalog/product/m/u/multifunktsionalen-detski-komplekt-za-igra-8-v-1-s-parzalka-221867844_4.jpg",
+"https://www.guga.bg/media/catalog/product/m/u/multifunktsionalen-detski-komplekt-za-igra-8-v-1-s-parzalka-286929097_4.jpg",
+"https://www.guga.bg/media/catalog/product/m/u/multifunktsionalen-detski-komplekt-za-igra-8-v-1-s-parzalka-114948448_4.jpg"
 ],
 "description": "Игрите започват с мултифункционален детски комплект 8 в 1! Изключително устойчив на използване, с безопасна конструкция, той ще е любимото занимание на всяко дете, като то ще избира с коя различна активност да играе всеки ден. Изработен е от UV устойчив материал, който предпазва повърхността от избледняване и подпомага дълготрайността на продукта при игра на открито. \n\nМоделът ще зарадва най-малките и ще осигури почивка за родителите!\n\nПредимства:\n\n · Конструкция - стабилна и устойчива при игри, заради здравите модули и сигурното им свързване;\n · Сглобяване и разглобяване с лекота - монтиранет",
 "features": []
@@ -3369,11 +3369,11 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 45
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detski-podvigen-organajzer-s-daska-za-risuvane-siva-kola-770227393_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detski-podvigen-organajzer-s-daska-za-risuvane-siva-kola-398238135_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detski-podvigen-organajzer-s-daska-za-risuvane-siva-kola-2037367_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detski-podvigen-organajzer-s-daska-za-risuvane-siva-kola-468723683_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detski-podvigen-organajzer-s-daska-za-risuvane-siva-kola-899217743_4.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detski-podvigen-organajzer-s-daska-za-risuvane-siva-kola-770227393_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detski-podvigen-organajzer-s-daska-za-risuvane-siva-kola-398238135_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detski-podvigen-organajzer-s-daska-za-risuvane-siva-kola-2037367_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detski-podvigen-organajzer-s-daska-za-risuvane-siva-kola-468723683_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detski-podvigen-organajzer-s-daska-za-risuvane-siva-kola-899217743_4.jpg"
 ],
 "description": "Мултифункционалният модел комбинира органайзер за книги и дъска за рисуване и писане в едно! От едната му страна е проектирано удобно място за съхранение на маркери и други аксесоари. Конструкцията е лека и се сглобява без никакво усилие, а при демонтаж модулите се съхраняват изключително практично. Благодарение на практичния си размер, комплектът лесно намира място във всяка детска стая. Вградените колелца осигуряват безпроблемно и бързо преместване. Светлите цветове и дизайнът във формата на кола ще създадат много усмивки и положителни емоции. Моделът ще провокира творческото мислене и креат",
 "features": []
@@ -3404,11 +3404,11 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 45
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detski-podvigen-organajzer-s-daska-za-risuvane-kafyava-kola-413995446_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detski-podvigen-organajzer-s-daska-za-risuvane-kafyava-kola-174417976_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detski-podvigen-organajzer-s-daska-za-risuvane-kafyava-kola-946854078_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detski-podvigen-organajzer-s-daska-za-risuvane-kafyava-kola-708773752_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detski-podvigen-organajzer-s-daska-za-risuvane-kafyava-kola-706057040_4.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detski-podvigen-organajzer-s-daska-za-risuvane-kafyava-kola-413995446_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detski-podvigen-organajzer-s-daska-za-risuvane-kafyava-kola-174417976_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detski-podvigen-organajzer-s-daska-za-risuvane-kafyava-kola-946854078_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detski-podvigen-organajzer-s-daska-za-risuvane-kafyava-kola-708773752_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detski-podvigen-organajzer-s-daska-za-risuvane-kafyava-kola-706057040_4.jpg"
 ],
 "description": "Мултифункционалният модел комбинира органайзер за книги и дъска за рисуване и писане в едно! От едната му страна е проектирано удобно място за съхранение на маркери и други аксесоари. Конструкцията е лека и се сглобява без никакво усилие, а при демонтаж модулите се съхраняват изключително практично. Благодарение на практичния си размер, комплектът лесно намира място във всяка детска стая. Вградените колелца осигуряват безпроблемно и бързо преместване. Светлите цветове и дизайнът във формата на кола ще създадат много усмивки и положителни емоции. Моделът ще провокира творческото мислене и креат",
 "features": []
@@ -3439,10 +3439,10 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 65
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/p/l/plastmasova-etagerka-za-detski-igrachki-rozovo-meche-318414929_4.jpg",
-"https://new.guga.bg/media/catalog/product/p/l/plastmasova-etagerka-za-detski-igrachki-rozovo-meche-597414015_4.jpg",
-"https://new.guga.bg/media/catalog/product/p/l/plastmasova-etagerka-za-detski-igrachki-rozovo-meche-239359392_4.jpg",
-"https://new.guga.bg/media/catalog/product/p/l/plastmasova-etagerka-za-detski-igrachki-rozovo-meche-101105998_4.jpg"
+"https://www.guga.bg/media/catalog/product/p/l/plastmasova-etagerka-za-detski-igrachki-rozovo-meche-318414929_4.jpg",
+"https://www.guga.bg/media/catalog/product/p/l/plastmasova-etagerka-za-detski-igrachki-rozovo-meche-597414015_4.jpg",
+"https://www.guga.bg/media/catalog/product/p/l/plastmasova-etagerka-za-detski-igrachki-rozovo-meche-239359392_4.jpg",
+"https://www.guga.bg/media/catalog/product/p/l/plastmasova-etagerka-za-detski-igrachki-rozovo-meche-101105998_4.jpg"
 ],
 "description": "Етажерката за играчки и аксесоари, в светло-розов цвят, с форма на мече, съчетава функционалност и забавление едновременно! Със своята стабилна конструкция тя ще осигури достатъчно място за съхранение на всички детски вещи. Широките и леснодостъпни боксове превръщат подреждането в игра, която насърчава самостоятелността и желанието на малчугана да организира своя кът. Всеки модул е проектиран със заоблени ъгли, с цел допълнителна безопасност и предотвратяване на нежелани наранявания. Светлата цветова палитра придава свежа и забавна визия, моделът е компактен и не заема много място, което го пр",
 "features": []
@@ -3473,10 +3473,10 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 65
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/p/l/plastmasova-etagerka-za-detski-igrachki-sino-meche-456364615_4.jpg",
-"https://new.guga.bg/media/catalog/product/p/l/plastmasova-etagerka-za-detski-igrachki-sino-meche-199500042_4.jpg",
-"https://new.guga.bg/media/catalog/product/p/l/plastmasova-etagerka-za-detski-igrachki-sino-meche-73969640_4.jpg",
-"https://new.guga.bg/media/catalog/product/p/l/plastmasova-etagerka-za-detski-igrachki-sino-meche-449460381_4.jpg"
+"https://www.guga.bg/media/catalog/product/p/l/plastmasova-etagerka-za-detski-igrachki-sino-meche-456364615_4.jpg",
+"https://www.guga.bg/media/catalog/product/p/l/plastmasova-etagerka-za-detski-igrachki-sino-meche-199500042_4.jpg",
+"https://www.guga.bg/media/catalog/product/p/l/plastmasova-etagerka-za-detski-igrachki-sino-meche-73969640_4.jpg",
+"https://www.guga.bg/media/catalog/product/p/l/plastmasova-etagerka-za-detski-igrachki-sino-meche-449460381_4.jpg"
 ],
 "description": "Етажерката за играчки и аксесоари, в светло-син цвят, с форма на мече, съчетава функционалност и забавление едновременно! Със своята стабилна конструкция тя ще осигури достатъчно място за съхранение на всички детски вещи. Широките и леснодостъпни боксове превръщат подреждането в игра, която насърчава самостоятелността и желанието на малчугана да организира своя кът. Всеки модул е проектиран със заоблени ъгли, с цел допълнителна безопасност и предотвратяване на нежелани наранявания. Светлата цветова палитра придава свежа и забавна визия, моделът е компактен и не заема много място, което го прав",
 "features": []
@@ -3507,7 +3507,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 62
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/p/r/predpazna-pregrada-za-igra-za-bebeta-i-detsa-za-aglovi-prostranstva-434041447_4.jpg"
+"https://www.guga.bg/media/catalog/product/p/r/predpazna-pregrada-za-igra-za-bebeta-i-detsa-za-aglovi-prostranstva-434041447_4.jpg"
 ],
 "description": "Предпазната преграда за игри е точното попълнения в детския кът на всеки малчуган. Моделът е изключително здрав и устойчив, като гарантира безопасност при игра. Децата ще се забавляват с активности, а родителите ще имат време за себе си.\n\nПредимства:\n\n · Мобилност - преносът на конструкцията е лесен и достъпен, поради леките и практични модули;\n · Конструкция - надеждна и здрава за безопасни игри за децата и сигурност за родителите;\n · Съхранение - частите са компактни и леки, като могат да се съхраняват навсякъде;\n · Свежа визия - изчистен дизайн, с обли ъгли на елементите и светли цветове;\n ",
 "features": []
@@ -3538,11 +3538,11 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 75
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detska-parzalka-s-basketbolen-kosh-slonche-siva-194297552_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-parzalka-s-basketbolen-kosh-slonche-siva-605753850_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-parzalka-s-basketbolen-kosh-slonche-siva-24813146_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-parzalka-s-basketbolen-kosh-slonche-siva-66149740_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-parzalka-s-basketbolen-kosh-slonche-siva-713792534_4.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detska-parzalka-s-basketbolen-kosh-slonche-siva-194297552_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-parzalka-s-basketbolen-kosh-slonche-siva-605753850_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-parzalka-s-basketbolen-kosh-slonche-siva-24813146_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-parzalka-s-basketbolen-kosh-slonche-siva-66149740_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-parzalka-s-basketbolen-kosh-slonche-siva-713792534_4.jpg"
 ],
 "description": "Пързалката, във формата на слонче, с баскетболен кош ще бъде най-забавната детска игра на всички малчугани. С безопасна и здрава конструкция, с лесен пренос и поддържане, моделът ще усмихне най-малките и ще подари свободно време на родителите!\n\nПредимства:\n\n · Конструкция - безопасна и сигурна, благодарение на надеждното свързване на модулите. Пързалката е изработена от устойчива на UV лъчи пластмаса, предназначена за продължителна употреба на открито;\n · Безопасност - комплектът е проектиран с обли ъгли на всички части, за допълнителна сигурност по време на игри;\n · Баскетболен кош и пързалка",
 "features": []
@@ -3573,8 +3573,8 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 75
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detska-parzalka-s-basketbolen-kosh-slonche-kafyava-596453947_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detska-parzalka-s-basketbolen-kosh-slonche-kafyava-870789938_4.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detska-parzalka-s-basketbolen-kosh-slonche-kafyava-596453947_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detska-parzalka-s-basketbolen-kosh-slonche-kafyava-870789938_4.jpg"
 ],
 "description": "Пързалката, във формата на слонче, с баскетболен кош ще бъде най-забавната детска игра на всички малчугани. С безопасна и здрава конструкция, с лесен пренос и поддържане, моделът ще усмихне най-малките и ще подари свободно време на родителите. Изработена е от устойчива на UV лъчи пластмаса, предназначена за продължителна употреба на открито.\n\nПредимства:\n\n · Конструкция - безопасна и сигурна, благодарение на надеждното свързване на модулите;\n · Безопасност - комплектът е проектиран с обли ъгли на всички части, за допълнителна сигурност по време на игри;\n · Баскетболен кош и пързалка - детето щ",
 "features": []
@@ -3605,9 +3605,9 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 63
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/F/E/FE-WL-MTY04-BL_4.jpg",
-"https://new.guga.bg/media/catalog/product/b/e/bebeshka-ograda-za-bezopasna-igra-sino-buhalche-423269523_4.jpg",
-"https://new.guga.bg/media/catalog/product/F/E/FE-WL-MTY04-BL-1_4.jpg"
+"https://www.guga.bg/media/catalog/product/F/E/FE-WL-MTY04-BL_4.jpg",
+"https://www.guga.bg/media/catalog/product/b/e/bebeshka-ograda-za-bezopasna-igra-sino-buhalche-423269523_4.jpg",
+"https://www.guga.bg/media/catalog/product/F/E/FE-WL-MTY04-BL-1_4.jpg"
 ],
 "description": "Бебешката ограда за безопасна игра, в син нюанс е функционална, практична и много забавна! Съдържаща различни активности, напълно безопасна и компактна за съхранение, тя ще бъде любимото занимание на всеки малчуган, а родителите му ще имат време за заслужена почивка!\nПредимства: · Конструкция от модули - разноцветните елементи се свързват с лекота, като създават здрава и стабилна конструкция по време на игра. Моделът разполага със сгъваема конструкция, която позволява компактно съхранение, както и лесно разгъване и преместване при необходимост;\n · Стена с активности - тя ще допринесе за развит",
 "features": []
@@ -3638,7 +3638,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 63
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/b/e/bebeshka-ograda-za-bezopasna-igra-sivo-buhalche-623457190_4.jpg"
+"https://www.guga.bg/media/catalog/product/b/e/bebeshka-ograda-za-bezopasna-igra-sivo-buhalche-623457190_4.jpg"
 ],
 "description": "Бебешката ограда за безопасна игра, в сив нюанс е функционална, практична и много забавна! Съдържаща различни активности, напълно безопасна и компактна за съхранение, тя ще бъде любимото занимание на всеки малчуган, а родителите му ще имат време за заслужена почивка!\nПредимства: · Конструкция от модули - разноцветните елементи се свързват с лекота, като създават здрава и стабилна конструкция по време на игра. Моделът разполага със сгъваема конструкция, която позволява компактно съхранение, както и лесно разгъване и преместване при необходимост;\n · Стена с активности - тя ще допринесе за развит",
 "features": []
@@ -3669,7 +3669,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 63
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/b/e/bebeshka-ograda-za-bezopasna-igra-rozovo-buhalche-463802680_4.jpg"
+"https://www.guga.bg/media/catalog/product/b/e/bebeshka-ograda-za-bezopasna-igra-rozovo-buhalche-463802680_4.jpg"
 ],
 "description": "Бебешката ограда за безопасна игра, в розов нюанс е функционална, практична и много забавна! Съдържаща различни активности, напълно безопасна и компактна за съхранение, тя ще бъде любимото занимание на всеки малчуган, а родителите му ще имат време за заслужена почивка. Изработена е от материал с UV защита, който спомага за запазването на ярките цветове и здравината на продукта при игра на открито.\nПредимства: · Конструкция от модули - разноцветните елементи се свързват с лекота, като създават здрава и стабилна конструкция по време на игра. Моделът разполага със сгъваема конструкция, която позв",
 "features": []
@@ -3700,7 +3700,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 63
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/b/e/bebeshka-ograda-za-bezopasna-igra-zeleno-buhalche-356368702_4.jpg"
+"https://www.guga.bg/media/catalog/product/b/e/bebeshka-ograda-za-bezopasna-igra-zeleno-buhalche-356368702_4.jpg"
 ],
 "description": "Бебешката ограда за безопасна игра, в зелен нюанс е функционална, практична и много забавна! Съдържаща различни активности, напълно безопасна и компактна за съхранение, тя ще бъде любимото занимание на всеки малчуган, а родителите му ще имат време за заслужена почивка!\nПредимства: · Конструкция от модули - разноцветните елементи се свързват с лекота, като създават здрава и стабилна конструкция по време на игра. Моделът разполага със сгъваема конструкция, която позволява компактно съхранение, както и лесно разгъване и преместване при необходимост;\n · Стена с активности - тя ще допринесе за разв",
 "features": []
@@ -3731,8 +3731,8 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 122
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/b/e/bebeshka-plastmasova-lyulka-rozova-848530440_4.jpg",
-"https://new.guga.bg/media/catalog/product/b/e/bebeshka-plastmasova-lyulka-rozova-519387197_4.jpg"
+"https://www.guga.bg/media/catalog/product/b/e/bebeshka-plastmasova-lyulka-rozova-848530440_4.jpg",
+"https://www.guga.bg/media/catalog/product/b/e/bebeshka-plastmasova-lyulka-rozova-519387197_4.jpg"
 ],
 "description": "Детската люлка, в розов цвят, е чудесен избор за весели игри както у дома, така и на двора. Тя се отличава с модулно сглобяване, което я прави лесна за монтаж и практична за съхранение. Сигурната и стабилна конструкция гарантира безопасност при люлеене, а дизайнът със заоблени ъгли осигурява допълнителна защита на малките откриватели. Седалката е закрепена към страничните стени чрез пластмасови окачващи елементи. \n\nСпециалният елемент – корона – придава вълшебен акцент, като гарантира радост и незабравими моменти на всяко дете. Люлката е изработена от пластмаса с UV защита, която спомага за за",
 "features": []
@@ -3763,8 +3763,8 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 122
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/b/e/bebeshka-plastmasova-lyulka-sinya-162450646_4.jpg",
-"https://new.guga.bg/media/catalog/product/b/e/bebeshka-plastmasova-lyulka-sinya-80140086_4.jpg"
+"https://www.guga.bg/media/catalog/product/b/e/bebeshka-plastmasova-lyulka-sinya-162450646_4.jpg",
+"https://www.guga.bg/media/catalog/product/b/e/bebeshka-plastmasova-lyulka-sinya-80140086_4.jpg"
 ],
 "description": "Детската люлка, в син цвят, е чудесен избор за весели игри както у дома, така и на двора. Тя се отличава с модулно сглобяване, което я прави лесна за монтаж и практична за съхранение. Сигурната и стабилна конструкция гарантира безопасност при люлеене, а дизайнът със заоблени ъгли осигурява допълнителна защита на малките откриватели. \n\nСедалката е закрепена към двете основи с помощта на въжета. Специалният елемент – корона – придава вълшебен акцент, като гарантира радост и незабравими моменти на всяко дете. Моделът ще допринесе за развитието на координацията и моториката, докато малчуганите се ",
 "features": []
@@ -3795,7 +3795,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 122
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detski-komplekt-za-igra-2-v-1-zamak-parzalka-i-lyulka-v-siv-tsvyat-465410151_4.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detski-komplekt-za-igra-2-v-1-zamak-parzalka-i-lyulka-v-siv-tsvyat-465410151_4.jpg"
 ],
 "description": "Детският комплект 2 в 1 е чудесен подарък за всяко дете, което обича да спортува и да играе. С включените разнообразни активности то ще реши дали да се пързаля, да тренира баскетбол или да се люлее - така игрите няма да имат край! Моделът е напълно безопасен и сигурен за използване. Той ще усмихне малчуганите и ще осигури време за почивка на родителите. Произведено от висококачествена пластмаса с UV защита, устойчива на слънчеви лъчи и неблагоприятни външни условия.\n\nПредимства:\n\n · Конструкция - тя е стабилна и здрава, съставена от свързващи се модули, които допринасят за нейната устойчивост;",
 "features": []
@@ -3826,8 +3826,8 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 122
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detski-komplekt-za-igra-2-v-1-zamak-parzalka-i-lyulka-v-sin-tsvyat-616712078_4.jpg",
-"https://new.guga.bg/media/catalog/product/d/e/detski-komplekt-za-igra-2-v-1-zamak-parzalka-i-lyulka-v-sin-tsvyat-503950845_4.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detski-komplekt-za-igra-2-v-1-zamak-parzalka-i-lyulka-v-sin-tsvyat-616712078_4.jpg",
+"https://www.guga.bg/media/catalog/product/d/e/detski-komplekt-za-igra-2-v-1-zamak-parzalka-i-lyulka-v-sin-tsvyat-503950845_4.jpg"
 ],
 "description": "Детският комплект 2 в 1 е чудесен подарък за всяко дете, което обича да спортува и да играе. С включените разнообразни активности то ще реши дали да се пързаля, да тренира баскетбол или да се люлее - така игрите няма да имат край! Моделът е напълно безопасен и сигурен за използване. Той ще усмихне малчуганите и ще осигури време за почивка на родителите!\n\nПредимства:\n\n · Конструкция - тя е стабилна и здрава, съставена от свързващи се модули, които допринасят за нейната устойчивост;\n · Съхранение - комплектът се съхранява бързо и лесно навсякъде, заради компактните части;\n · Цветова комбинация -",
 "features": []
@@ -3858,7 +3858,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 122
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detski-komplekt-za-igra-2-v-1-zamak-parzalka-i-lyulka-v-rozov-tsvyat-966136593_4.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detski-komplekt-za-igra-2-v-1-zamak-parzalka-i-lyulka-v-rozov-tsvyat-966136593_4.jpg"
 ],
 "description": "Детският комплект 2 в 1 е чудесен подарък за всяко дете, което обича да спортува и да играе. С включените разнообразни активности то ще реши дали да се пързаля, да тренира баскетбол или да се люлее - така игрите няма да имат край! Моделът е напълно безопасен и сигурен за използване. Той ще усмихне малчуганите и ще осигури време за почивка на родителите!\n\nПредимства:\n\n · Конструкция - тя е стабилна и здрава, съставена от свързващи се модули, които допринасят за нейната устойчивост;\n · Съхранение - комплектът се съхранява бързо и лесно навсякъде, заради компактните части;\n · Цветова комбинация -",
 "features": []
@@ -3889,7 +3889,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 122
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detski-komplekt-za-igra-2-v-1-zamak-parzalka-i-lyulka-v-zelen-tsvyat-280297278_4.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detski-komplekt-za-igra-2-v-1-zamak-parzalka-i-lyulka-v-zelen-tsvyat-280297278_4.jpg"
 ],
 "description": "Детският комплект 2 в 1 е чудесен подарък за всяко дете, което обича да спортува и да играе. С включените разнообразни активности то ще реши дали да се пързаля, да тренира баскетбол или да се люлее - така игрите няма да имат край! Моделът е напълно безопасен и сигурен за използване, а висококачествената пластмаса с UV защита помага на продукта да съхрани своята здравина и цветове във времето.\n\nДетският комплект ще усмихне малчуганите и ще осигури време за почивка на родителите!\n\nПредимства:\n\n · Конструкция - тя е стабилна и здрава, съставена от свързващи се модули, които допринасят за нейната ",
 "features": []
@@ -3920,7 +3920,7 @@ export const GENERATED_PRODUCTS: Product[] = [
 "h": 122
 },
 "images": [
-"https://new.guga.bg/media/catalog/product/d/e/detski-komplekt-za-igra-2-v-1-zamak-parzalka-i-lyulka-v-begov-tsvyat-159900837_4.jpg"
+"https://www.guga.bg/media/catalog/product/d/e/detski-komplekt-za-igra-2-v-1-zamak-parzalka-i-lyulka-v-begov-tsvyat-159900837_4.jpg"
 ],
 "description": "Детският комплект 2 в 1 е чудесен подарък за всяко дете, което обича да спортува и да играе. С включените разнообразни активности то ще реши дали да се пързаля, да тренира баскетбол или да се люлее - така игрите няма да имат край! Моделът е напълно безопасен и сигурен за използване. Той ще усмихне малчуганите и ще осигури време за почивка на родителите!\n\nПредимства:\n\n · Конструкция - тя е стабилна и здрава, съставена от свързващи се модули, които допринасят за нейната устойчивост;\n · Съхранение - комплектът се съхранява бързо и лесно навсякъде, заради компактните части;\n · Цветова комбинация -",
 "features": []
