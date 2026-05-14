@@ -275,6 +275,7 @@ def main():
             "category": p["category"],
             "room": "detska",
             "brand": p["brand"],
+            "sku": p["sku"],
             "price": p["price"],
             "rating": p["rating"],
             "reviews": p["reviews"],
