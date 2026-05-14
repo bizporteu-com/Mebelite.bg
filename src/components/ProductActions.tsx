@@ -35,9 +35,21 @@ export function ProductActions({ product }: { product: Product }) {
       <div>
         <div className="text-xs uppercase tracking-wider text-ink-500">{product.category.replace(/-/g, " ")}</div>
         <h1 className="mt-1 text-3xl md:text-4xl">{product.name}</h1>
-        <div className="mt-2 flex items-center gap-3 text-sm text-ink-500">
+        <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-ink-500">
           <span>★ {product.rating}</span>
           <span>({product.reviews} оценки)</span>
+          {product.sku && (
+            <>
+              <span className="text-ink-300">·</span>
+              <span>Код: <span className="font-medium text-ink-700">{product.sku}</span></span>
+            </>
+          )}
+          {product.brand && (
+            <>
+              <span className="text-ink-300">·</span>
+              <span>Марка: <span className="font-medium text-ink-700">{product.brand}</span></span>
+            </>
+          )}
         </div>
       </div>
 
